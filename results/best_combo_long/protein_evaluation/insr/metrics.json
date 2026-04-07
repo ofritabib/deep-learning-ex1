@@ -1,0 +1,8292 @@
+{
+  "protein": "insr",
+  "n_peptides": 1374,
+  "n_positive": 600,
+  "pct_positive": 43.67,
+  "protein_len": 1382,
+  "covered_positions": 1336,
+  "coverage_pct": 96.67,
+  "top5": [
+    {
+      "rank": 1,
+      "position": 699,
+      "peptide": "QSEYEDSAG",
+      "allele": "A0101",
+      "confidence": 1.0
+    },
+    {
+      "rank": 2,
+      "position": 542,
+      "peptide": "VTEFDGQDA",
+      "allele": "A0101",
+      "confidence": 0.9997
+    },
+    {
+      "rank": 3,
+      "position": 944,
+      "peptide": "VTDYLDVPS",
+      "allele": "A0101",
+      "confidence": 0.9996
+    },
+    {
+      "rank": 4,
+      "position": 1140,
+      "peptide": "AAEIADGMA",
+      "allele": "A0101",
+      "confidence": 0.9996
+    },
+    {
+      "rank": 5,
+      "position": 1186,
+      "peptide": "ETDYYRKGG",
+      "allele": "A0101",
+      "confidence": 0.9995
+    }
+  ],
+  "per_position": [
+    {
+      "position": 1,
+      "peptide": "MATGGRRGA",
+      "predicted_class": "neg",
+      "confidence": 0.0166
+    },
+    {
+      "position": 2,
+      "peptide": "ATGGRRGAA",
+      "predicted_class": "neg",
+      "confidence": 0.0672
+    },
+    {
+      "position": 3,
+      "peptide": "TGGRRGAAA",
+      "predicted_class": "neg",
+      "confidence": 0.469
+    },
+    {
+      "position": 4,
+      "peptide": "GGRRGAAAA",
+      "predicted_class": "A0301",
+      "confidence": 0.9133
+    },
+    {
+      "position": 5,
+      "peptide": "GRRGAAAAP",
+      "predicted_class": "A0301",
+      "confidence": 0.9555
+    },
+    {
+      "position": 6,
+      "peptide": "RRGAAAAPL",
+      "predicted_class": "A0301",
+      "confidence": 0.6465
+    },
+    {
+      "position": 7,
+      "peptide": "RGAAAAPLL",
+      "predicted_class": "neg",
+      "confidence": 0.3637
+    },
+    {
+      "position": 8,
+      "peptide": "GAAAAPLLV",
+      "predicted_class": "neg",
+      "confidence": 0.5687
+    },
+    {
+      "position": 9,
+      "peptide": "AAAAPLLVA",
+      "predicted_class": "neg",
+      "confidence": 0.1971
+    },
+    {
+      "position": 10,
+      "peptide": "AAAPLLVAV",
+      "predicted_class": "neg",
+      "confidence": 0.4973
+    },
+    {
+      "position": 11,
+      "peptide": "AAPLLVAVA",
+      "predicted_class": "neg",
+      "confidence": 0.5021
+    },
+    {
+      "position": 12,
+      "peptide": "APLLVAVAA",
+      "predicted_class": "A0301",
+      "confidence": 0.6519
+    },
+    {
+      "position": 13,
+      "peptide": "PLLVAVAAL",
+      "predicted_class": "A0201",
+      "confidence": 0.5979
+    },
+    {
+      "position": 14,
+      "peptide": "LLVAVAALL",
+      "predicted_class": "A0201",
+      "confidence": 0.7203
+    },
+    {
+      "position": 15,
+      "peptide": "LVAVAALLL",
+      "predicted_class": "neg",
+      "confidence": 0.3935
+    },
+    {
+      "position": 16,
+      "peptide": "VAVAALLLG",
+      "predicted_class": "A0301",
+      "confidence": 0.8929
+    },
+    {
+      "position": 17,
+      "peptide": "AVAALLLGA",
+      "predicted_class": "A0203",
+      "confidence": 0.7312
+    },
+    {
+      "position": 18,
+      "peptide": "VAALLLGAA",
+      "predicted_class": "neg",
+      "confidence": 0.3435
+    },
+    {
+      "position": 19,
+      "peptide": "AALLLGAAG",
+      "predicted_class": "neg",
+      "confidence": 0.6439
+    },
+    {
+      "position": 20,
+      "peptide": "ALLLGAAGH",
+      "predicted_class": "A0301",
+      "confidence": 0.8035
+    },
+    {
+      "position": 21,
+      "peptide": "LLLGAAGHL",
+      "predicted_class": "A0201",
+      "confidence": 0.7282
+    },
+    {
+      "position": 22,
+      "peptide": "LLGAAGHLY",
+      "predicted_class": "neg",
+      "confidence": 0.1804
+    },
+    {
+      "position": 23,
+      "peptide": "LGAAGHLYP",
+      "predicted_class": "A0203",
+      "confidence": 0.8772
+    },
+    {
+      "position": 24,
+      "peptide": "GAAGHLYPG",
+      "predicted_class": "neg",
+      "confidence": 0.3839
+    },
+    {
+      "position": 25,
+      "peptide": "AAGHLYPGE",
+      "predicted_class": "neg",
+      "confidence": 0.762
+    },
+    {
+      "position": 26,
+      "peptide": "AGHLYPGEV",
+      "predicted_class": "neg",
+      "confidence": 0.6572
+    },
+    {
+      "position": 27,
+      "peptide": "GHLYPGEVC",
+      "predicted_class": "neg",
+      "confidence": 0.4928
+    },
+    {
+      "position": 28,
+      "peptide": "HLYPGEVCP",
+      "predicted_class": "A0203",
+      "confidence": 0.9512
+    },
+    {
+      "position": 29,
+      "peptide": "LYPGEVCPG",
+      "predicted_class": "A2402",
+      "confidence": 0.9355
+    },
+    {
+      "position": 30,
+      "peptide": "YPGEVCPGM",
+      "predicted_class": "A0207",
+      "confidence": 0.8754
+    },
+    {
+      "position": 31,
+      "peptide": "PGEVCPGMD",
+      "predicted_class": "A0101",
+      "confidence": 0.9283
+    },
+    {
+      "position": 32,
+      "peptide": "GEVCPGMDI",
+      "predicted_class": "A2402",
+      "confidence": 0.6658
+    },
+    {
+      "position": 33,
+      "peptide": "EVCPGMDIR",
+      "predicted_class": "neg",
+      "confidence": 0.0
+    },
+    {
+      "position": 34,
+      "peptide": "VCPGMDIRN",
+      "predicted_class": "A0207",
+      "confidence": 0.983
+    },
+    {
+      "position": 35,
+      "peptide": "CPGMDIRNN",
+      "predicted_class": "neg",
+      "confidence": 0.17
+    },
+    {
+      "position": 36,
+      "peptide": "PGMDIRNNL",
+      "predicted_class": "neg",
+      "confidence": 0.1363
+    },
+    {
+      "position": 37,
+      "peptide": "GMDIRNNLT",
+      "predicted_class": "A0101",
+      "confidence": 0.997
+    },
+    {
+      "position": 38,
+      "peptide": "MDIRNNLTR",
+      "predicted_class": "neg",
+      "confidence": 0.0326
+    },
+    {
+      "position": 39,
+      "peptide": "DIRNNLTRL",
+      "predicted_class": "neg",
+      "confidence": 0.0154
+    },
+    {
+      "position": 40,
+      "peptide": "IRNNLTRLH",
+      "predicted_class": "neg",
+      "confidence": 0.3184
+    },
+    {
+      "position": 41,
+      "peptide": "RNNLTRLHE",
+      "predicted_class": "neg",
+      "confidence": 0.3903
+    },
+    {
+      "position": 42,
+      "peptide": "NNLTRLHEL",
+      "predicted_class": "neg",
+      "confidence": 0.0644
+    },
+    {
+      "position": 43,
+      "peptide": "NLTRLHELE",
+      "predicted_class": "A0201",
+      "confidence": 0.875
+    },
+    {
+      "position": 44,
+      "peptide": "LTRLHELEN",
+      "predicted_class": "neg",
+      "confidence": 0.3361
+    },
+    {
+      "position": 45,
+      "peptide": "TRLHELENC",
+      "predicted_class": "neg",
+      "confidence": 0.0834
+    },
+    {
+      "position": 46,
+      "peptide": "RLHELENCS",
+      "predicted_class": "A0203",
+      "confidence": 0.7781
+    },
+    {
+      "position": 47,
+      "peptide": "LHELENCSV",
+      "predicted_class": "A2402",
+      "confidence": 0.8216
+    },
+    {
+      "position": 48,
+      "peptide": "HELENCSVI",
+      "predicted_class": "neg",
+      "confidence": 0.0452
+    },
+    {
+      "position": 49,
+      "peptide": "ELENCSVIE",
+      "predicted_class": "A0101",
+      "confidence": 0.779
+    },
+    {
+      "position": 50,
+      "peptide": "LENCSVIEG",
+      "predicted_class": "neg",
+      "confidence": 0.5508
+    },
+    {
+      "position": 51,
+      "peptide": "ENCSVIEGH",
+      "predicted_class": "neg",
+      "confidence": 0.0002
+    },
+    {
+      "position": 52,
+      "peptide": "NCSVIEGHL",
+      "predicted_class": "neg",
+      "confidence": 0.1628
+    },
+    {
+      "position": 53,
+      "peptide": "CSVIEGHLQ",
+      "predicted_class": "neg",
+      "confidence": 0.1008
+    },
+    {
+      "position": 54,
+      "peptide": "SVIEGHLQI",
+      "predicted_class": "neg",
+      "confidence": 0.5937
+    },
+    {
+      "position": 55,
+      "peptide": "VIEGHLQIL",
+      "predicted_class": "A0101",
+      "confidence": 0.6885
+    },
+    {
+      "position": 56,
+      "peptide": "IEGHLQILL",
+      "predicted_class": "neg",
+      "confidence": 0.2794
+    },
+    {
+      "position": 57,
+      "peptide": "EGHLQILLM",
+      "predicted_class": "neg",
+      "confidence": 0.3776
+    },
+    {
+      "position": 58,
+      "peptide": "GHLQILLMF",
+      "predicted_class": "A2402",
+      "confidence": 0.7044
+    },
+    {
+      "position": 59,
+      "peptide": "HLQILLMFK",
+      "predicted_class": "A0301",
+      "confidence": 0.5397
+    },
+    {
+      "position": 60,
+      "peptide": "LQILLMFKT",
+      "predicted_class": "neg",
+      "confidence": 0.2142
+    },
+    {
+      "position": 61,
+      "peptide": "QILLMFKTR",
+      "predicted_class": "neg",
+      "confidence": 0.2649
+    },
+    {
+      "position": 62,
+      "peptide": "ILLMFKTRP",
+      "predicted_class": "A0301",
+      "confidence": 0.831
+    },
+    {
+      "position": 63,
+      "peptide": "LLMFKTRPE",
+      "predicted_class": "A0301",
+      "confidence": 0.6772
+    },
+    {
+      "position": 64,
+      "peptide": "LMFKTRPED",
+      "predicted_class": "A0203",
+      "confidence": 0.9546
+    },
+    {
+      "position": 65,
+      "peptide": "MFKTRPEDF",
+      "predicted_class": "neg",
+      "confidence": 0.3822
+    },
+    {
+      "position": 66,
+      "peptide": "FKTRPEDFR",
+      "predicted_class": "neg",
+      "confidence": 0.0794
+    },
+    {
+      "position": 67,
+      "peptide": "KTRPEDFRD",
+      "predicted_class": "neg",
+      "confidence": 0.511
+    },
+    {
+      "position": 68,
+      "peptide": "TRPEDFRDL",
+      "predicted_class": "neg",
+      "confidence": 0.4895
+    },
+    {
+      "position": 69,
+      "peptide": "RPEDFRDLS",
+      "predicted_class": "A0101",
+      "confidence": 0.982
+    },
+    {
+      "position": 70,
+      "peptide": "PEDFRDLSF",
+      "predicted_class": "A0101",
+      "confidence": 0.874
+    },
+    {
+      "position": 71,
+      "peptide": "EDFRDLSFP",
+      "predicted_class": "neg",
+      "confidence": 0.3067
+    },
+    {
+      "position": 72,
+      "peptide": "DFRDLSFPK",
+      "predicted_class": "neg",
+      "confidence": 0.0014
+    },
+    {
+      "position": 73,
+      "peptide": "FRDLSFPKL",
+      "predicted_class": "A0207",
+      "confidence": 0.9033
+    },
+    {
+      "position": 74,
+      "peptide": "RDLSFPKLI",
+      "predicted_class": "A0301",
+      "confidence": 0.753
+    },
+    {
+      "position": 75,
+      "peptide": "DLSFPKLIM",
+      "predicted_class": "neg",
+      "confidence": 0.3163
+    },
+    {
+      "position": 76,
+      "peptide": "LSFPKLIMI",
+      "predicted_class": "neg",
+      "confidence": 0.4157
+    },
+    {
+      "position": 77,
+      "peptide": "SFPKLIMIT",
+      "predicted_class": "A2402",
+      "confidence": 0.9755
+    },
+    {
+      "position": 78,
+      "peptide": "FPKLIMITD",
+      "predicted_class": "A0301",
+      "confidence": 0.83
+    },
+    {
+      "position": 79,
+      "peptide": "PKLIMITDY",
+      "predicted_class": "neg",
+      "confidence": 0.2014
+    },
+    {
+      "position": 80,
+      "peptide": "KLIMITDYL",
+      "predicted_class": "neg",
+      "confidence": 0.4428
+    },
+    {
+      "position": 81,
+      "peptide": "LIMITDYLL",
+      "predicted_class": "A0301",
+      "confidence": 0.8114
+    },
+    {
+      "position": 82,
+      "peptide": "IMITDYLLL",
+      "predicted_class": "neg",
+      "confidence": 0.7277
+    },
+    {
+      "position": 83,
+      "peptide": "MITDYLLLF",
+      "predicted_class": "neg",
+      "confidence": 0.5857
+    },
+    {
+      "position": 84,
+      "peptide": "ITDYLLLFR",
+      "predicted_class": "A0101",
+      "confidence": 0.8814
+    },
+    {
+      "position": 85,
+      "peptide": "TDYLLLFRV",
+      "predicted_class": "neg",
+      "confidence": 0.2553
+    },
+    {
+      "position": 86,
+      "peptide": "DYLLLFRVY",
+      "predicted_class": "neg",
+      "confidence": 0.2537
+    },
+    {
+      "position": 87,
+      "peptide": "YLLLFRVYG",
+      "predicted_class": "A0201",
+      "confidence": 0.9716
+    },
+    {
+      "position": 88,
+      "peptide": "LLLFRVYGL",
+      "predicted_class": "neg",
+      "confidence": 0.3373
+    },
+    {
+      "position": 89,
+      "peptide": "LLFRVYGLE",
+      "predicted_class": "A0301",
+      "confidence": 0.9795
+    },
+    {
+      "position": 90,
+      "peptide": "LFRVYGLES",
+      "predicted_class": "A2402",
+      "confidence": 0.7925
+    },
+    {
+      "position": 91,
+      "peptide": "FRVYGLESL",
+      "predicted_class": "neg",
+      "confidence": 0.369
+    },
+    {
+      "position": 92,
+      "peptide": "RVYGLESLK",
+      "predicted_class": "A0301",
+      "confidence": 0.6225
+    },
+    {
+      "position": 93,
+      "peptide": "VYGLESLKD",
+      "predicted_class": "A2402",
+      "confidence": 0.9202
+    },
+    {
+      "position": 94,
+      "peptide": "YGLESLKDL",
+      "predicted_class": "neg",
+      "confidence": 0.3749
+    },
+    {
+      "position": 95,
+      "peptide": "GLESLKDLF",
+      "predicted_class": "A0101",
+      "confidence": 0.777
+    },
+    {
+      "position": 96,
+      "peptide": "LESLKDLFP",
+      "predicted_class": "A0301",
+      "confidence": 0.8287
+    },
+    {
+      "position": 97,
+      "peptide": "ESLKDLFPN",
+      "predicted_class": "neg",
+      "confidence": 0.0168
+    },
+    {
+      "position": 98,
+      "peptide": "SLKDLFPNL",
+      "predicted_class": "A0203",
+      "confidence": 0.8154
+    },
+    {
+      "position": 99,
+      "peptide": "LKDLFPNLT",
+      "predicted_class": "A0101",
+      "confidence": 0.9668
+    },
+    {
+      "position": 100,
+      "peptide": "KDLFPNLTV",
+      "predicted_class": "neg",
+      "confidence": 0.691
+    },
+    {
+      "position": 101,
+      "peptide": "DLFPNLTVI",
+      "predicted_class": "neg",
+      "confidence": 0.528
+    },
+    {
+      "position": 102,
+      "peptide": "LFPNLTVIR",
+      "predicted_class": "neg",
+      "confidence": 0.4496
+    },
+    {
+      "position": 103,
+      "peptide": "FPNLTVIRG",
+      "predicted_class": "A0101",
+      "confidence": 0.7152
+    },
+    {
+      "position": 104,
+      "peptide": "PNLTVIRGS",
+      "predicted_class": "neg",
+      "confidence": 0.6146
+    },
+    {
+      "position": 105,
+      "peptide": "NLTVIRGSR",
+      "predicted_class": "neg",
+      "confidence": 0.0044
+    },
+    {
+      "position": 106,
+      "peptide": "LTVIRGSRL",
+      "predicted_class": "neg",
+      "confidence": 0.2671
+    },
+    {
+      "position": 107,
+      "peptide": "TVIRGSRLF",
+      "predicted_class": "A0301",
+      "confidence": 0.725
+    },
+    {
+      "position": 108,
+      "peptide": "VIRGSRLFF",
+      "predicted_class": "neg",
+      "confidence": 0.4379
+    },
+    {
+      "position": 109,
+      "peptide": "IRGSRLFFN",
+      "predicted_class": "A0301",
+      "confidence": 0.8756
+    },
+    {
+      "position": 110,
+      "peptide": "RGSRLFFNY",
+      "predicted_class": "neg",
+      "confidence": 0.131
+    },
+    {
+      "position": 111,
+      "peptide": "GSRLFFNYA",
+      "predicted_class": "neg",
+      "confidence": 0.0982
+    },
+    {
+      "position": 112,
+      "peptide": "SRLFFNYAL",
+      "predicted_class": "neg",
+      "confidence": 0.4332
+    },
+    {
+      "position": 113,
+      "peptide": "RLFFNYALV",
+      "predicted_class": "neg",
+      "confidence": 0.7132
+    },
+    {
+      "position": 114,
+      "peptide": "LFFNYALVI",
+      "predicted_class": "A2402",
+      "confidence": 0.8269
+    },
+    {
+      "position": 115,
+      "peptide": "FFNYALVIF",
+      "predicted_class": "A2402",
+      "confidence": 0.8487
+    },
+    {
+      "position": 116,
+      "peptide": "FNYALVIFE",
+      "predicted_class": "A0203",
+      "confidence": 0.888
+    },
+    {
+      "position": 117,
+      "peptide": "NYALVIFEM",
+      "predicted_class": "A2402",
+      "confidence": 0.8368
+    },
+    {
+      "position": 118,
+      "peptide": "YALVIFEMV",
+      "predicted_class": "neg",
+      "confidence": 0.3899
+    },
+    {
+      "position": 119,
+      "peptide": "ALVIFEMVH",
+      "predicted_class": "A0301",
+      "confidence": 0.961
+    },
+    {
+      "position": 120,
+      "peptide": "LVIFEMVHL",
+      "predicted_class": "neg",
+      "confidence": 0.0963
+    },
+    {
+      "position": 121,
+      "peptide": "VIFEMVHLK",
+      "predicted_class": "neg",
+      "confidence": 0.4851
+    },
+    {
+      "position": 122,
+      "peptide": "IFEMVHLKE",
+      "predicted_class": "A0101",
+      "confidence": 0.9583
+    },
+    {
+      "position": 123,
+      "peptide": "FEMVHLKEL",
+      "predicted_class": "neg",
+      "confidence": 0.3495
+    },
+    {
+      "position": 124,
+      "peptide": "EMVHLKELG",
+      "predicted_class": "neg",
+      "confidence": 0.1214
+    },
+    {
+      "position": 125,
+      "peptide": "MVHLKELGL",
+      "predicted_class": "neg",
+      "confidence": 0.3803
+    },
+    {
+      "position": 126,
+      "peptide": "VHLKELGLY",
+      "predicted_class": "A2402",
+      "confidence": 0.6548
+    },
+    {
+      "position": 127,
+      "peptide": "HLKELGLYN",
+      "predicted_class": "A0203",
+      "confidence": 0.993
+    },
+    {
+      "position": 128,
+      "peptide": "LKELGLYNL",
+      "predicted_class": "A0101",
+      "confidence": 0.8012
+    },
+    {
+      "position": 129,
+      "peptide": "KELGLYNLM",
+      "predicted_class": "neg",
+      "confidence": 0.4951
+    },
+    {
+      "position": 130,
+      "peptide": "ELGLYNLMN",
+      "predicted_class": "A0203",
+      "confidence": 0.8305
+    },
+    {
+      "position": 131,
+      "peptide": "LGLYNLMNI",
+      "predicted_class": "neg",
+      "confidence": 0.4795
+    },
+    {
+      "position": 132,
+      "peptide": "GLYNLMNIT",
+      "predicted_class": "A0301",
+      "confidence": 0.9956
+    },
+    {
+      "position": 133,
+      "peptide": "LYNLMNITR",
+      "predicted_class": "neg",
+      "confidence": 0.0788
+    },
+    {
+      "position": 134,
+      "peptide": "YNLMNITRG",
+      "predicted_class": "neg",
+      "confidence": 0.6052
+    },
+    {
+      "position": 135,
+      "peptide": "NLMNITRGS",
+      "predicted_class": "A0203",
+      "confidence": 0.9402
+    },
+    {
+      "position": 136,
+      "peptide": "LMNITRGSV",
+      "predicted_class": "A0203",
+      "confidence": 0.7166
+    },
+    {
+      "position": 137,
+      "peptide": "MNITRGSVR",
+      "predicted_class": "neg",
+      "confidence": 0.0075
+    },
+    {
+      "position": 138,
+      "peptide": "NITRGSVRI",
+      "predicted_class": "neg",
+      "confidence": 0.3761
+    },
+    {
+      "position": 139,
+      "peptide": "ITRGSVRIE",
+      "predicted_class": "neg",
+      "confidence": 0.2996
+    },
+    {
+      "position": 140,
+      "peptide": "TRGSVRIEK",
+      "predicted_class": "neg",
+      "confidence": 0.1088
+    },
+    {
+      "position": 141,
+      "peptide": "RGSVRIEKN",
+      "predicted_class": "neg",
+      "confidence": 0.1323
+    },
+    {
+      "position": 142,
+      "peptide": "GSVRIEKNN",
+      "predicted_class": "A0301",
+      "confidence": 0.5799
+    },
+    {
+      "position": 143,
+      "peptide": "SVRIEKNNE",
+      "predicted_class": "neg",
+      "confidence": 0.5341
+    },
+    {
+      "position": 144,
+      "peptide": "VRIEKNNEL",
+      "predicted_class": "neg",
+      "confidence": 0.1364
+    },
+    {
+      "position": 145,
+      "peptide": "RIEKNNELC",
+      "predicted_class": "neg",
+      "confidence": 0.3936
+    },
+    {
+      "position": 146,
+      "peptide": "IEKNNELCY",
+      "predicted_class": "neg",
+      "confidence": 0.0105
+    },
+    {
+      "position": 147,
+      "peptide": "EKNNELCYL",
+      "predicted_class": "neg",
+      "confidence": 0.0112
+    },
+    {
+      "position": 148,
+      "peptide": "KNNELCYLA",
+      "predicted_class": "neg",
+      "confidence": 0.2048
+    },
+    {
+      "position": 149,
+      "peptide": "NNELCYLAT",
+      "predicted_class": "A0101",
+      "confidence": 0.9733
+    },
+    {
+      "position": 150,
+      "peptide": "NELCYLATI",
+      "predicted_class": "neg",
+      "confidence": 0.1526
+    },
+    {
+      "position": 151,
+      "peptide": "ELCYLATID",
+      "predicted_class": "neg",
+      "confidence": 0.0602
+    },
+    {
+      "position": 152,
+      "peptide": "LCYLATIDW",
+      "predicted_class": "neg",
+      "confidence": 0.608
+    },
+    {
+      "position": 153,
+      "peptide": "CYLATIDWS",
+      "predicted_class": "A2402",
+      "confidence": 0.9119
+    },
+    {
+      "position": 154,
+      "peptide": "YLATIDWSR",
+      "predicted_class": "neg",
+      "confidence": 0.4744
+    },
+    {
+      "position": 155,
+      "peptide": "LATIDWSRI",
+      "predicted_class": "neg",
+      "confidence": 0.2143
+    },
+    {
+      "position": 156,
+      "peptide": "ATIDWSRIL",
+      "predicted_class": "neg",
+      "confidence": 0.5376
+    },
+    {
+      "position": 157,
+      "peptide": "TIDWSRILD",
+      "predicted_class": "A0101",
+      "confidence": 0.9912
+    },
+    {
+      "position": 158,
+      "peptide": "IDWSRILDS",
+      "predicted_class": "A0101",
+      "confidence": 0.8729
+    },
+    {
+      "position": 159,
+      "peptide": "DWSRILDSV",
+      "predicted_class": "neg",
+      "confidence": 0.1835
+    },
+    {
+      "position": 160,
+      "peptide": "WSRILDSVE",
+      "predicted_class": "A0101",
+      "confidence": 0.7608
+    },
+    {
+      "position": 161,
+      "peptide": "SRILDSVED",
+      "predicted_class": "A2402",
+      "confidence": 0.9359
+    },
+    {
+      "position": 162,
+      "peptide": "RILDSVEDN",
+      "predicted_class": "A0301",
+      "confidence": 0.9931
+    },
+    {
+      "position": 163,
+      "peptide": "ILDSVEDNY",
+      "predicted_class": "A0101",
+      "confidence": 0.9602
+    },
+    {
+      "position": 164,
+      "peptide": "LDSVEDNYI",
+      "predicted_class": "neg",
+      "confidence": 0.2675
+    },
+    {
+      "position": 165,
+      "peptide": "DSVEDNYIV",
+      "predicted_class": "neg",
+      "confidence": 0.2938
+    },
+    {
+      "position": 166,
+      "peptide": "SVEDNYIVL",
+      "predicted_class": "A0207",
+      "confidence": 0.852
+    },
+    {
+      "position": 167,
+      "peptide": "VEDNYIVLN",
+      "predicted_class": "A0101",
+      "confidence": 0.8539
+    },
+    {
+      "position": 168,
+      "peptide": "EDNYIVLNK",
+      "predicted_class": "neg",
+      "confidence": 0.0162
+    },
+    {
+      "position": 169,
+      "peptide": "DNYIVLNKD",
+      "predicted_class": "neg",
+      "confidence": 0.5228
+    },
+    {
+      "position": 170,
+      "peptide": "NYIVLNKDD",
+      "predicted_class": "A2402",
+      "confidence": 0.9719
+    },
+    {
+      "position": 171,
+      "peptide": "YIVLNKDDN",
+      "predicted_class": "A0101",
+      "confidence": 0.9118
+    },
+    {
+      "position": 172,
+      "peptide": "IVLNKDDNE",
+      "predicted_class": "A0201",
+      "confidence": 0.9533
+    },
+    {
+      "position": 173,
+      "peptide": "VLNKDDNEE",
+      "predicted_class": "A0207",
+      "confidence": 0.9727
+    },
+    {
+      "position": 174,
+      "peptide": "LNKDDNEEC",
+      "predicted_class": "neg",
+      "confidence": 0.0645
+    },
+    {
+      "position": 175,
+      "peptide": "NKDDNEECG",
+      "predicted_class": "A0207",
+      "confidence": 0.7971
+    },
+    {
+      "position": 176,
+      "peptide": "KDDNEECGD",
+      "predicted_class": "A0101",
+      "confidence": 0.981
+    },
+    {
+      "position": 177,
+      "peptide": "DDNEECGDI",
+      "predicted_class": "neg",
+      "confidence": 0.0899
+    },
+    {
+      "position": 178,
+      "peptide": "DNEECGDIC",
+      "predicted_class": "A0101",
+      "confidence": 0.981
+    },
+    {
+      "position": 179,
+      "peptide": "NEECGDICP",
+      "predicted_class": "A0101",
+      "confidence": 0.7141
+    },
+    {
+      "position": 180,
+      "peptide": "EECGDICPG",
+      "predicted_class": "neg",
+      "confidence": 0.0005
+    },
+    {
+      "position": 181,
+      "peptide": "ECGDICPGT",
+      "predicted_class": "neg",
+      "confidence": 0.0534
+    },
+    {
+      "position": 182,
+      "peptide": "CGDICPGTA",
+      "predicted_class": "A0101",
+      "confidence": 0.7438
+    },
+    {
+      "position": 183,
+      "peptide": "GDICPGTAK",
+      "predicted_class": "neg",
+      "confidence": 0.0057
+    },
+    {
+      "position": 184,
+      "peptide": "DICPGTAKG",
+      "predicted_class": "neg",
+      "confidence": 0.003
+    },
+    {
+      "position": 185,
+      "peptide": "ICPGTAKGK",
+      "predicted_class": "neg",
+      "confidence": 0.076
+    },
+    {
+      "position": 186,
+      "peptide": "CPGTAKGKT",
+      "predicted_class": "neg",
+      "confidence": 0.3067
+    },
+    {
+      "position": 187,
+      "peptide": "PGTAKGKTN",
+      "predicted_class": "neg",
+      "confidence": 0.314
+    },
+    {
+      "position": 188,
+      "peptide": "GTAKGKTNC",
+      "predicted_class": "neg",
+      "confidence": 0.208
+    },
+    {
+      "position": 189,
+      "peptide": "TAKGKTNCP",
+      "predicted_class": "neg",
+      "confidence": 0.0058
+    },
+    {
+      "position": 190,
+      "peptide": "AKGKTNCPA",
+      "predicted_class": "neg",
+      "confidence": 0.2508
+    },
+    {
+      "position": 191,
+      "peptide": "KGKTNCPAT",
+      "predicted_class": "neg",
+      "confidence": 0.0171
+    },
+    {
+      "position": 192,
+      "peptide": "GKTNCPATV",
+      "predicted_class": "neg",
+      "confidence": 0.3694
+    },
+    {
+      "position": 193,
+      "peptide": "KTNCPATVI",
+      "predicted_class": "neg",
+      "confidence": 0.2562
+    },
+    {
+      "position": 194,
+      "peptide": "TNCPATVIN",
+      "predicted_class": "neg",
+      "confidence": 0.2572
+    },
+    {
+      "position": 195,
+      "peptide": "NCPATVING",
+      "predicted_class": "A0207",
+      "confidence": 0.8179
+    },
+    {
+      "position": 196,
+      "peptide": "CPATVINGQ",
+      "predicted_class": "neg",
+      "confidence": 0.0979
+    },
+    {
+      "position": 197,
+      "peptide": "PATVINGQF",
+      "predicted_class": "neg",
+      "confidence": 0.1302
+    },
+    {
+      "position": 198,
+      "peptide": "ATVINGQFV",
+      "predicted_class": "neg",
+      "confidence": 0.178
+    },
+    {
+      "position": 199,
+      "peptide": "TVINGQFVE",
+      "predicted_class": "A0301",
+      "confidence": 0.9561
+    },
+    {
+      "position": 200,
+      "peptide": "VINGQFVER",
+      "predicted_class": "neg",
+      "confidence": 0.1947
+    },
+    {
+      "position": 201,
+      "peptide": "INGQFVERC",
+      "predicted_class": "neg",
+      "confidence": 0.0594
+    },
+    {
+      "position": 202,
+      "peptide": "NGQFVERCW",
+      "predicted_class": "neg",
+      "confidence": 0.0087
+    },
+    {
+      "position": 203,
+      "peptide": "GQFVERCWT",
+      "predicted_class": "A0201",
+      "confidence": 0.744
+    },
+    {
+      "position": 204,
+      "peptide": "QFVERCWTH",
+      "predicted_class": "neg",
+      "confidence": 0.131
+    },
+    {
+      "position": 205,
+      "peptide": "FVERCWTHS",
+      "predicted_class": "A0207",
+      "confidence": 0.8528
+    },
+    {
+      "position": 206,
+      "peptide": "VERCWTHSH",
+      "predicted_class": "neg",
+      "confidence": 0.0054
+    },
+    {
+      "position": 207,
+      "peptide": "ERCWTHSHC",
+      "predicted_class": "neg",
+      "confidence": 0.0815
+    },
+    {
+      "position": 208,
+      "peptide": "RCWTHSHCQ",
+      "predicted_class": "neg",
+      "confidence": 0.0299
+    },
+    {
+      "position": 209,
+      "peptide": "CWTHSHCQK",
+      "predicted_class": "neg",
+      "confidence": 0.0056
+    },
+    {
+      "position": 210,
+      "peptide": "WTHSHCQKV",
+      "predicted_class": "neg",
+      "confidence": 0.0005
+    },
+    {
+      "position": 211,
+      "peptide": "THSHCQKVC",
+      "predicted_class": "A2402",
+      "confidence": 0.7523
+    },
+    {
+      "position": 212,
+      "peptide": "HSHCQKVCP",
+      "predicted_class": "neg",
+      "confidence": 0.0318
+    },
+    {
+      "position": 213,
+      "peptide": "SHCQKVCPT",
+      "predicted_class": "neg",
+      "confidence": 0.4988
+    },
+    {
+      "position": 214,
+      "peptide": "HCQKVCPTI",
+      "predicted_class": "neg",
+      "confidence": 0.046
+    },
+    {
+      "position": 215,
+      "peptide": "CQKVCPTIC",
+      "predicted_class": "neg",
+      "confidence": 0.0003
+    },
+    {
+      "position": 216,
+      "peptide": "QKVCPTICK",
+      "predicted_class": "neg",
+      "confidence": 0.0008
+    },
+    {
+      "position": 217,
+      "peptide": "KVCPTICKS",
+      "predicted_class": "neg",
+      "confidence": 0.0007
+    },
+    {
+      "position": 218,
+      "peptide": "VCPTICKSH",
+      "predicted_class": "neg",
+      "confidence": 0.1393
+    },
+    {
+      "position": 219,
+      "peptide": "CPTICKSHG",
+      "predicted_class": "neg",
+      "confidence": 0.0763
+    },
+    {
+      "position": 220,
+      "peptide": "PTICKSHGC",
+      "predicted_class": "neg",
+      "confidence": 0.0088
+    },
+    {
+      "position": 221,
+      "peptide": "TICKSHGCT",
+      "predicted_class": "neg",
+      "confidence": 0.0222
+    },
+    {
+      "position": 222,
+      "peptide": "ICKSHGCTA",
+      "predicted_class": "neg",
+      "confidence": 0.0797
+    },
+    {
+      "position": 223,
+      "peptide": "CKSHGCTAE",
+      "predicted_class": "neg",
+      "confidence": 0.0462
+    },
+    {
+      "position": 224,
+      "peptide": "KSHGCTAEG",
+      "predicted_class": "neg",
+      "confidence": 0.0089
+    },
+    {
+      "position": 225,
+      "peptide": "SHGCTAEGL",
+      "predicted_class": "neg",
+      "confidence": 0.4917
+    },
+    {
+      "position": 226,
+      "peptide": "HGCTAEGLC",
+      "predicted_class": "neg",
+      "confidence": 0.4144
+    },
+    {
+      "position": 227,
+      "peptide": "GCTAEGLCC",
+      "predicted_class": "neg",
+      "confidence": 0.1436
+    },
+    {
+      "position": 228,
+      "peptide": "CTAEGLCCH",
+      "predicted_class": "neg",
+      "confidence": 0.0
+    },
+    {
+      "position": 229,
+      "peptide": "TAEGLCCHS",
+      "predicted_class": "neg",
+      "confidence": 0.1103
+    },
+    {
+      "position": 230,
+      "peptide": "AEGLCCHSE",
+      "predicted_class": "neg",
+      "confidence": 0.0082
+    },
+    {
+      "position": 231,
+      "peptide": "EGLCCHSEC",
+      "predicted_class": "neg",
+      "confidence": 0.0348
+    },
+    {
+      "position": 232,
+      "peptide": "GLCCHSECL",
+      "predicted_class": "neg",
+      "confidence": 0.0001
+    },
+    {
+      "position": 233,
+      "peptide": "LCCHSECLG",
+      "predicted_class": "A2402",
+      "confidence": 0.8608
+    },
+    {
+      "position": 234,
+      "peptide": "CCHSECLGN",
+      "predicted_class": "neg",
+      "confidence": 0.0387
+    },
+    {
+      "position": 235,
+      "peptide": "CHSECLGNC",
+      "predicted_class": "neg",
+      "confidence": 0.3389
+    },
+    {
+      "position": 236,
+      "peptide": "HSECLGNCS",
+      "predicted_class": "A0101",
+      "confidence": 0.9833
+    },
+    {
+      "position": 237,
+      "peptide": "SECLGNCSQ",
+      "predicted_class": "neg",
+      "confidence": 0.0408
+    },
+    {
+      "position": 238,
+      "peptide": "ECLGNCSQP",
+      "predicted_class": "neg",
+      "confidence": 0.0256
+    },
+    {
+      "position": 239,
+      "peptide": "CLGNCSQPD",
+      "predicted_class": "neg",
+      "confidence": 0.36
+    },
+    {
+      "position": 240,
+      "peptide": "LGNCSQPDD",
+      "predicted_class": "A0207",
+      "confidence": 0.8154
+    },
+    {
+      "position": 241,
+      "peptide": "GNCSQPDDP",
+      "predicted_class": "A0101",
+      "confidence": 0.8293
+    },
+    {
+      "position": 242,
+      "peptide": "NCSQPDDPT",
+      "predicted_class": "neg",
+      "confidence": 0.7013
+    },
+    {
+      "position": 243,
+      "peptide": "CSQPDDPTK",
+      "predicted_class": "neg",
+      "confidence": 0.0214
+    },
+    {
+      "position": 244,
+      "peptide": "SQPDDPTKC",
+      "predicted_class": "neg",
+      "confidence": 0.105
+    },
+    {
+      "position": 245,
+      "peptide": "QPDDPTKCV",
+      "predicted_class": "neg",
+      "confidence": 0.1602
+    },
+    {
+      "position": 246,
+      "peptide": "PDDPTKCVA",
+      "predicted_class": "A0101",
+      "confidence": 0.9366
+    },
+    {
+      "position": 247,
+      "peptide": "DDPTKCVAC",
+      "predicted_class": "neg",
+      "confidence": 0.0015
+    },
+    {
+      "position": 248,
+      "peptide": "DPTKCVACR",
+      "predicted_class": "neg",
+      "confidence": 0.0
+    },
+    {
+      "position": 249,
+      "peptide": "PTKCVACRN",
+      "predicted_class": "neg",
+      "confidence": 0.011
+    },
+    {
+      "position": 250,
+      "peptide": "TKCVACRNF",
+      "predicted_class": "neg",
+      "confidence": 0.0344
+    },
+    {
+      "position": 251,
+      "peptide": "KCVACRNFY",
+      "predicted_class": "neg",
+      "confidence": 0.0103
+    },
+    {
+      "position": 252,
+      "peptide": "CVACRNFYL",
+      "predicted_class": "neg",
+      "confidence": 0.0098
+    },
+    {
+      "position": 253,
+      "peptide": "VACRNFYLD",
+      "predicted_class": "A2402",
+      "confidence": 0.5211
+    },
+    {
+      "position": 254,
+      "peptide": "ACRNFYLDG",
+      "predicted_class": "A0203",
+      "confidence": 0.8434
+    },
+    {
+      "position": 255,
+      "peptide": "CRNFYLDGR",
+      "predicted_class": "neg",
+      "confidence": 0.012
+    },
+    {
+      "position": 256,
+      "peptide": "RNFYLDGRC",
+      "predicted_class": "A0301",
+      "confidence": 0.629
+    },
+    {
+      "position": 257,
+      "peptide": "NFYLDGRCV",
+      "predicted_class": "neg",
+      "confidence": 0.2647
+    },
+    {
+      "position": 258,
+      "peptide": "FYLDGRCVE",
+      "predicted_class": "A2402",
+      "confidence": 0.9972
+    },
+    {
+      "position": 259,
+      "peptide": "YLDGRCVET",
+      "predicted_class": "A0207",
+      "confidence": 0.7798
+    },
+    {
+      "position": 260,
+      "peptide": "LDGRCVETC",
+      "predicted_class": "neg",
+      "confidence": 0.0415
+    },
+    {
+      "position": 261,
+      "peptide": "DGRCVETCP",
+      "predicted_class": "neg",
+      "confidence": 0.0045
+    },
+    {
+      "position": 262,
+      "peptide": "GRCVETCPP",
+      "predicted_class": "neg",
+      "confidence": 0.5225
+    },
+    {
+      "position": 263,
+      "peptide": "RCVETCPPP",
+      "predicted_class": "A0301",
+      "confidence": 0.5809
+    },
+    {
+      "position": 264,
+      "peptide": "CVETCPPPY",
+      "predicted_class": "neg",
+      "confidence": 0.0083
+    },
+    {
+      "position": 265,
+      "peptide": "VETCPPPYY",
+      "predicted_class": "neg",
+      "confidence": 0.1508
+    },
+    {
+      "position": 266,
+      "peptide": "ETCPPPYYH",
+      "predicted_class": "neg",
+      "confidence": 0.0007
+    },
+    {
+      "position": 267,
+      "peptide": "TCPPPYYHF",
+      "predicted_class": "A2402",
+      "confidence": 0.7889
+    },
+    {
+      "position": 268,
+      "peptide": "CPPPYYHFQ",
+      "predicted_class": "neg",
+      "confidence": 0.3923
+    },
+    {
+      "position": 269,
+      "peptide": "PPPYYHFQD",
+      "predicted_class": "A2402",
+      "confidence": 0.7993
+    },
+    {
+      "position": 270,
+      "peptide": "PPYYHFQDW",
+      "predicted_class": "neg",
+      "confidence": 0.2597
+    },
+    {
+      "position": 271,
+      "peptide": "PYYHFQDWR",
+      "predicted_class": "A2402",
+      "confidence": 0.8498
+    },
+    {
+      "position": 272,
+      "peptide": "YYHFQDWRC",
+      "predicted_class": "A2402",
+      "confidence": 0.5982
+    },
+    {
+      "position": 273,
+      "peptide": "YHFQDWRCV",
+      "predicted_class": "A2402",
+      "confidence": 0.6423
+    },
+    {
+      "position": 274,
+      "peptide": "HFQDWRCVN",
+      "predicted_class": "A2402",
+      "confidence": 0.8335
+    },
+    {
+      "position": 275,
+      "peptide": "FQDWRCVNF",
+      "predicted_class": "neg",
+      "confidence": 0.2434
+    },
+    {
+      "position": 276,
+      "peptide": "QDWRCVNFS",
+      "predicted_class": "neg",
+      "confidence": 0.0513
+    },
+    {
+      "position": 277,
+      "peptide": "DWRCVNFSF",
+      "predicted_class": "neg",
+      "confidence": 0.4779
+    },
+    {
+      "position": 278,
+      "peptide": "WRCVNFSFC",
+      "predicted_class": "neg",
+      "confidence": 0.0956
+    },
+    {
+      "position": 279,
+      "peptide": "RCVNFSFCQ",
+      "predicted_class": "neg",
+      "confidence": 0.1546
+    },
+    {
+      "position": 280,
+      "peptide": "CVNFSFCQD",
+      "predicted_class": "neg",
+      "confidence": 0.1647
+    },
+    {
+      "position": 281,
+      "peptide": "VNFSFCQDL",
+      "predicted_class": "neg",
+      "confidence": 0.1506
+    },
+    {
+      "position": 282,
+      "peptide": "NFSFCQDLH",
+      "predicted_class": "A2402",
+      "confidence": 0.9073
+    },
+    {
+      "position": 283,
+      "peptide": "FSFCQDLHH",
+      "predicted_class": "neg",
+      "confidence": 0.278
+    },
+    {
+      "position": 284,
+      "peptide": "SFCQDLHHK",
+      "predicted_class": "neg",
+      "confidence": 0.0066
+    },
+    {
+      "position": 285,
+      "peptide": "FCQDLHHKC",
+      "predicted_class": "neg",
+      "confidence": 0.0394
+    },
+    {
+      "position": 286,
+      "peptide": "CQDLHHKCK",
+      "predicted_class": "neg",
+      "confidence": 0.0001
+    },
+    {
+      "position": 287,
+      "peptide": "QDLHHKCKN",
+      "predicted_class": "neg",
+      "confidence": 0.0036
+    },
+    {
+      "position": 288,
+      "peptide": "DLHHKCKNS",
+      "predicted_class": "neg",
+      "confidence": 0.0021
+    },
+    {
+      "position": 289,
+      "peptide": "LHHKCKNSR",
+      "predicted_class": "neg",
+      "confidence": 0.0197
+    },
+    {
+      "position": 290,
+      "peptide": "HHKCKNSRR",
+      "predicted_class": "neg",
+      "confidence": 0.0003
+    },
+    {
+      "position": 291,
+      "peptide": "HKCKNSRRQ",
+      "predicted_class": "neg",
+      "confidence": 0.0163
+    },
+    {
+      "position": 292,
+      "peptide": "KCKNSRRQG",
+      "predicted_class": "neg",
+      "confidence": 0.1131
+    },
+    {
+      "position": 293,
+      "peptide": "CKNSRRQGC",
+      "predicted_class": "neg",
+      "confidence": 0.0114
+    },
+    {
+      "position": 294,
+      "peptide": "KNSRRQGCH",
+      "predicted_class": "neg",
+      "confidence": 0.0004
+    },
+    {
+      "position": 295,
+      "peptide": "NSRRQGCHQ",
+      "predicted_class": "neg",
+      "confidence": 0.0879
+    },
+    {
+      "position": 296,
+      "peptide": "SRRQGCHQY",
+      "predicted_class": "neg",
+      "confidence": 0.0115
+    },
+    {
+      "position": 297,
+      "peptide": "RRQGCHQYV",
+      "predicted_class": "neg",
+      "confidence": 0.2344
+    },
+    {
+      "position": 298,
+      "peptide": "RQGCHQYVI",
+      "predicted_class": "neg",
+      "confidence": 0.0315
+    },
+    {
+      "position": 299,
+      "peptide": "QGCHQYVIH",
+      "predicted_class": "neg",
+      "confidence": 0.0182
+    },
+    {
+      "position": 300,
+      "peptide": "GCHQYVIHN",
+      "predicted_class": "A0301",
+      "confidence": 0.7818
+    },
+    {
+      "position": 301,
+      "peptide": "CHQYVIHNN",
+      "predicted_class": "neg",
+      "confidence": 0.267
+    },
+    {
+      "position": 302,
+      "peptide": "HQYVIHNNK",
+      "predicted_class": "neg",
+      "confidence": 0.0324
+    },
+    {
+      "position": 303,
+      "peptide": "QYVIHNNKC",
+      "predicted_class": "neg",
+      "confidence": 0.2755
+    },
+    {
+      "position": 304,
+      "peptide": "YVIHNNKCI",
+      "predicted_class": "neg",
+      "confidence": 0.0325
+    },
+    {
+      "position": 305,
+      "peptide": "VIHNNKCIP",
+      "predicted_class": "A0301",
+      "confidence": 0.787
+    },
+    {
+      "position": 306,
+      "peptide": "IHNNKCIPE",
+      "predicted_class": "neg",
+      "confidence": 0.4441
+    },
+    {
+      "position": 307,
+      "peptide": "HNNKCIPEC",
+      "predicted_class": "neg",
+      "confidence": 0.008
+    },
+    {
+      "position": 308,
+      "peptide": "NNKCIPECP",
+      "predicted_class": "neg",
+      "confidence": 0.0063
+    },
+    {
+      "position": 309,
+      "peptide": "NKCIPECPS",
+      "predicted_class": "neg",
+      "confidence": 0.2598
+    },
+    {
+      "position": 310,
+      "peptide": "KCIPECPSG",
+      "predicted_class": "neg",
+      "confidence": 0.7588
+    },
+    {
+      "position": 311,
+      "peptide": "CIPECPSGY",
+      "predicted_class": "neg",
+      "confidence": 0.0167
+    },
+    {
+      "position": 312,
+      "peptide": "IPECPSGYT",
+      "predicted_class": "A0301",
+      "confidence": 0.9275
+    },
+    {
+      "position": 313,
+      "peptide": "PECPSGYTM",
+      "predicted_class": "neg",
+      "confidence": 0.109
+    },
+    {
+      "position": 314,
+      "peptide": "ECPSGYTMN",
+      "predicted_class": "A2402",
+      "confidence": 0.6044
+    },
+    {
+      "position": 315,
+      "peptide": "CPSGYTMNS",
+      "predicted_class": "A0301",
+      "confidence": 0.6258
+    },
+    {
+      "position": 316,
+      "peptide": "PSGYTMNSS",
+      "predicted_class": "A0101",
+      "confidence": 0.8993
+    },
+    {
+      "position": 317,
+      "peptide": "SGYTMNSSN",
+      "predicted_class": "A0203",
+      "confidence": 0.8254
+    },
+    {
+      "position": 318,
+      "peptide": "GYTMNSSNL",
+      "predicted_class": "A2402",
+      "confidence": 0.7321
+    },
+    {
+      "position": 319,
+      "peptide": "YTMNSSNLL",
+      "predicted_class": "A0101",
+      "confidence": 0.8958
+    },
+    {
+      "position": 320,
+      "peptide": "TMNSSNLLC",
+      "predicted_class": "A0301",
+      "confidence": 0.6803
+    },
+    {
+      "position": 321,
+      "peptide": "MNSSNLLCT",
+      "predicted_class": "neg",
+      "confidence": 0.0876
+    },
+    {
+      "position": 322,
+      "peptide": "NSSNLLCTP",
+      "predicted_class": "neg",
+      "confidence": 0.4474
+    },
+    {
+      "position": 323,
+      "peptide": "SSNLLCTPC",
+      "predicted_class": "neg",
+      "confidence": 0.1118
+    },
+    {
+      "position": 324,
+      "peptide": "SNLLCTPCL",
+      "predicted_class": "neg",
+      "confidence": 0.0025
+    },
+    {
+      "position": 325,
+      "peptide": "NLLCTPCLG",
+      "predicted_class": "neg",
+      "confidence": 0.5179
+    },
+    {
+      "position": 326,
+      "peptide": "LLCTPCLGP",
+      "predicted_class": "neg",
+      "confidence": 0.3881
+    },
+    {
+      "position": 327,
+      "peptide": "LCTPCLGPC",
+      "predicted_class": "neg",
+      "confidence": 0.0724
+    },
+    {
+      "position": 328,
+      "peptide": "CTPCLGPCP",
+      "predicted_class": "neg",
+      "confidence": 0.0136
+    },
+    {
+      "position": 329,
+      "peptide": "TPCLGPCPK",
+      "predicted_class": "neg",
+      "confidence": 0.0014
+    },
+    {
+      "position": 330,
+      "peptide": "PCLGPCPKV",
+      "predicted_class": "neg",
+      "confidence": 0.0675
+    },
+    {
+      "position": 331,
+      "peptide": "CLGPCPKVC",
+      "predicted_class": "neg",
+      "confidence": 0.0054
+    },
+    {
+      "position": 332,
+      "peptide": "LGPCPKVCH",
+      "predicted_class": "neg",
+      "confidence": 0.0149
+    },
+    {
+      "position": 333,
+      "peptide": "GPCPKVCHL",
+      "predicted_class": "neg",
+      "confidence": 0.0031
+    },
+    {
+      "position": 334,
+      "peptide": "PCPKVCHLL",
+      "predicted_class": "neg",
+      "confidence": 0.3551
+    },
+    {
+      "position": 335,
+      "peptide": "CPKVCHLLE",
+      "predicted_class": "neg",
+      "confidence": 0.0793
+    },
+    {
+      "position": 336,
+      "peptide": "PKVCHLLEG",
+      "predicted_class": "neg",
+      "confidence": 0.6207
+    },
+    {
+      "position": 337,
+      "peptide": "KVCHLLEGE",
+      "predicted_class": "neg",
+      "confidence": 0.0597
+    },
+    {
+      "position": 338,
+      "peptide": "VCHLLEGEK",
+      "predicted_class": "neg",
+      "confidence": 0.429
+    },
+    {
+      "position": 339,
+      "peptide": "CHLLEGEKT",
+      "predicted_class": "A2402",
+      "confidence": 0.5581
+    },
+    {
+      "position": 340,
+      "peptide": "HLLEGEKTI",
+      "predicted_class": "A0201",
+      "confidence": 0.8992
+    },
+    {
+      "position": 341,
+      "peptide": "LLEGEKTID",
+      "predicted_class": "A0101",
+      "confidence": 0.9713
+    },
+    {
+      "position": 342,
+      "peptide": "LEGEKTIDS",
+      "predicted_class": "neg",
+      "confidence": 0.3776
+    },
+    {
+      "position": 343,
+      "peptide": "EGEKTIDSV",
+      "predicted_class": "neg",
+      "confidence": 0.2321
+    },
+    {
+      "position": 344,
+      "peptide": "GEKTIDSVT",
+      "predicted_class": "A0301",
+      "confidence": 0.953
+    },
+    {
+      "position": 345,
+      "peptide": "EKTIDSVTS",
+      "predicted_class": "A0101",
+      "confidence": 0.7579
+    },
+    {
+      "position": 346,
+      "peptide": "KTIDSVTSA",
+      "predicted_class": "neg",
+      "confidence": 0.0772
+    },
+    {
+      "position": 347,
+      "peptide": "TIDSVTSAQ",
+      "predicted_class": "A0207",
+      "confidence": 0.8785
+    },
+    {
+      "position": 348,
+      "peptide": "IDSVTSAQE",
+      "predicted_class": "neg",
+      "confidence": 0.3015
+    },
+    {
+      "position": 349,
+      "peptide": "DSVTSAQEL",
+      "predicted_class": "neg",
+      "confidence": 0.0386
+    },
+    {
+      "position": 350,
+      "peptide": "SVTSAQELR",
+      "predicted_class": "neg",
+      "confidence": 0.006
+    },
+    {
+      "position": 351,
+      "peptide": "VTSAQELRG",
+      "predicted_class": "A0101",
+      "confidence": 0.8872
+    },
+    {
+      "position": 352,
+      "peptide": "TSAQELRGC",
+      "predicted_class": "neg",
+      "confidence": 0.1241
+    },
+    {
+      "position": 353,
+      "peptide": "SAQELRGCT",
+      "predicted_class": "neg",
+      "confidence": 0.1156
+    },
+    {
+      "position": 354,
+      "peptide": "AQELRGCTV",
+      "predicted_class": "neg",
+      "confidence": 0.1321
+    },
+    {
+      "position": 355,
+      "peptide": "QELRGCTVI",
+      "predicted_class": "neg",
+      "confidence": 0.2926
+    },
+    {
+      "position": 356,
+      "peptide": "ELRGCTVIN",
+      "predicted_class": "neg",
+      "confidence": 0.2009
+    },
+    {
+      "position": 357,
+      "peptide": "LRGCTVING",
+      "predicted_class": "neg",
+      "confidence": 0.4313
+    },
+    {
+      "position": 358,
+      "peptide": "RGCTVINGS",
+      "predicted_class": "neg",
+      "confidence": 0.0119
+    },
+    {
+      "position": 359,
+      "peptide": "GCTVINGSL",
+      "predicted_class": "neg",
+      "confidence": 0.1476
+    },
+    {
+      "position": 360,
+      "peptide": "CTVINGSLI",
+      "predicted_class": "neg",
+      "confidence": 0.2866
+    },
+    {
+      "position": 361,
+      "peptide": "TVINGSLII",
+      "predicted_class": "A0301",
+      "confidence": 0.9216
+    },
+    {
+      "position": 362,
+      "peptide": "VINGSLIIN",
+      "predicted_class": "A0301",
+      "confidence": 0.9451
+    },
+    {
+      "position": 363,
+      "peptide": "INGSLIINI",
+      "predicted_class": "neg",
+      "confidence": 0.6095
+    },
+    {
+      "position": 364,
+      "peptide": "NGSLIINIR",
+      "predicted_class": "neg",
+      "confidence": 0.0094
+    },
+    {
+      "position": 365,
+      "peptide": "GSLIINIRG",
+      "predicted_class": "neg",
+      "confidence": 0.5234
+    },
+    {
+      "position": 366,
+      "peptide": "SLIINIRGG",
+      "predicted_class": "A0203",
+      "confidence": 0.8925
+    },
+    {
+      "position": 367,
+      "peptide": "LIINIRGGN",
+      "predicted_class": "A0203",
+      "confidence": 0.9251
+    },
+    {
+      "position": 368,
+      "peptide": "IINIRGGNN",
+      "predicted_class": "A0301",
+      "confidence": 0.8694
+    },
+    {
+      "position": 369,
+      "peptide": "INIRGGNNL",
+      "predicted_class": "neg",
+      "confidence": 0.0921
+    },
+    {
+      "position": 370,
+      "peptide": "NIRGGNNLA",
+      "predicted_class": "A0301",
+      "confidence": 0.9982
+    },
+    {
+      "position": 371,
+      "peptide": "IRGGNNLAA",
+      "predicted_class": "neg",
+      "confidence": 0.5154
+    },
+    {
+      "position": 372,
+      "peptide": "RGGNNLAAE",
+      "predicted_class": "neg",
+      "confidence": 0.5082
+    },
+    {
+      "position": 373,
+      "peptide": "GGNNLAAEL",
+      "predicted_class": "A0101",
+      "confidence": 0.7412
+    },
+    {
+      "position": 374,
+      "peptide": "GNNLAAELE",
+      "predicted_class": "neg",
+      "confidence": 0.5178
+    },
+    {
+      "position": 375,
+      "peptide": "NNLAAELEA",
+      "predicted_class": "A0101",
+      "confidence": 0.927
+    },
+    {
+      "position": 376,
+      "peptide": "NLAAELEAN",
+      "predicted_class": "A0301",
+      "confidence": 0.8771
+    },
+    {
+      "position": 377,
+      "peptide": "LAAELEANL",
+      "predicted_class": "neg",
+      "confidence": 0.0833
+    },
+    {
+      "position": 378,
+      "peptide": "AAELEANLG",
+      "predicted_class": "A0101",
+      "confidence": 0.998
+    },
+    {
+      "position": 379,
+      "peptide": "AELEANLGL",
+      "predicted_class": "neg",
+      "confidence": 0.5006
+    },
+    {
+      "position": 380,
+      "peptide": "ELEANLGLI",
+      "predicted_class": "A0101",
+      "confidence": 0.7855
+    },
+    {
+      "position": 381,
+      "peptide": "LEANLGLIE",
+      "predicted_class": "A0201",
+      "confidence": 0.9458
+    },
+    {
+      "position": 382,
+      "peptide": "EANLGLIEE",
+      "predicted_class": "A0101",
+      "confidence": 0.6101
+    },
+    {
+      "position": 383,
+      "peptide": "ANLGLIEEI",
+      "predicted_class": "neg",
+      "confidence": 0.4469
+    },
+    {
+      "position": 384,
+      "peptide": "NLGLIEEIS",
+      "predicted_class": "A0201",
+      "confidence": 0.9057
+    },
+    {
+      "position": 385,
+      "peptide": "LGLIEEISG",
+      "predicted_class": "A0301",
+      "confidence": 0.9539
+    },
+    {
+      "position": 386,
+      "peptide": "GLIEEISGY",
+      "predicted_class": "neg",
+      "confidence": 0.248
+    },
+    {
+      "position": 387,
+      "peptide": "LIEEISGYL",
+      "predicted_class": "A0101",
+      "confidence": 0.9443
+    },
+    {
+      "position": 388,
+      "peptide": "IEEISGYLK",
+      "predicted_class": "neg",
+      "confidence": 0.1341
+    },
+    {
+      "position": 389,
+      "peptide": "EEISGYLKI",
+      "predicted_class": "neg",
+      "confidence": 0.0275
+    },
+    {
+      "position": 390,
+      "peptide": "EISGYLKIR",
+      "predicted_class": "neg",
+      "confidence": 0.0102
+    },
+    {
+      "position": 391,
+      "peptide": "ISGYLKIRR",
+      "predicted_class": "neg",
+      "confidence": 0.0057
+    },
+    {
+      "position": 392,
+      "peptide": "SGYLKIRRS",
+      "predicted_class": "neg",
+      "confidence": 0.1474
+    },
+    {
+      "position": 393,
+      "peptide": "GYLKIRRSY",
+      "predicted_class": "neg",
+      "confidence": 0.2469
+    },
+    {
+      "position": 394,
+      "peptide": "YLKIRRSYA",
+      "predicted_class": "neg",
+      "confidence": 0.2833
+    },
+    {
+      "position": 395,
+      "peptide": "LKIRRSYAL",
+      "predicted_class": "neg",
+      "confidence": 0.3854
+    },
+    {
+      "position": 396,
+      "peptide": "KIRRSYALV",
+      "predicted_class": "A0301",
+      "confidence": 0.8695
+    },
+    {
+      "position": 397,
+      "peptide": "IRRSYALVS",
+      "predicted_class": "A0301",
+      "confidence": 0.6139
+    },
+    {
+      "position": 398,
+      "peptide": "RRSYALVSL",
+      "predicted_class": "neg",
+      "confidence": 0.1584
+    },
+    {
+      "position": 399,
+      "peptide": "RSYALVSLS",
+      "predicted_class": "A0301",
+      "confidence": 0.9778
+    },
+    {
+      "position": 400,
+      "peptide": "SYALVSLSF",
+      "predicted_class": "A2402",
+      "confidence": 0.7872
+    },
+    {
+      "position": 401,
+      "peptide": "YALVSLSFF",
+      "predicted_class": "neg",
+      "confidence": 0.4218
+    },
+    {
+      "position": 402,
+      "peptide": "ALVSLSFFR",
+      "predicted_class": "neg",
+      "confidence": 0.2305
+    },
+    {
+      "position": 403,
+      "peptide": "LVSLSFFRK",
+      "predicted_class": "neg",
+      "confidence": 0.3574
+    },
+    {
+      "position": 404,
+      "peptide": "VSLSFFRKL",
+      "predicted_class": "neg",
+      "confidence": 0.0599
+    },
+    {
+      "position": 405,
+      "peptide": "SLSFFRKLR",
+      "predicted_class": "neg",
+      "confidence": 0.1002
+    },
+    {
+      "position": 406,
+      "peptide": "LSFFRKLRL",
+      "predicted_class": "neg",
+      "confidence": 0.3222
+    },
+    {
+      "position": 407,
+      "peptide": "SFFRKLRLI",
+      "predicted_class": "A2402",
+      "confidence": 0.7453
+    },
+    {
+      "position": 408,
+      "peptide": "FFRKLRLIR",
+      "predicted_class": "neg",
+      "confidence": 0.0164
+    },
+    {
+      "position": 409,
+      "peptide": "FRKLRLIRG",
+      "predicted_class": "A0203",
+      "confidence": 0.98
+    },
+    {
+      "position": 410,
+      "peptide": "RKLRLIRGE",
+      "predicted_class": "neg",
+      "confidence": 0.4471
+    },
+    {
+      "position": 411,
+      "peptide": "KLRLIRGET",
+      "predicted_class": "A0301",
+      "confidence": 0.8493
+    },
+    {
+      "position": 412,
+      "peptide": "LRLIRGETL",
+      "predicted_class": "neg",
+      "confidence": 0.2121
+    },
+    {
+      "position": 413,
+      "peptide": "RLIRGETLE",
+      "predicted_class": "A0203",
+      "confidence": 0.9978
+    },
+    {
+      "position": 414,
+      "peptide": "LIRGETLEI",
+      "predicted_class": "A0203",
+      "confidence": 0.7709
+    },
+    {
+      "position": 415,
+      "peptide": "IRGETLEIG",
+      "predicted_class": "A0207",
+      "confidence": 0.7624
+    },
+    {
+      "position": 416,
+      "peptide": "RGETLEIGN",
+      "predicted_class": "A0101",
+      "confidence": 0.8838
+    },
+    {
+      "position": 417,
+      "peptide": "GETLEIGNY",
+      "predicted_class": "neg",
+      "confidence": 0.1735
+    },
+    {
+      "position": 418,
+      "peptide": "ETLEIGNYS",
+      "predicted_class": "neg",
+      "confidence": 0.048
+    },
+    {
+      "position": 419,
+      "peptide": "TLEIGNYSF",
+      "predicted_class": "A0101",
+      "confidence": 0.8754
+    },
+    {
+      "position": 420,
+      "peptide": "LEIGNYSFY",
+      "predicted_class": "A2402",
+      "confidence": 0.8649
+    },
+    {
+      "position": 421,
+      "peptide": "EIGNYSFYA",
+      "predicted_class": "neg",
+      "confidence": 0.2228
+    },
+    {
+      "position": 422,
+      "peptide": "IGNYSFYAL",
+      "predicted_class": "A2402",
+      "confidence": 0.7801
+    },
+    {
+      "position": 423,
+      "peptide": "GNYSFYALD",
+      "predicted_class": "A0301",
+      "confidence": 0.8207
+    },
+    {
+      "position": 424,
+      "peptide": "NYSFYALDN",
+      "predicted_class": "A2402",
+      "confidence": 0.9613
+    },
+    {
+      "position": 425,
+      "peptide": "YSFYALDNQ",
+      "predicted_class": "A0101",
+      "confidence": 0.9217
+    },
+    {
+      "position": 426,
+      "peptide": "SFYALDNQN",
+      "predicted_class": "A2402",
+      "confidence": 0.9868
+    },
+    {
+      "position": 427,
+      "peptide": "FYALDNQNL",
+      "predicted_class": "A2402",
+      "confidence": 0.868
+    },
+    {
+      "position": 428,
+      "peptide": "YALDNQNLR",
+      "predicted_class": "neg",
+      "confidence": 0.2494
+    },
+    {
+      "position": 429,
+      "peptide": "ALDNQNLRQ",
+      "predicted_class": "A0201",
+      "confidence": 0.96
+    },
+    {
+      "position": 430,
+      "peptide": "LDNQNLRQL",
+      "predicted_class": "neg",
+      "confidence": 0.0954
+    },
+    {
+      "position": 431,
+      "peptide": "DNQNLRQLW",
+      "predicted_class": "neg",
+      "confidence": 0.2016
+    },
+    {
+      "position": 432,
+      "peptide": "NQNLRQLWD",
+      "predicted_class": "A0101",
+      "confidence": 0.7037
+    },
+    {
+      "position": 433,
+      "peptide": "QNLRQLWDW",
+      "predicted_class": "neg",
+      "confidence": 0.03
+    },
+    {
+      "position": 434,
+      "peptide": "NLRQLWDWS",
+      "predicted_class": "A0203",
+      "confidence": 0.9213
+    },
+    {
+      "position": 435,
+      "peptide": "LRQLWDWSK",
+      "predicted_class": "neg",
+      "confidence": 0.4252
+    },
+    {
+      "position": 436,
+      "peptide": "RQLWDWSKH",
+      "predicted_class": "A0301",
+      "confidence": 0.9552
+    },
+    {
+      "position": 437,
+      "peptide": "QLWDWSKHN",
+      "predicted_class": "neg",
+      "confidence": 0.6701
+    },
+    {
+      "position": 438,
+      "peptide": "LWDWSKHNL",
+      "predicted_class": "neg",
+      "confidence": 0.4381
+    },
+    {
+      "position": 439,
+      "peptide": "WDWSKHNLT",
+      "predicted_class": "A0301",
+      "confidence": 0.7868
+    },
+    {
+      "position": 440,
+      "peptide": "DWSKHNLTI",
+      "predicted_class": "neg",
+      "confidence": 0.0837
+    },
+    {
+      "position": 441,
+      "peptide": "WSKHNLTIT",
+      "predicted_class": "A0101",
+      "confidence": 0.9606
+    },
+    {
+      "position": 442,
+      "peptide": "SKHNLTITQ",
+      "predicted_class": "A0203",
+      "confidence": 0.6371
+    },
+    {
+      "position": 443,
+      "peptide": "KHNLTITQG",
+      "predicted_class": "A2402",
+      "confidence": 0.7016
+    },
+    {
+      "position": 444,
+      "peptide": "HNLTITQGK",
+      "predicted_class": "neg",
+      "confidence": 0.0123
+    },
+    {
+      "position": 445,
+      "peptide": "NLTITQGKL",
+      "predicted_class": "neg",
+      "confidence": 0.1532
+    },
+    {
+      "position": 446,
+      "peptide": "LTITQGKLF",
+      "predicted_class": "A0101",
+      "confidence": 0.6181
+    },
+    {
+      "position": 447,
+      "peptide": "TITQGKLFF",
+      "predicted_class": "neg",
+      "confidence": 0.3617
+    },
+    {
+      "position": 448,
+      "peptide": "ITQGKLFFH",
+      "predicted_class": "neg",
+      "confidence": 0.2452
+    },
+    {
+      "position": 449,
+      "peptide": "TQGKLFFHY",
+      "predicted_class": "neg",
+      "confidence": 0.1855
+    },
+    {
+      "position": 450,
+      "peptide": "QGKLFFHYN",
+      "predicted_class": "neg",
+      "confidence": 0.4832
+    },
+    {
+      "position": 451,
+      "peptide": "GKLFFHYNP",
+      "predicted_class": "A0301",
+      "confidence": 0.8773
+    },
+    {
+      "position": 452,
+      "peptide": "KLFFHYNPK",
+      "predicted_class": "A0301",
+      "confidence": 0.6869
+    },
+    {
+      "position": 453,
+      "peptide": "LFFHYNPKL",
+      "predicted_class": "neg",
+      "confidence": 0.4824
+    },
+    {
+      "position": 454,
+      "peptide": "FFHYNPKLC",
+      "predicted_class": "neg",
+      "confidence": 0.3884
+    },
+    {
+      "position": 455,
+      "peptide": "FHYNPKLCL",
+      "predicted_class": "neg",
+      "confidence": 0.589
+    },
+    {
+      "position": 456,
+      "peptide": "HYNPKLCLS",
+      "predicted_class": "A2402",
+      "confidence": 0.9175
+    },
+    {
+      "position": 457,
+      "peptide": "YNPKLCLSE",
+      "predicted_class": "neg",
+      "confidence": 0.5185
+    },
+    {
+      "position": 458,
+      "peptide": "NPKLCLSEI",
+      "predicted_class": "neg",
+      "confidence": 0.0546
+    },
+    {
+      "position": 459,
+      "peptide": "PKLCLSEIH",
+      "predicted_class": "A2402",
+      "confidence": 0.9849
+    },
+    {
+      "position": 460,
+      "peptide": "KLCLSEIHK",
+      "predicted_class": "neg",
+      "confidence": 0.1148
+    },
+    {
+      "position": 461,
+      "peptide": "LCLSEIHKM",
+      "predicted_class": "neg",
+      "confidence": 0.1586
+    },
+    {
+      "position": 462,
+      "peptide": "CLSEIHKME",
+      "predicted_class": "A0203",
+      "confidence": 0.8163
+    },
+    {
+      "position": 463,
+      "peptide": "LSEIHKMEE",
+      "predicted_class": "A0101",
+      "confidence": 0.9729
+    },
+    {
+      "position": 464,
+      "peptide": "SEIHKMEEV",
+      "predicted_class": "neg",
+      "confidence": 0.0471
+    },
+    {
+      "position": 465,
+      "peptide": "EIHKMEEVS",
+      "predicted_class": "neg",
+      "confidence": 0.1788
+    },
+    {
+      "position": 466,
+      "peptide": "IHKMEEVSG",
+      "predicted_class": "A0201",
+      "confidence": 0.9694
+    },
+    {
+      "position": 467,
+      "peptide": "HKMEEVSGT",
+      "predicted_class": "A0301",
+      "confidence": 0.8471
+    },
+    {
+      "position": 468,
+      "peptide": "KMEEVSGTK",
+      "predicted_class": "A0207",
+      "confidence": 0.6008
+    },
+    {
+      "position": 469,
+      "peptide": "MEEVSGTKG",
+      "predicted_class": "A0101",
+      "confidence": 0.9112
+    },
+    {
+      "position": 470,
+      "peptide": "EEVSGTKGR",
+      "predicted_class": "neg",
+      "confidence": 0.0
+    },
+    {
+      "position": 471,
+      "peptide": "EVSGTKGRQ",
+      "predicted_class": "neg",
+      "confidence": 0.0061
+    },
+    {
+      "position": 472,
+      "peptide": "VSGTKGRQE",
+      "predicted_class": "neg",
+      "confidence": 0.5186
+    },
+    {
+      "position": 473,
+      "peptide": "SGTKGRQER",
+      "predicted_class": "neg",
+      "confidence": 0.0
+    },
+    {
+      "position": 474,
+      "peptide": "GTKGRQERN",
+      "predicted_class": "neg",
+      "confidence": 0.0169
+    },
+    {
+      "position": 475,
+      "peptide": "TKGRQERND",
+      "predicted_class": "A0101",
+      "confidence": 0.9474
+    },
+    {
+      "position": 476,
+      "peptide": "KGRQERNDI",
+      "predicted_class": "neg",
+      "confidence": 0.0827
+    },
+    {
+      "position": 477,
+      "peptide": "GRQERNDIA",
+      "predicted_class": "A0201",
+      "confidence": 0.9811
+    },
+    {
+      "position": 478,
+      "peptide": "RQERNDIAL",
+      "predicted_class": "neg",
+      "confidence": 0.1686
+    },
+    {
+      "position": 479,
+      "peptide": "QERNDIALK",
+      "predicted_class": "neg",
+      "confidence": 0.0077
+    },
+    {
+      "position": 480,
+      "peptide": "ERNDIALKT",
+      "predicted_class": "neg",
+      "confidence": 0.2822
+    },
+    {
+      "position": 481,
+      "peptide": "RNDIALKTN",
+      "predicted_class": "A0101",
+      "confidence": 0.978
+    },
+    {
+      "position": 482,
+      "peptide": "NDIALKTNG",
+      "predicted_class": "neg",
+      "confidence": 0.3804
+    },
+    {
+      "position": 483,
+      "peptide": "DIALKTNGD",
+      "predicted_class": "neg",
+      "confidence": 0.1321
+    },
+    {
+      "position": 484,
+      "peptide": "IALKTNGDQ",
+      "predicted_class": "A0201",
+      "confidence": 0.7394
+    },
+    {
+      "position": 485,
+      "peptide": "ALKTNGDQA",
+      "predicted_class": "neg",
+      "confidence": 0.2942
+    },
+    {
+      "position": 486,
+      "peptide": "LKTNGDQAS",
+      "predicted_class": "A2402",
+      "confidence": 0.9956
+    },
+    {
+      "position": 487,
+      "peptide": "KTNGDQASC",
+      "predicted_class": "neg",
+      "confidence": 0.1417
+    },
+    {
+      "position": 488,
+      "peptide": "TNGDQASCE",
+      "predicted_class": "neg",
+      "confidence": 0.3167
+    },
+    {
+      "position": 489,
+      "peptide": "NGDQASCEN",
+      "predicted_class": "A0207",
+      "confidence": 0.7673
+    },
+    {
+      "position": 490,
+      "peptide": "GDQASCENE",
+      "predicted_class": "neg",
+      "confidence": 0.0596
+    },
+    {
+      "position": 491,
+      "peptide": "DQASCENEL",
+      "predicted_class": "neg",
+      "confidence": 0.0002
+    },
+    {
+      "position": 492,
+      "peptide": "QASCENELL",
+      "predicted_class": "neg",
+      "confidence": 0.4539
+    },
+    {
+      "position": 493,
+      "peptide": "ASCENELLK",
+      "predicted_class": "neg",
+      "confidence": 0.0317
+    },
+    {
+      "position": 494,
+      "peptide": "SCENELLKF",
+      "predicted_class": "neg",
+      "confidence": 0.6288
+    },
+    {
+      "position": 495,
+      "peptide": "CENELLKFS",
+      "predicted_class": "neg",
+      "confidence": 0.3485
+    },
+    {
+      "position": 496,
+      "peptide": "ENELLKFSY",
+      "predicted_class": "A0101",
+      "confidence": 0.9911
+    },
+    {
+      "position": 497,
+      "peptide": "NELLKFSYI",
+      "predicted_class": "neg",
+      "confidence": 0.45
+    },
+    {
+      "position": 498,
+      "peptide": "ELLKFSYIR",
+      "predicted_class": "neg",
+      "confidence": 0.005
+    },
+    {
+      "position": 499,
+      "peptide": "LLKFSYIRT",
+      "predicted_class": "A0203",
+      "confidence": 0.8993
+    },
+    {
+      "position": 500,
+      "peptide": "LKFSYIRTS",
+      "predicted_class": "A0301",
+      "confidence": 0.9053
+    },
+    {
+      "position": 501,
+      "peptide": "KFSYIRTSF",
+      "predicted_class": "A2402",
+      "confidence": 0.5967
+    },
+    {
+      "position": 502,
+      "peptide": "FSYIRTSFD",
+      "predicted_class": "A0101",
+      "confidence": 0.9688
+    },
+    {
+      "position": 503,
+      "peptide": "SYIRTSFDK",
+      "predicted_class": "neg",
+      "confidence": 0.4102
+    },
+    {
+      "position": 504,
+      "peptide": "YIRTSFDKI",
+      "predicted_class": "neg",
+      "confidence": 0.1425
+    },
+    {
+      "position": 505,
+      "peptide": "IRTSFDKIL",
+      "predicted_class": "A0201",
+      "confidence": 0.6669
+    },
+    {
+      "position": 506,
+      "peptide": "RTSFDKILL",
+      "predicted_class": "neg",
+      "confidence": 0.155
+    },
+    {
+      "position": 507,
+      "peptide": "TSFDKILLR",
+      "predicted_class": "neg",
+      "confidence": 0.1319
+    },
+    {
+      "position": 508,
+      "peptide": "SFDKILLRW",
+      "predicted_class": "neg",
+      "confidence": 0.0547
+    },
+    {
+      "position": 509,
+      "peptide": "FDKILLRWE",
+      "predicted_class": "neg",
+      "confidence": 0.304
+    },
+    {
+      "position": 510,
+      "peptide": "DKILLRWEP",
+      "predicted_class": "neg",
+      "confidence": 0.2527
+    },
+    {
+      "position": 511,
+      "peptide": "KILLRWEPY",
+      "predicted_class": "neg",
+      "confidence": 0.4278
+    },
+    {
+      "position": 512,
+      "peptide": "ILLRWEPYW",
+      "predicted_class": "neg",
+      "confidence": 0.3169
+    },
+    {
+      "position": 513,
+      "peptide": "LLRWEPYWP",
+      "predicted_class": "A0301",
+      "confidence": 0.8697
+    },
+    {
+      "position": 514,
+      "peptide": "LRWEPYWPP",
+      "predicted_class": "A0207",
+      "confidence": 0.6944
+    },
+    {
+      "position": 515,
+      "peptide": "RWEPYWPPD",
+      "predicted_class": "A2402",
+      "confidence": 0.9584
+    },
+    {
+      "position": 516,
+      "peptide": "WEPYWPPDF",
+      "predicted_class": "A0207",
+      "confidence": 0.684
+    },
+    {
+      "position": 517,
+      "peptide": "EPYWPPDFR",
+      "predicted_class": "neg",
+      "confidence": 0.0429
+    },
+    {
+      "position": 518,
+      "peptide": "PYWPPDFRD",
+      "predicted_class": "A2402",
+      "confidence": 0.9634
+    },
+    {
+      "position": 519,
+      "peptide": "YWPPDFRDL",
+      "predicted_class": "A2402",
+      "confidence": 0.8249
+    },
+    {
+      "position": 520,
+      "peptide": "WPPDFRDLL",
+      "predicted_class": "A0207",
+      "confidence": 0.7916
+    },
+    {
+      "position": 521,
+      "peptide": "PPDFRDLLG",
+      "predicted_class": "A0101",
+      "confidence": 0.9562
+    },
+    {
+      "position": 522,
+      "peptide": "PDFRDLLGF",
+      "predicted_class": "neg",
+      "confidence": 0.4488
+    },
+    {
+      "position": 523,
+      "peptide": "DFRDLLGFM",
+      "predicted_class": "neg",
+      "confidence": 0.1286
+    },
+    {
+      "position": 524,
+      "peptide": "FRDLLGFML",
+      "predicted_class": "A0207",
+      "confidence": 0.9597
+    },
+    {
+      "position": 525,
+      "peptide": "RDLLGFMLF",
+      "predicted_class": "neg",
+      "confidence": 0.3575
+    },
+    {
+      "position": 526,
+      "peptide": "DLLGFMLFY",
+      "predicted_class": "neg",
+      "confidence": 0.0362
+    },
+    {
+      "position": 527,
+      "peptide": "LLGFMLFYK",
+      "predicted_class": "A0301",
+      "confidence": 0.7528
+    },
+    {
+      "position": 528,
+      "peptide": "LGFMLFYKE",
+      "predicted_class": "neg",
+      "confidence": 0.3351
+    },
+    {
+      "position": 529,
+      "peptide": "GFMLFYKEA",
+      "predicted_class": "A2402",
+      "confidence": 0.7325
+    },
+    {
+      "position": 530,
+      "peptide": "FMLFYKEAP",
+      "predicted_class": "A0201",
+      "confidence": 0.9158
+    },
+    {
+      "position": 531,
+      "peptide": "MLFYKEAPY",
+      "predicted_class": "neg",
+      "confidence": 0.4403
+    },
+    {
+      "position": 532,
+      "peptide": "LFYKEAPYQ",
+      "predicted_class": "A2402",
+      "confidence": 0.9331
+    },
+    {
+      "position": 533,
+      "peptide": "FYKEAPYQN",
+      "predicted_class": "A2402",
+      "confidence": 0.8566
+    },
+    {
+      "position": 534,
+      "peptide": "YKEAPYQNV",
+      "predicted_class": "A0101",
+      "confidence": 0.6856
+    },
+    {
+      "position": 535,
+      "peptide": "KEAPYQNVT",
+      "predicted_class": "A0301",
+      "confidence": 0.8705
+    },
+    {
+      "position": 536,
+      "peptide": "EAPYQNVTE",
+      "predicted_class": "neg",
+      "confidence": 0.4446
+    },
+    {
+      "position": 537,
+      "peptide": "APYQNVTEF",
+      "predicted_class": "neg",
+      "confidence": 0.4057
+    },
+    {
+      "position": 538,
+      "peptide": "PYQNVTEFD",
+      "predicted_class": "A2402",
+      "confidence": 0.9384
+    },
+    {
+      "position": 539,
+      "peptide": "YQNVTEFDG",
+      "predicted_class": "A0101",
+      "confidence": 0.9276
+    },
+    {
+      "position": 540,
+      "peptide": "QNVTEFDGQ",
+      "predicted_class": "neg",
+      "confidence": 0.5579
+    },
+    {
+      "position": 541,
+      "peptide": "NVTEFDGQD",
+      "predicted_class": "A0207",
+      "confidence": 0.9066
+    },
+    {
+      "position": 542,
+      "peptide": "VTEFDGQDA",
+      "predicted_class": "A0101",
+      "confidence": 0.9997
+    },
+    {
+      "position": 543,
+      "peptide": "TEFDGQDAC",
+      "predicted_class": "neg",
+      "confidence": 0.1458
+    },
+    {
+      "position": 544,
+      "peptide": "EFDGQDACG",
+      "predicted_class": "A0101",
+      "confidence": 0.6963
+    },
+    {
+      "position": 545,
+      "peptide": "FDGQDACGS",
+      "predicted_class": "A0207",
+      "confidence": 0.8958
+    },
+    {
+      "position": 546,
+      "peptide": "DGQDACGSN",
+      "predicted_class": "neg",
+      "confidence": 0.0326
+    },
+    {
+      "position": 547,
+      "peptide": "GQDACGSNS",
+      "predicted_class": "A0101",
+      "confidence": 0.896
+    },
+    {
+      "position": 548,
+      "peptide": "QDACGSNSW",
+      "predicted_class": "neg",
+      "confidence": 0.043
+    },
+    {
+      "position": 549,
+      "peptide": "DACGSNSWT",
+      "predicted_class": "neg",
+      "confidence": 0.1133
+    },
+    {
+      "position": 550,
+      "peptide": "ACGSNSWTV",
+      "predicted_class": "neg",
+      "confidence": 0.3678
+    },
+    {
+      "position": 551,
+      "peptide": "CGSNSWTVV",
+      "predicted_class": "neg",
+      "confidence": 0.3791
+    },
+    {
+      "position": 552,
+      "peptide": "GSNSWTVVD",
+      "predicted_class": "neg",
+      "confidence": 0.5964
+    },
+    {
+      "position": 553,
+      "peptide": "SNSWTVVDI",
+      "predicted_class": "neg",
+      "confidence": 0.4293
+    },
+    {
+      "position": 554,
+      "peptide": "NSWTVVDID",
+      "predicted_class": "A0101",
+      "confidence": 0.9414
+    },
+    {
+      "position": 555,
+      "peptide": "SWTVVDIDP",
+      "predicted_class": "A2402",
+      "confidence": 0.9719
+    },
+    {
+      "position": 556,
+      "peptide": "WTVVDIDPP",
+      "predicted_class": "neg",
+      "confidence": 0.4954
+    },
+    {
+      "position": 557,
+      "peptide": "TVVDIDPPL",
+      "predicted_class": "neg",
+      "confidence": 0.4332
+    },
+    {
+      "position": 558,
+      "peptide": "VVDIDPPLR",
+      "predicted_class": "A0101",
+      "confidence": 0.7503
+    },
+    {
+      "position": 559,
+      "peptide": "VDIDPPLRS",
+      "predicted_class": "neg",
+      "confidence": 0.6381
+    },
+    {
+      "position": 560,
+      "peptide": "DIDPPLRSN",
+      "predicted_class": "A0101",
+      "confidence": 0.9029
+    },
+    {
+      "position": 561,
+      "peptide": "IDPPLRSND",
+      "predicted_class": "A0207",
+      "confidence": 0.6374
+    },
+    {
+      "position": 562,
+      "peptide": "DPPLRSNDP",
+      "predicted_class": "A0207",
+      "confidence": 0.969
+    },
+    {
+      "position": 563,
+      "peptide": "PPLRSNDPK",
+      "predicted_class": "neg",
+      "confidence": 0.0398
+    },
+    {
+      "position": 564,
+      "peptide": "PLRSNDPKS",
+      "predicted_class": "A0203",
+      "confidence": 0.7981
+    },
+    {
+      "position": 565,
+      "peptide": "LRSNDPKSQ",
+      "predicted_class": "neg",
+      "confidence": 0.5123
+    },
+    {
+      "position": 566,
+      "peptide": "RSNDPKSQN",
+      "predicted_class": "A0301",
+      "confidence": 0.6281
+    },
+    {
+      "position": 567,
+      "peptide": "SNDPKSQNH",
+      "predicted_class": "neg",
+      "confidence": 0.1414
+    },
+    {
+      "position": 568,
+      "peptide": "NDPKSQNHP",
+      "predicted_class": "A0207",
+      "confidence": 0.6887
+    },
+    {
+      "position": 569,
+      "peptide": "DPKSQNHPG",
+      "predicted_class": "neg",
+      "confidence": 0.0804
+    },
+    {
+      "position": 570,
+      "peptide": "PKSQNHPGW",
+      "predicted_class": "neg",
+      "confidence": 0.2513
+    },
+    {
+      "position": 571,
+      "peptide": "KSQNHPGWL",
+      "predicted_class": "A0101",
+      "confidence": 0.9121
+    },
+    {
+      "position": 572,
+      "peptide": "SQNHPGWLM",
+      "predicted_class": "neg",
+      "confidence": 0.1198
+    },
+    {
+      "position": 573,
+      "peptide": "QNHPGWLMR",
+      "predicted_class": "neg",
+      "confidence": 0.0534
+    },
+    {
+      "position": 574,
+      "peptide": "NHPGWLMRG",
+      "predicted_class": "A2402",
+      "confidence": 0.857
+    },
+    {
+      "position": 575,
+      "peptide": "HPGWLMRGL",
+      "predicted_class": "neg",
+      "confidence": 0.1628
+    },
+    {
+      "position": 576,
+      "peptide": "PGWLMRGLK",
+      "predicted_class": "neg",
+      "confidence": 0.1093
+    },
+    {
+      "position": 577,
+      "peptide": "GWLMRGLKP",
+      "predicted_class": "A2402",
+      "confidence": 0.9825
+    },
+    {
+      "position": 578,
+      "peptide": "WLMRGLKPW",
+      "predicted_class": "neg",
+      "confidence": 0.1211
+    },
+    {
+      "position": 579,
+      "peptide": "LMRGLKPWT",
+      "predicted_class": "A0203",
+      "confidence": 0.9657
+    },
+    {
+      "position": 580,
+      "peptide": "MRGLKPWTQ",
+      "predicted_class": "neg",
+      "confidence": 0.3462
+    },
+    {
+      "position": 581,
+      "peptide": "RGLKPWTQY",
+      "predicted_class": "neg",
+      "confidence": 0.034
+    },
+    {
+      "position": 582,
+      "peptide": "GLKPWTQYA",
+      "predicted_class": "A0203",
+      "confidence": 0.7513
+    },
+    {
+      "position": 583,
+      "peptide": "LKPWTQYAI",
+      "predicted_class": "A2402",
+      "confidence": 0.9709
+    },
+    {
+      "position": 584,
+      "peptide": "KPWTQYAIF",
+      "predicted_class": "neg",
+      "confidence": 0.4226
+    },
+    {
+      "position": 585,
+      "peptide": "PWTQYAIFV",
+      "predicted_class": "A2402",
+      "confidence": 0.7806
+    },
+    {
+      "position": 586,
+      "peptide": "WTQYAIFVK",
+      "predicted_class": "neg",
+      "confidence": 0.0153
+    },
+    {
+      "position": 587,
+      "peptide": "TQYAIFVKT",
+      "predicted_class": "neg",
+      "confidence": 0.4743
+    },
+    {
+      "position": 588,
+      "peptide": "QYAIFVKTL",
+      "predicted_class": "A2402",
+      "confidence": 0.9524
+    },
+    {
+      "position": 589,
+      "peptide": "YAIFVKTLV",
+      "predicted_class": "neg",
+      "confidence": 0.5072
+    },
+    {
+      "position": 590,
+      "peptide": "AIFVKTLVT",
+      "predicted_class": "A0301",
+      "confidence": 0.9495
+    },
+    {
+      "position": 591,
+      "peptide": "IFVKTLVTF",
+      "predicted_class": "A2402",
+      "confidence": 0.5563
+    },
+    {
+      "position": 592,
+      "peptide": "FVKTLVTFS",
+      "predicted_class": "neg",
+      "confidence": 0.4894
+    },
+    {
+      "position": 593,
+      "peptide": "VKTLVTFSD",
+      "predicted_class": "neg",
+      "confidence": 0.6371
+    },
+    {
+      "position": 594,
+      "peptide": "KTLVTFSDE",
+      "predicted_class": "neg",
+      "confidence": 0.5225
+    },
+    {
+      "position": 595,
+      "peptide": "TLVTFSDER",
+      "predicted_class": "neg",
+      "confidence": 0.096
+    },
+    {
+      "position": 596,
+      "peptide": "LVTFSDERR",
+      "predicted_class": "neg",
+      "confidence": 0.004
+    },
+    {
+      "position": 597,
+      "peptide": "VTFSDERRT",
+      "predicted_class": "A0301",
+      "confidence": 0.9455
+    },
+    {
+      "position": 598,
+      "peptide": "TFSDERRTY",
+      "predicted_class": "neg",
+      "confidence": 0.2346
+    },
+    {
+      "position": 599,
+      "peptide": "FSDERRTYG",
+      "predicted_class": "A0101",
+      "confidence": 0.9744
+    },
+    {
+      "position": 600,
+      "peptide": "SDERRTYGA",
+      "predicted_class": "A0101",
+      "confidence": 0.9081
+    },
+    {
+      "position": 601,
+      "peptide": "DERRTYGAK",
+      "predicted_class": "neg",
+      "confidence": 0.0002
+    },
+    {
+      "position": 602,
+      "peptide": "ERRTYGAKS",
+      "predicted_class": "neg",
+      "confidence": 0.0188
+    },
+    {
+      "position": 603,
+      "peptide": "RRTYGAKSD",
+      "predicted_class": "A2402",
+      "confidence": 0.9647
+    },
+    {
+      "position": 604,
+      "peptide": "RTYGAKSDI",
+      "predicted_class": "A0301",
+      "confidence": 0.9626
+    },
+    {
+      "position": 605,
+      "peptide": "TYGAKSDII",
+      "predicted_class": "A2402",
+      "confidence": 0.8961
+    },
+    {
+      "position": 606,
+      "peptide": "YGAKSDIIY",
+      "predicted_class": "A0101",
+      "confidence": 0.8038
+    },
+    {
+      "position": 607,
+      "peptide": "GAKSDIIYV",
+      "predicted_class": "neg",
+      "confidence": 0.47
+    },
+    {
+      "position": 608,
+      "peptide": "AKSDIIYVQ",
+      "predicted_class": "neg",
+      "confidence": 0.5938
+    },
+    {
+      "position": 609,
+      "peptide": "KSDIIYVQT",
+      "predicted_class": "A0101",
+      "confidence": 0.8316
+    },
+    {
+      "position": 610,
+      "peptide": "SDIIYVQTD",
+      "predicted_class": "neg",
+      "confidence": 0.612
+    },
+    {
+      "position": 611,
+      "peptide": "DIIYVQTDA",
+      "predicted_class": "neg",
+      "confidence": 0.0245
+    },
+    {
+      "position": 612,
+      "peptide": "IIYVQTDAT",
+      "predicted_class": "A0301",
+      "confidence": 0.9662
+    },
+    {
+      "position": 613,
+      "peptide": "IYVQTDATN",
+      "predicted_class": "A2402",
+      "confidence": 0.9875
+    },
+    {
+      "position": 614,
+      "peptide": "YVQTDATNP",
+      "predicted_class": "neg",
+      "confidence": 0.5128
+    },
+    {
+      "position": 615,
+      "peptide": "VQTDATNPS",
+      "predicted_class": "neg",
+      "confidence": 0.1284
+    },
+    {
+      "position": 616,
+      "peptide": "QTDATNPSV",
+      "predicted_class": "A0101",
+      "confidence": 0.6391
+    },
+    {
+      "position": 617,
+      "peptide": "TDATNPSVP",
+      "predicted_class": "neg",
+      "confidence": 0.4514
+    },
+    {
+      "position": 618,
+      "peptide": "DATNPSVPL",
+      "predicted_class": "neg",
+      "confidence": 0.0203
+    },
+    {
+      "position": 619,
+      "peptide": "ATNPSVPLD",
+      "predicted_class": "A0301",
+      "confidence": 0.8474
+    },
+    {
+      "position": 620,
+      "peptide": "TNPSVPLDP",
+      "predicted_class": "A0301",
+      "confidence": 0.8991
+    },
+    {
+      "position": 621,
+      "peptide": "NPSVPLDPI",
+      "predicted_class": "neg",
+      "confidence": 0.1065
+    },
+    {
+      "position": 622,
+      "peptide": "PSVPLDPIS",
+      "predicted_class": "A0301",
+      "confidence": 0.9494
+    },
+    {
+      "position": 623,
+      "peptide": "SVPLDPISV",
+      "predicted_class": "A0207",
+      "confidence": 0.867
+    },
+    {
+      "position": 624,
+      "peptide": "VPLDPISVS",
+      "predicted_class": "A0301",
+      "confidence": 0.8093
+    },
+    {
+      "position": 625,
+      "peptide": "PLDPISVSN",
+      "predicted_class": "A0101",
+      "confidence": 0.9802
+    },
+    {
+      "position": 626,
+      "peptide": "LDPISVSNS",
+      "predicted_class": "neg",
+      "confidence": 0.3384
+    },
+    {
+      "position": 627,
+      "peptide": "DPISVSNSS",
+      "predicted_class": "neg",
+      "confidence": 0.3643
+    },
+    {
+      "position": 628,
+      "peptide": "PISVSNSSS",
+      "predicted_class": "A0301",
+      "confidence": 0.9484
+    },
+    {
+      "position": 629,
+      "peptide": "ISVSNSSSQ",
+      "predicted_class": "neg",
+      "confidence": 0.2483
+    },
+    {
+      "position": 630,
+      "peptide": "SVSNSSSQI",
+      "predicted_class": "neg",
+      "confidence": 0.2932
+    },
+    {
+      "position": 631,
+      "peptide": "VSNSSSQII",
+      "predicted_class": "A0101",
+      "confidence": 0.7582
+    },
+    {
+      "position": 632,
+      "peptide": "SNSSSQIIL",
+      "predicted_class": "A0101",
+      "confidence": 0.7852
+    },
+    {
+      "position": 633,
+      "peptide": "NSSSQIILK",
+      "predicted_class": "neg",
+      "confidence": 0.0843
+    },
+    {
+      "position": 634,
+      "peptide": "SSSQIILKW",
+      "predicted_class": "neg",
+      "confidence": 0.0312
+    },
+    {
+      "position": 635,
+      "peptide": "SSQIILKWK",
+      "predicted_class": "neg",
+      "confidence": 0.0132
+    },
+    {
+      "position": 636,
+      "peptide": "SQIILKWKP",
+      "predicted_class": "neg",
+      "confidence": 0.2757
+    },
+    {
+      "position": 637,
+      "peptide": "QIILKWKPP",
+      "predicted_class": "A0301",
+      "confidence": 0.8704
+    },
+    {
+      "position": 638,
+      "peptide": "IILKWKPPS",
+      "predicted_class": "A0301",
+      "confidence": 0.8484
+    },
+    {
+      "position": 639,
+      "peptide": "ILKWKPPSD",
+      "predicted_class": "A0203",
+      "confidence": 0.8816
+    },
+    {
+      "position": 640,
+      "peptide": "LKWKPPSDP",
+      "predicted_class": "A0301",
+      "confidence": 0.9355
+    },
+    {
+      "position": 641,
+      "peptide": "KWKPPSDPN",
+      "predicted_class": "A2402",
+      "confidence": 0.9695
+    },
+    {
+      "position": 642,
+      "peptide": "WKPPSDPNG",
+      "predicted_class": "A0207",
+      "confidence": 0.9833
+    },
+    {
+      "position": 643,
+      "peptide": "KPPSDPNGN",
+      "predicted_class": "A0207",
+      "confidence": 0.9914
+    },
+    {
+      "position": 644,
+      "peptide": "PPSDPNGNI",
+      "predicted_class": "A0207",
+      "confidence": 0.861
+    },
+    {
+      "position": 645,
+      "peptide": "PSDPNGNIT",
+      "predicted_class": "A0101",
+      "confidence": 0.9983
+    },
+    {
+      "position": 646,
+      "peptide": "SDPNGNITH",
+      "predicted_class": "A0207",
+      "confidence": 0.8511
+    },
+    {
+      "position": 647,
+      "peptide": "DPNGNITHY",
+      "predicted_class": "neg",
+      "confidence": 0.0158
+    },
+    {
+      "position": 648,
+      "peptide": "PNGNITHYL",
+      "predicted_class": "neg",
+      "confidence": 0.1239
+    },
+    {
+      "position": 649,
+      "peptide": "NGNITHYLV",
+      "predicted_class": "neg",
+      "confidence": 0.6392
+    },
+    {
+      "position": 650,
+      "peptide": "GNITHYLVF",
+      "predicted_class": "neg",
+      "confidence": 0.276
+    },
+    {
+      "position": 651,
+      "peptide": "NITHYLVFW",
+      "predicted_class": "neg",
+      "confidence": 0.0029
+    },
+    {
+      "position": 652,
+      "peptide": "ITHYLVFWE",
+      "predicted_class": "A0101",
+      "confidence": 0.9339
+    },
+    {
+      "position": 653,
+      "peptide": "THYLVFWER",
+      "predicted_class": "neg",
+      "confidence": 0.0367
+    },
+    {
+      "position": 654,
+      "peptide": "HYLVFWERQ",
+      "predicted_class": "A2402",
+      "confidence": 0.9772
+    },
+    {
+      "position": 655,
+      "peptide": "YLVFWERQA",
+      "predicted_class": "neg",
+      "confidence": 0.4767
+    },
+    {
+      "position": 656,
+      "peptide": "LVFWERQAE",
+      "predicted_class": "A0301",
+      "confidence": 0.8531
+    },
+    {
+      "position": 657,
+      "peptide": "VFWERQAED",
+      "predicted_class": "A2402",
+      "confidence": 0.9572
+    },
+    {
+      "position": 658,
+      "peptide": "FWERQAEDS",
+      "predicted_class": "A2402",
+      "confidence": 0.9875
+    },
+    {
+      "position": 659,
+      "peptide": "WERQAEDSE",
+      "predicted_class": "neg",
+      "confidence": 0.5822
+    },
+    {
+      "position": 660,
+      "peptide": "ERQAEDSEL",
+      "predicted_class": "A0101",
+      "confidence": 0.8154
+    },
+    {
+      "position": 661,
+      "peptide": "RQAEDSELF",
+      "predicted_class": "neg",
+      "confidence": 0.4541
+    },
+    {
+      "position": 662,
+      "peptide": "QAEDSELFE",
+      "predicted_class": "A0101",
+      "confidence": 0.9803
+    },
+    {
+      "position": 663,
+      "peptide": "AEDSELFEL",
+      "predicted_class": "A0207",
+      "confidence": 0.6338
+    },
+    {
+      "position": 664,
+      "peptide": "EDSELFELD",
+      "predicted_class": "A0101",
+      "confidence": 0.665
+    },
+    {
+      "position": 665,
+      "peptide": "DSELFELDY",
+      "predicted_class": "A0101",
+      "confidence": 0.9903
+    },
+    {
+      "position": 666,
+      "peptide": "SELFELDYC",
+      "predicted_class": "neg",
+      "confidence": 0.1009
+    },
+    {
+      "position": 667,
+      "peptide": "ELFELDYCL",
+      "predicted_class": "neg",
+      "confidence": 0.0528
+    },
+    {
+      "position": 668,
+      "peptide": "LFELDYCLK",
+      "predicted_class": "neg",
+      "confidence": 0.1189
+    },
+    {
+      "position": 669,
+      "peptide": "FELDYCLKG",
+      "predicted_class": "A0301",
+      "confidence": 0.7919
+    },
+    {
+      "position": 670,
+      "peptide": "ELDYCLKGL",
+      "predicted_class": "neg",
+      "confidence": 0.4104
+    },
+    {
+      "position": 671,
+      "peptide": "LDYCLKGLK",
+      "predicted_class": "neg",
+      "confidence": 0.0254
+    },
+    {
+      "position": 672,
+      "peptide": "DYCLKGLKL",
+      "predicted_class": "neg",
+      "confidence": 0.1358
+    },
+    {
+      "position": 673,
+      "peptide": "YCLKGLKLP",
+      "predicted_class": "A0301",
+      "confidence": 0.7671
+    },
+    {
+      "position": 674,
+      "peptide": "CLKGLKLPS",
+      "predicted_class": "A0203",
+      "confidence": 0.9698
+    },
+    {
+      "position": 675,
+      "peptide": "LKGLKLPSR",
+      "predicted_class": "neg",
+      "confidence": 0.1626
+    },
+    {
+      "position": 676,
+      "peptide": "KGLKLPSRT",
+      "predicted_class": "neg",
+      "confidence": 0.44
+    },
+    {
+      "position": 677,
+      "peptide": "GLKLPSRTW",
+      "predicted_class": "neg",
+      "confidence": 0.2725
+    },
+    {
+      "position": 678,
+      "peptide": "LKLPSRTWS",
+      "predicted_class": "A0301",
+      "confidence": 0.8763
+    },
+    {
+      "position": 679,
+      "peptide": "KLPSRTWSP",
+      "predicted_class": "A0301",
+      "confidence": 0.9296
+    },
+    {
+      "position": 680,
+      "peptide": "LPSRTWSPP",
+      "predicted_class": "neg",
+      "confidence": 0.6207
+    },
+    {
+      "position": 681,
+      "peptide": "PSRTWSPPF",
+      "predicted_class": "neg",
+      "confidence": 0.3006
+    },
+    {
+      "position": 682,
+      "peptide": "SRTWSPPFE",
+      "predicted_class": "A0301",
+      "confidence": 0.9577
+    },
+    {
+      "position": 683,
+      "peptide": "RTWSPPFES",
+      "predicted_class": "A0301",
+      "confidence": 0.9765
+    },
+    {
+      "position": 684,
+      "peptide": "TWSPPFESE",
+      "predicted_class": "A2402",
+      "confidence": 0.9863
+    },
+    {
+      "position": 685,
+      "peptide": "WSPPFESED",
+      "predicted_class": "A0101",
+      "confidence": 0.8604
+    },
+    {
+      "position": 686,
+      "peptide": "SPPFESEDS",
+      "predicted_class": "A0207",
+      "confidence": 0.9929
+    },
+    {
+      "position": 687,
+      "peptide": "PPFESEDSQ",
+      "predicted_class": "A0207",
+      "confidence": 0.99
+    },
+    {
+      "position": 688,
+      "peptide": "PFESEDSQK",
+      "predicted_class": "neg",
+      "confidence": 0.631
+    },
+    {
+      "position": 689,
+      "peptide": "FESEDSQKH",
+      "predicted_class": "neg",
+      "confidence": 0.155
+    },
+    {
+      "position": 690,
+      "peptide": "ESEDSQKHN",
+      "predicted_class": "A0101",
+      "confidence": 0.995
+    },
+    {
+      "position": 691,
+      "peptide": "SEDSQKHNQ",
+      "predicted_class": "neg",
+      "confidence": 0.4362
+    },
+    {
+      "position": 692,
+      "peptide": "EDSQKHNQS",
+      "predicted_class": "neg",
+      "confidence": 0.0105
+    },
+    {
+      "position": 693,
+      "peptide": "DSQKHNQSE",
+      "predicted_class": "neg",
+      "confidence": 0.0091
+    },
+    {
+      "position": 694,
+      "peptide": "SQKHNQSEY",
+      "predicted_class": "neg",
+      "confidence": 0.0023
+    },
+    {
+      "position": 695,
+      "peptide": "QKHNQSEYE",
+      "predicted_class": "neg",
+      "confidence": 0.3217
+    },
+    {
+      "position": 696,
+      "peptide": "KHNQSEYED",
+      "predicted_class": "A2402",
+      "confidence": 0.9348
+    },
+    {
+      "position": 697,
+      "peptide": "HNQSEYEDS",
+      "predicted_class": "A0101",
+      "confidence": 0.8841
+    },
+    {
+      "position": 698,
+      "peptide": "NQSEYEDSA",
+      "predicted_class": "neg",
+      "confidence": 0.1102
+    },
+    {
+      "position": 699,
+      "peptide": "QSEYEDSAG",
+      "predicted_class": "A0101",
+      "confidence": 1.0
+    },
+    {
+      "position": 700,
+      "peptide": "SEYEDSAGE",
+      "predicted_class": "neg",
+      "confidence": 0.7181
+    },
+    {
+      "position": 701,
+      "peptide": "EYEDSAGEC",
+      "predicted_class": "A2402",
+      "confidence": 0.9177
+    },
+    {
+      "position": 702,
+      "peptide": "YEDSAGECC",
+      "predicted_class": "A0101",
+      "confidence": 0.6926
+    },
+    {
+      "position": 703,
+      "peptide": "EDSAGECCS",
+      "predicted_class": "neg",
+      "confidence": 0.0367
+    },
+    {
+      "position": 704,
+      "peptide": "DSAGECCSC",
+      "predicted_class": "neg",
+      "confidence": 0.0
+    },
+    {
+      "position": 705,
+      "peptide": "SAGECCSCP",
+      "predicted_class": "neg",
+      "confidence": 0.0026
+    },
+    {
+      "position": 706,
+      "peptide": "AGECCSCPK",
+      "predicted_class": "neg",
+      "confidence": 0.0062
+    },
+    {
+      "position": 707,
+      "peptide": "GECCSCPKT",
+      "predicted_class": "neg",
+      "confidence": 0.0073
+    },
+    {
+      "position": 708,
+      "peptide": "ECCSCPKTD",
+      "predicted_class": "neg",
+      "confidence": 0.0086
+    },
+    {
+      "position": 709,
+      "peptide": "CCSCPKTDS",
+      "predicted_class": "neg",
+      "confidence": 0.4878
+    },
+    {
+      "position": 710,
+      "peptide": "CSCPKTDSQ",
+      "predicted_class": "neg",
+      "confidence": 0.0005
+    },
+    {
+      "position": 711,
+      "peptide": "SCPKTDSQI",
+      "predicted_class": "A2402",
+      "confidence": 0.6568
+    },
+    {
+      "position": 712,
+      "peptide": "CPKTDSQIL",
+      "predicted_class": "neg",
+      "confidence": 0.2315
+    },
+    {
+      "position": 713,
+      "peptide": "PKTDSQILK",
+      "predicted_class": "neg",
+      "confidence": 0.2846
+    },
+    {
+      "position": 714,
+      "peptide": "KTDSQILKE",
+      "predicted_class": "A0101",
+      "confidence": 0.8435
+    },
+    {
+      "position": 715,
+      "peptide": "TDSQILKEL",
+      "predicted_class": "neg",
+      "confidence": 0.0464
+    },
+    {
+      "position": 716,
+      "peptide": "DSQILKELE",
+      "predicted_class": "A0101",
+      "confidence": 0.9721
+    },
+    {
+      "position": 717,
+      "peptide": "SQILKELEE",
+      "predicted_class": "A0301",
+      "confidence": 0.6852
+    },
+    {
+      "position": 718,
+      "peptide": "QILKELEES",
+      "predicted_class": "neg",
+      "confidence": 0.4283
+    },
+    {
+      "position": 719,
+      "peptide": "ILKELEESS",
+      "predicted_class": "A0203",
+      "confidence": 0.9644
+    },
+    {
+      "position": 720,
+      "peptide": "LKELEESSF",
+      "predicted_class": "A0101",
+      "confidence": 0.9805
+    },
+    {
+      "position": 721,
+      "peptide": "KELEESSFR",
+      "predicted_class": "neg",
+      "confidence": 0.2804
+    },
+    {
+      "position": 722,
+      "peptide": "ELEESSFRK",
+      "predicted_class": "neg",
+      "confidence": 0.345
+    },
+    {
+      "position": 723,
+      "peptide": "LEESSFRKT",
+      "predicted_class": "A0101",
+      "confidence": 0.8326
+    },
+    {
+      "position": 724,
+      "peptide": "EESSFRKTF",
+      "predicted_class": "neg",
+      "confidence": 0.0018
+    },
+    {
+      "position": 725,
+      "peptide": "ESSFRKTFE",
+      "predicted_class": "A0101",
+      "confidence": 0.8284
+    },
+    {
+      "position": 726,
+      "peptide": "SSFRKTFED",
+      "predicted_class": "neg",
+      "confidence": 0.4365
+    },
+    {
+      "position": 727,
+      "peptide": "SFRKTFEDY",
+      "predicted_class": "neg",
+      "confidence": 0.0413
+    },
+    {
+      "position": 728,
+      "peptide": "FRKTFEDYL",
+      "predicted_class": "neg",
+      "confidence": 0.1724
+    },
+    {
+      "position": 729,
+      "peptide": "RKTFEDYLH",
+      "predicted_class": "A0301",
+      "confidence": 0.9629
+    },
+    {
+      "position": 730,
+      "peptide": "KTFEDYLHN",
+      "predicted_class": "A0301",
+      "confidence": 0.8428
+    },
+    {
+      "position": 731,
+      "peptide": "TFEDYLHNV",
+      "predicted_class": "neg",
+      "confidence": 0.4942
+    },
+    {
+      "position": 732,
+      "peptide": "FEDYLHNVV",
+      "predicted_class": "A0101",
+      "confidence": 0.8231
+    },
+    {
+      "position": 733,
+      "peptide": "EDYLHNVVF",
+      "predicted_class": "neg",
+      "confidence": 0.1363
+    },
+    {
+      "position": 734,
+      "peptide": "DYLHNVVFV",
+      "predicted_class": "A2402",
+      "confidence": 0.7129
+    },
+    {
+      "position": 735,
+      "peptide": "YLHNVVFVP",
+      "predicted_class": "A0201",
+      "confidence": 0.9487
+    },
+    {
+      "position": 736,
+      "peptide": "LHNVVFVPR",
+      "predicted_class": "neg",
+      "confidence": 0.0302
+    },
+    {
+      "position": 737,
+      "peptide": "HNVVFVPRK",
+      "predicted_class": "neg",
+      "confidence": 0.0048
+    },
+    {
+      "position": 738,
+      "peptide": "NVVFVPRKT",
+      "predicted_class": "neg",
+      "confidence": 0.0327
+    },
+    {
+      "position": 739,
+      "peptide": "VVFVPRKTS",
+      "predicted_class": "A0301",
+      "confidence": 0.981
+    },
+    {
+      "position": 740,
+      "peptide": "VFVPRKTSS",
+      "predicted_class": "A2402",
+      "confidence": 0.9416
+    },
+    {
+      "position": 741,
+      "peptide": "FVPRKTSSG",
+      "predicted_class": "A0207",
+      "confidence": 0.946
+    },
+    {
+      "position": 742,
+      "peptide": "VPRKTSSGT",
+      "predicted_class": "A0301",
+      "confidence": 0.5677
+    },
+    {
+      "position": 743,
+      "peptide": "PRKTSSGTG",
+      "predicted_class": "A0301",
+      "confidence": 0.9871
+    },
+    {
+      "position": 744,
+      "peptide": "RKTSSGTGA",
+      "predicted_class": "neg",
+      "confidence": 0.5651
+    },
+    {
+      "position": 745,
+      "peptide": "KTSSGTGAE",
+      "predicted_class": "neg",
+      "confidence": 0.1963
+    },
+    {
+      "position": 746,
+      "peptide": "TSSGTGAED",
+      "predicted_class": "A0101",
+      "confidence": 0.8973
+    },
+    {
+      "position": 747,
+      "peptide": "SSGTGAEDP",
+      "predicted_class": "A0101",
+      "confidence": 0.6979
+    },
+    {
+      "position": 748,
+      "peptide": "SGTGAEDPR",
+      "predicted_class": "neg",
+      "confidence": 0.0075
+    },
+    {
+      "position": 749,
+      "peptide": "GTGAEDPRP",
+      "predicted_class": "neg",
+      "confidence": 0.6119
+    },
+    {
+      "position": 750,
+      "peptide": "TGAEDPRPS",
+      "predicted_class": "neg",
+      "confidence": 0.6151
+    },
+    {
+      "position": 751,
+      "peptide": "GAEDPRPSR",
+      "predicted_class": "neg",
+      "confidence": 0.0045
+    },
+    {
+      "position": 752,
+      "peptide": "AEDPRPSRK",
+      "predicted_class": "neg",
+      "confidence": 0.0811
+    },
+    {
+      "position": 753,
+      "peptide": "EDPRPSRKR",
+      "predicted_class": "neg",
+      "confidence": 0.0
+    },
+    {
+      "position": 754,
+      "peptide": "DPRPSRKRR",
+      "predicted_class": "neg",
+      "confidence": 0.0
+    },
+    {
+      "position": 755,
+      "peptide": "PRPSRKRRS",
+      "predicted_class": "neg",
+      "confidence": 0.5744
+    },
+    {
+      "position": 756,
+      "peptide": "RPSRKRRSL",
+      "predicted_class": "neg",
+      "confidence": 0.0938
+    },
+    {
+      "position": 757,
+      "peptide": "PSRKRRSLG",
+      "predicted_class": "neg",
+      "confidence": 0.3357
+    },
+    {
+      "position": 758,
+      "peptide": "SRKRRSLGD",
+      "predicted_class": "A0203",
+      "confidence": 0.8366
+    },
+    {
+      "position": 759,
+      "peptide": "RKRRSLGDV",
+      "predicted_class": "neg",
+      "confidence": 0.5875
+    },
+    {
+      "position": 760,
+      "peptide": "KRRSLGDVG",
+      "predicted_class": "A0201",
+      "confidence": 0.9068
+    },
+    {
+      "position": 761,
+      "peptide": "RRSLGDVGN",
+      "predicted_class": "A0301",
+      "confidence": 0.9476
+    },
+    {
+      "position": 762,
+      "peptide": "RSLGDVGNV",
+      "predicted_class": "A0201",
+      "confidence": 0.6358
+    },
+    {
+      "position": 763,
+      "peptide": "SLGDVGNVT",
+      "predicted_class": "A0201",
+      "confidence": 0.9859
+    },
+    {
+      "position": 764,
+      "peptide": "LGDVGNVTV",
+      "predicted_class": "A0101",
+      "confidence": 0.7449
+    },
+    {
+      "position": 765,
+      "peptide": "GDVGNVTVA",
+      "predicted_class": "neg",
+      "confidence": 0.4304
+    },
+    {
+      "position": 766,
+      "peptide": "DVGNVTVAV",
+      "predicted_class": "neg",
+      "confidence": 0.0277
+    },
+    {
+      "position": 767,
+      "peptide": "VGNVTVAVP",
+      "predicted_class": "neg",
+      "confidence": 0.5623
+    },
+    {
+      "position": 768,
+      "peptide": "GNVTVAVPT",
+      "predicted_class": "neg",
+      "confidence": 0.5861
+    },
+    {
+      "position": 769,
+      "peptide": "NVTVAVPTV",
+      "predicted_class": "neg",
+      "confidence": 0.4356
+    },
+    {
+      "position": 770,
+      "peptide": "VTVAVPTVA",
+      "predicted_class": "neg",
+      "confidence": 0.162
+    },
+    {
+      "position": 771,
+      "peptide": "TVAVPTVAA",
+      "predicted_class": "neg",
+      "confidence": 0.1122
+    },
+    {
+      "position": 772,
+      "peptide": "VAVPTVAAF",
+      "predicted_class": "neg",
+      "confidence": 0.3578
+    },
+    {
+      "position": 773,
+      "peptide": "AVPTVAAFP",
+      "predicted_class": "A0207",
+      "confidence": 0.9105
+    },
+    {
+      "position": 774,
+      "peptide": "VPTVAAFPN",
+      "predicted_class": "neg",
+      "confidence": 0.5907
+    },
+    {
+      "position": 775,
+      "peptide": "PTVAAFPNT",
+      "predicted_class": "neg",
+      "confidence": 0.4301
+    },
+    {
+      "position": 776,
+      "peptide": "TVAAFPNTS",
+      "predicted_class": "A0203",
+      "confidence": 0.7354
+    },
+    {
+      "position": 777,
+      "peptide": "VAAFPNTSS",
+      "predicted_class": "A0101",
+      "confidence": 0.7054
+    },
+    {
+      "position": 778,
+      "peptide": "AAFPNTSST",
+      "predicted_class": "A0203",
+      "confidence": 0.7149
+    },
+    {
+      "position": 779,
+      "peptide": "AFPNTSSTS",
+      "predicted_class": "A2402",
+      "confidence": 0.9967
+    },
+    {
+      "position": 780,
+      "peptide": "FPNTSSTSV",
+      "predicted_class": "neg",
+      "confidence": 0.536
+    },
+    {
+      "position": 781,
+      "peptide": "PNTSSTSVP",
+      "predicted_class": "A0301",
+      "confidence": 0.9238
+    },
+    {
+      "position": 782,
+      "peptide": "NTSSTSVPT",
+      "predicted_class": "A0101",
+      "confidence": 0.8045
+    },
+    {
+      "position": 783,
+      "peptide": "TSSTSVPTS",
+      "predicted_class": "A0101",
+      "confidence": 0.8305
+    },
+    {
+      "position": 784,
+      "peptide": "SSTSVPTSP",
+      "predicted_class": "neg",
+      "confidence": 0.3755
+    },
+    {
+      "position": 785,
+      "peptide": "STSVPTSPE",
+      "predicted_class": "neg",
+      "confidence": 0.3962
+    },
+    {
+      "position": 786,
+      "peptide": "TSVPTSPEE",
+      "predicted_class": "neg",
+      "confidence": 0.3377
+    },
+    {
+      "position": 787,
+      "peptide": "SVPTSPEEH",
+      "predicted_class": "A0207",
+      "confidence": 0.7478
+    },
+    {
+      "position": 788,
+      "peptide": "VPTSPEEHR",
+      "predicted_class": "neg",
+      "confidence": 0.0283
+    },
+    {
+      "position": 789,
+      "peptide": "PTSPEEHRP",
+      "predicted_class": "neg",
+      "confidence": 0.3913
+    },
+    {
+      "position": 790,
+      "peptide": "TSPEEHRPF",
+      "predicted_class": "neg",
+      "confidence": 0.1051
+    },
+    {
+      "position": 791,
+      "peptide": "SPEEHRPFE",
+      "predicted_class": "A0101",
+      "confidence": 0.7952
+    },
+    {
+      "position": 792,
+      "peptide": "PEEHRPFEK",
+      "predicted_class": "neg",
+      "confidence": 0.2274
+    },
+    {
+      "position": 793,
+      "peptide": "EEHRPFEKV",
+      "predicted_class": "neg",
+      "confidence": 0.0014
+    },
+    {
+      "position": 794,
+      "peptide": "EHRPFEKVV",
+      "predicted_class": "A2402",
+      "confidence": 0.5552
+    },
+    {
+      "position": 795,
+      "peptide": "HRPFEKVVN",
+      "predicted_class": "A0301",
+      "confidence": 0.997
+    },
+    {
+      "position": 796,
+      "peptide": "RPFEKVVNK",
+      "predicted_class": "neg",
+      "confidence": 0.1875
+    },
+    {
+      "position": 797,
+      "peptide": "PFEKVVNKE",
+      "predicted_class": "A2402",
+      "confidence": 0.6912
+    },
+    {
+      "position": 798,
+      "peptide": "FEKVVNKES",
+      "predicted_class": "neg",
+      "confidence": 0.327
+    },
+    {
+      "position": 799,
+      "peptide": "EKVVNKESL",
+      "predicted_class": "neg",
+      "confidence": 0.0183
+    },
+    {
+      "position": 800,
+      "peptide": "KVVNKESLV",
+      "predicted_class": "A0301",
+      "confidence": 0.9473
+    },
+    {
+      "position": 801,
+      "peptide": "VVNKESLVI",
+      "predicted_class": "neg",
+      "confidence": 0.589
+    },
+    {
+      "position": 802,
+      "peptide": "VNKESLVIS",
+      "predicted_class": "A0101",
+      "confidence": 0.8299
+    },
+    {
+      "position": 803,
+      "peptide": "NKESLVISG",
+      "predicted_class": "A0101",
+      "confidence": 0.9146
+    },
+    {
+      "position": 804,
+      "peptide": "KESLVISGL",
+      "predicted_class": "neg",
+      "confidence": 0.1023
+    },
+    {
+      "position": 805,
+      "peptide": "ESLVISGLR",
+      "predicted_class": "neg",
+      "confidence": 0.0002
+    },
+    {
+      "position": 806,
+      "peptide": "SLVISGLRH",
+      "predicted_class": "A0301",
+      "confidence": 0.719
+    },
+    {
+      "position": 807,
+      "peptide": "LVISGLRHF",
+      "predicted_class": "neg",
+      "confidence": 0.2426
+    },
+    {
+      "position": 808,
+      "peptide": "VISGLRHFT",
+      "predicted_class": "neg",
+      "confidence": 0.5594
+    },
+    {
+      "position": 809,
+      "peptide": "ISGLRHFTG",
+      "predicted_class": "A0101",
+      "confidence": 0.9837
+    },
+    {
+      "position": 810,
+      "peptide": "SGLRHFTGY",
+      "predicted_class": "neg",
+      "confidence": 0.0117
+    },
+    {
+      "position": 811,
+      "peptide": "GLRHFTGYR",
+      "predicted_class": "neg",
+      "confidence": 0.03
+    },
+    {
+      "position": 812,
+      "peptide": "LRHFTGYRI",
+      "predicted_class": "neg",
+      "confidence": 0.3247
+    },
+    {
+      "position": 813,
+      "peptide": "RHFTGYRIE",
+      "predicted_class": "A2402",
+      "confidence": 0.9453
+    },
+    {
+      "position": 814,
+      "peptide": "HFTGYRIEL",
+      "predicted_class": "neg",
+      "confidence": 0.0973
+    },
+    {
+      "position": 815,
+      "peptide": "FTGYRIELQ",
+      "predicted_class": "neg",
+      "confidence": 0.3878
+    },
+    {
+      "position": 816,
+      "peptide": "TGYRIELQA",
+      "predicted_class": "neg",
+      "confidence": 0.3991
+    },
+    {
+      "position": 817,
+      "peptide": "GYRIELQAC",
+      "predicted_class": "neg",
+      "confidence": 0.2619
+    },
+    {
+      "position": 818,
+      "peptide": "YRIELQACN",
+      "predicted_class": "neg",
+      "confidence": 0.5333
+    },
+    {
+      "position": 819,
+      "peptide": "RIELQACNQ",
+      "predicted_class": "neg",
+      "confidence": 0.5341
+    },
+    {
+      "position": 820,
+      "peptide": "IELQACNQD",
+      "predicted_class": "neg",
+      "confidence": 0.5492
+    },
+    {
+      "position": 821,
+      "peptide": "ELQACNQDT",
+      "predicted_class": "neg",
+      "confidence": 0.4058
+    },
+    {
+      "position": 822,
+      "peptide": "LQACNQDTP",
+      "predicted_class": "A0301",
+      "confidence": 0.7151
+    },
+    {
+      "position": 823,
+      "peptide": "QACNQDTPE",
+      "predicted_class": "neg",
+      "confidence": 0.0941
+    },
+    {
+      "position": 824,
+      "peptide": "ACNQDTPEE",
+      "predicted_class": "A2402",
+      "confidence": 0.8441
+    },
+    {
+      "position": 825,
+      "peptide": "CNQDTPEER",
+      "predicted_class": "neg",
+      "confidence": 0.0057
+    },
+    {
+      "position": 826,
+      "peptide": "NQDTPEERC",
+      "predicted_class": "neg",
+      "confidence": 0.2826
+    },
+    {
+      "position": 827,
+      "peptide": "QDTPEERCS",
+      "predicted_class": "A0101",
+      "confidence": 0.5415
+    },
+    {
+      "position": 828,
+      "peptide": "DTPEERCSV",
+      "predicted_class": "neg",
+      "confidence": 0.0016
+    },
+    {
+      "position": 829,
+      "peptide": "TPEERCSVA",
+      "predicted_class": "A0101",
+      "confidence": 0.8667
+    },
+    {
+      "position": 830,
+      "peptide": "PEERCSVAA",
+      "predicted_class": "A0101",
+      "confidence": 0.8031
+    },
+    {
+      "position": 831,
+      "peptide": "EERCSVAAY",
+      "predicted_class": "neg",
+      "confidence": 0.0001
+    },
+    {
+      "position": 832,
+      "peptide": "ERCSVAAYV",
+      "predicted_class": "neg",
+      "confidence": 0.0095
+    },
+    {
+      "position": 833,
+      "peptide": "RCSVAAYVS",
+      "predicted_class": "A0301",
+      "confidence": 0.8324
+    },
+    {
+      "position": 834,
+      "peptide": "CSVAAYVSA",
+      "predicted_class": "neg",
+      "confidence": 0.1196
+    },
+    {
+      "position": 835,
+      "peptide": "SVAAYVSAR",
+      "predicted_class": "neg",
+      "confidence": 0.0507
+    },
+    {
+      "position": 836,
+      "peptide": "VAAYVSART",
+      "predicted_class": "neg",
+      "confidence": 0.19
+    },
+    {
+      "position": 837,
+      "peptide": "AAYVSARTM",
+      "predicted_class": "neg",
+      "confidence": 0.2143
+    },
+    {
+      "position": 838,
+      "peptide": "AYVSARTMP",
+      "predicted_class": "A2402",
+      "confidence": 0.9946
+    },
+    {
+      "position": 839,
+      "peptide": "YVSARTMPE",
+      "predicted_class": "A0301",
+      "confidence": 0.6647
+    },
+    {
+      "position": 840,
+      "peptide": "VSARTMPEA",
+      "predicted_class": "A0101",
+      "confidence": 0.6562
+    },
+    {
+      "position": 841,
+      "peptide": "SARTMPEAK",
+      "predicted_class": "neg",
+      "confidence": 0.0027
+    },
+    {
+      "position": 842,
+      "peptide": "ARTMPEAKA",
+      "predicted_class": "neg",
+      "confidence": 0.2997
+    },
+    {
+      "position": 843,
+      "peptide": "RTMPEAKAD",
+      "predicted_class": "A0301",
+      "confidence": 0.8159
+    },
+    {
+      "position": 844,
+      "peptide": "TMPEAKADD",
+      "predicted_class": "A0207",
+      "confidence": 0.9745
+    },
+    {
+      "position": 845,
+      "peptide": "MPEAKADDI",
+      "predicted_class": "A0101",
+      "confidence": 0.6247
+    },
+    {
+      "position": 846,
+      "peptide": "PEAKADDIV",
+      "predicted_class": "A0101",
+      "confidence": 0.9152
+    },
+    {
+      "position": 847,
+      "peptide": "EAKADDIVG",
+      "predicted_class": "A0203",
+      "confidence": 0.707
+    },
+    {
+      "position": 848,
+      "peptide": "AKADDIVGP",
+      "predicted_class": "A0301",
+      "confidence": 0.8204
+    },
+    {
+      "position": 849,
+      "peptide": "KADDIVGPV",
+      "predicted_class": "A0207",
+      "confidence": 0.8973
+    },
+    {
+      "position": 850,
+      "peptide": "ADDIVGPVT",
+      "predicted_class": "A0101",
+      "confidence": 0.9446
+    },
+    {
+      "position": 851,
+      "peptide": "DDIVGPVTH",
+      "predicted_class": "neg",
+      "confidence": 0.0204
+    },
+    {
+      "position": 852,
+      "peptide": "DIVGPVTHE",
+      "predicted_class": "neg",
+      "confidence": 0.0099
+    },
+    {
+      "position": 853,
+      "peptide": "IVGPVTHEI",
+      "predicted_class": "neg",
+      "confidence": 0.1488
+    },
+    {
+      "position": 854,
+      "peptide": "VGPVTHEIF",
+      "predicted_class": "A2402",
+      "confidence": 0.7081
+    },
+    {
+      "position": 855,
+      "peptide": "GPVTHEIFE",
+      "predicted_class": "A0301",
+      "confidence": 0.7888
+    },
+    {
+      "position": 856,
+      "peptide": "PVTHEIFEN",
+      "predicted_class": "neg",
+      "confidence": 0.3835
+    },
+    {
+      "position": 857,
+      "peptide": "VTHEIFENN",
+      "predicted_class": "A0101",
+      "confidence": 0.7247
+    },
+    {
+      "position": 858,
+      "peptide": "THEIFENNV",
+      "predicted_class": "A0101",
+      "confidence": 0.9037
+    },
+    {
+      "position": 859,
+      "peptide": "HEIFENNVV",
+      "predicted_class": "A0301",
+      "confidence": 0.87
+    },
+    {
+      "position": 860,
+      "peptide": "EIFENNVVH",
+      "predicted_class": "neg",
+      "confidence": 0.2401
+    },
+    {
+      "position": 861,
+      "peptide": "IFENNVVHL",
+      "predicted_class": "neg",
+      "confidence": 0.5566
+    },
+    {
+      "position": 862,
+      "peptide": "FENNVVHLM",
+      "predicted_class": "neg",
+      "confidence": 0.2769
+    },
+    {
+      "position": 863,
+      "peptide": "ENNVVHLMW",
+      "predicted_class": "neg",
+      "confidence": 0.129
+    },
+    {
+      "position": 864,
+      "peptide": "NNVVHLMWQ",
+      "predicted_class": "neg",
+      "confidence": 0.3571
+    },
+    {
+      "position": 865,
+      "peptide": "NVVHLMWQE",
+      "predicted_class": "neg",
+      "confidence": 0.1281
+    },
+    {
+      "position": 866,
+      "peptide": "VVHLMWQEP",
+      "predicted_class": "A0301",
+      "confidence": 0.8816
+    },
+    {
+      "position": 867,
+      "peptide": "VHLMWQEPK",
+      "predicted_class": "neg",
+      "confidence": 0.3177
+    },
+    {
+      "position": 868,
+      "peptide": "HLMWQEPKE",
+      "predicted_class": "A0201",
+      "confidence": 0.9892
+    },
+    {
+      "position": 869,
+      "peptide": "LMWQEPKEP",
+      "predicted_class": "A0201",
+      "confidence": 0.9183
+    },
+    {
+      "position": 870,
+      "peptide": "MWQEPKEPN",
+      "predicted_class": "A2402",
+      "confidence": 0.979
+    },
+    {
+      "position": 871,
+      "peptide": "WQEPKEPNG",
+      "predicted_class": "A0101",
+      "confidence": 0.9379
+    },
+    {
+      "position": 872,
+      "peptide": "QEPKEPNGL",
+      "predicted_class": "neg",
+      "confidence": 0.3564
+    },
+    {
+      "position": 873,
+      "peptide": "EPKEPNGLI",
+      "predicted_class": "neg",
+      "confidence": 0.349
+    },
+    {
+      "position": 874,
+      "peptide": "PKEPNGLIV",
+      "predicted_class": "A0101",
+      "confidence": 0.9187
+    },
+    {
+      "position": 875,
+      "peptide": "KEPNGLIVL",
+      "predicted_class": "neg",
+      "confidence": 0.4962
+    },
+    {
+      "position": 876,
+      "peptide": "EPNGLIVLY",
+      "predicted_class": "neg",
+      "confidence": 0.2802
+    },
+    {
+      "position": 877,
+      "peptide": "PNGLIVLYE",
+      "predicted_class": "A0301",
+      "confidence": 0.6827
+    },
+    {
+      "position": 878,
+      "peptide": "NGLIVLYEV",
+      "predicted_class": "neg",
+      "confidence": 0.1636
+    },
+    {
+      "position": 879,
+      "peptide": "GLIVLYEVS",
+      "predicted_class": "A0301",
+      "confidence": 0.9792
+    },
+    {
+      "position": 880,
+      "peptide": "LIVLYEVSY",
+      "predicted_class": "neg",
+      "confidence": 0.1549
+    },
+    {
+      "position": 881,
+      "peptide": "IVLYEVSYR",
+      "predicted_class": "neg",
+      "confidence": 0.0512
+    },
+    {
+      "position": 882,
+      "peptide": "VLYEVSYRR",
+      "predicted_class": "neg",
+      "confidence": 0.352
+    },
+    {
+      "position": 883,
+      "peptide": "LYEVSYRRY",
+      "predicted_class": "neg",
+      "confidence": 0.4497
+    },
+    {
+      "position": 884,
+      "peptide": "YEVSYRRYG",
+      "predicted_class": "neg",
+      "confidence": 0.5348
+    },
+    {
+      "position": 885,
+      "peptide": "EVSYRRYGD",
+      "predicted_class": "neg",
+      "confidence": 0.1048
+    },
+    {
+      "position": 886,
+      "peptide": "VSYRRYGDE",
+      "predicted_class": "A0101",
+      "confidence": 0.9197
+    },
+    {
+      "position": 887,
+      "peptide": "SYRRYGDEE",
+      "predicted_class": "A2402",
+      "confidence": 0.9836
+    },
+    {
+      "position": 888,
+      "peptide": "YRRYGDEEL",
+      "predicted_class": "A0301",
+      "confidence": 0.8554
+    },
+    {
+      "position": 889,
+      "peptide": "RRYGDEELH",
+      "predicted_class": "A0301",
+      "confidence": 0.9868
+    },
+    {
+      "position": 890,
+      "peptide": "RYGDEELHL",
+      "predicted_class": "A2402",
+      "confidence": 0.5747
+    },
+    {
+      "position": 891,
+      "peptide": "YGDEELHLC",
+      "predicted_class": "A0101",
+      "confidence": 0.9646
+    },
+    {
+      "position": 892,
+      "peptide": "GDEELHLCV",
+      "predicted_class": "neg",
+      "confidence": 0.0684
+    },
+    {
+      "position": 893,
+      "peptide": "DEELHLCVS",
+      "predicted_class": "A0101",
+      "confidence": 0.9208
+    },
+    {
+      "position": 894,
+      "peptide": "EELHLCVSR",
+      "predicted_class": "neg",
+      "confidence": 0.0
+    },
+    {
+      "position": 895,
+      "peptide": "ELHLCVSRK",
+      "predicted_class": "neg",
+      "confidence": 0.0002
+    },
+    {
+      "position": 896,
+      "peptide": "LHLCVSRKH",
+      "predicted_class": "neg",
+      "confidence": 0.4298
+    },
+    {
+      "position": 897,
+      "peptide": "HLCVSRKHF",
+      "predicted_class": "neg",
+      "confidence": 0.0007
+    },
+    {
+      "position": 898,
+      "peptide": "LCVSRKHFA",
+      "predicted_class": "neg",
+      "confidence": 0.1105
+    },
+    {
+      "position": 899,
+      "peptide": "CVSRKHFAL",
+      "predicted_class": "neg",
+      "confidence": 0.0075
+    },
+    {
+      "position": 900,
+      "peptide": "VSRKHFALE",
+      "predicted_class": "neg",
+      "confidence": 0.0957
+    },
+    {
+      "position": 901,
+      "peptide": "SRKHFALER",
+      "predicted_class": "neg",
+      "confidence": 0.0439
+    },
+    {
+      "position": 902,
+      "peptide": "RKHFALERG",
+      "predicted_class": "neg",
+      "confidence": 0.2755
+    },
+    {
+      "position": 903,
+      "peptide": "KHFALERGC",
+      "predicted_class": "A2402",
+      "confidence": 0.7336
+    },
+    {
+      "position": 904,
+      "peptide": "HFALERGCR",
+      "predicted_class": "neg",
+      "confidence": 0.0004
+    },
+    {
+      "position": 905,
+      "peptide": "FALERGCRL",
+      "predicted_class": "neg",
+      "confidence": 0.0159
+    },
+    {
+      "position": 906,
+      "peptide": "ALERGCRLR",
+      "predicted_class": "neg",
+      "confidence": 0.013
+    },
+    {
+      "position": 907,
+      "peptide": "LERGCRLRG",
+      "predicted_class": "neg",
+      "confidence": 0.0782
+    },
+    {
+      "position": 908,
+      "peptide": "ERGCRLRGL",
+      "predicted_class": "neg",
+      "confidence": 0.0112
+    },
+    {
+      "position": 909,
+      "peptide": "RGCRLRGLS",
+      "predicted_class": "A2402",
+      "confidence": 0.8521
+    },
+    {
+      "position": 910,
+      "peptide": "GCRLRGLSP",
+      "predicted_class": "A0301",
+      "confidence": 0.7957
+    },
+    {
+      "position": 911,
+      "peptide": "CRLRGLSPG",
+      "predicted_class": "neg",
+      "confidence": 0.5632
+    },
+    {
+      "position": 912,
+      "peptide": "RLRGLSPGN",
+      "predicted_class": "A0301",
+      "confidence": 0.9827
+    },
+    {
+      "position": 913,
+      "peptide": "LRGLSPGNY",
+      "predicted_class": "neg",
+      "confidence": 0.3425
+    },
+    {
+      "position": 914,
+      "peptide": "RGLSPGNYS",
+      "predicted_class": "A0301",
+      "confidence": 0.9363
+    },
+    {
+      "position": 915,
+      "peptide": "GLSPGNYSV",
+      "predicted_class": "A0201",
+      "confidence": 0.8562
+    },
+    {
+      "position": 916,
+      "peptide": "LSPGNYSVR",
+      "predicted_class": "neg",
+      "confidence": 0.0549
+    },
+    {
+      "position": 917,
+      "peptide": "SPGNYSVRI",
+      "predicted_class": "neg",
+      "confidence": 0.3605
+    },
+    {
+      "position": 918,
+      "peptide": "PGNYSVRIR",
+      "predicted_class": "neg",
+      "confidence": 0.0262
+    },
+    {
+      "position": 919,
+      "peptide": "GNYSVRIRA",
+      "predicted_class": "neg",
+      "confidence": 0.2393
+    },
+    {
+      "position": 920,
+      "peptide": "NYSVRIRAT",
+      "predicted_class": "A2402",
+      "confidence": 0.9748
+    },
+    {
+      "position": 921,
+      "peptide": "YSVRIRATS",
+      "predicted_class": "neg",
+      "confidence": 0.2072
+    },
+    {
+      "position": 922,
+      "peptide": "SVRIRATSL",
+      "predicted_class": "neg",
+      "confidence": 0.1062
+    },
+    {
+      "position": 923,
+      "peptide": "VRIRATSLA",
+      "predicted_class": "A0301",
+      "confidence": 0.8197
+    },
+    {
+      "position": 924,
+      "peptide": "RIRATSLAG",
+      "predicted_class": "A0301",
+      "confidence": 0.9575
+    },
+    {
+      "position": 925,
+      "peptide": "IRATSLAGN",
+      "predicted_class": "neg",
+      "confidence": 0.3897
+    },
+    {
+      "position": 926,
+      "peptide": "RATSLAGNG",
+      "predicted_class": "A0301",
+      "confidence": 0.745
+    },
+    {
+      "position": 927,
+      "peptide": "ATSLAGNGS",
+      "predicted_class": "A0101",
+      "confidence": 0.9893
+    },
+    {
+      "position": 928,
+      "peptide": "TSLAGNGSW",
+      "predicted_class": "neg",
+      "confidence": 0.0172
+    },
+    {
+      "position": 929,
+      "peptide": "SLAGNGSWT",
+      "predicted_class": "A0301",
+      "confidence": 0.9838
+    },
+    {
+      "position": 930,
+      "peptide": "LAGNGSWTE",
+      "predicted_class": "A0207",
+      "confidence": 0.7418
+    },
+    {
+      "position": 931,
+      "peptide": "AGNGSWTEP",
+      "predicted_class": "neg",
+      "confidence": 0.6311
+    },
+    {
+      "position": 932,
+      "peptide": "GNGSWTEPT",
+      "predicted_class": "A0301",
+      "confidence": 0.6484
+    },
+    {
+      "position": 933,
+      "peptide": "NGSWTEPTY",
+      "predicted_class": "A0101",
+      "confidence": 0.986
+    },
+    {
+      "position": 934,
+      "peptide": "GSWTEPTYF",
+      "predicted_class": "neg",
+      "confidence": 0.3392
+    },
+    {
+      "position": 935,
+      "peptide": "SWTEPTYFY",
+      "predicted_class": "neg",
+      "confidence": 0.2153
+    },
+    {
+      "position": 936,
+      "peptide": "WTEPTYFYV",
+      "predicted_class": "A0101",
+      "confidence": 0.9804
+    },
+    {
+      "position": 937,
+      "peptide": "TEPTYFYVT",
+      "predicted_class": "A2402",
+      "confidence": 0.8482
+    },
+    {
+      "position": 938,
+      "peptide": "EPTYFYVTD",
+      "predicted_class": "A0101",
+      "confidence": 0.9084
+    },
+    {
+      "position": 939,
+      "peptide": "PTYFYVTDY",
+      "predicted_class": "neg",
+      "confidence": 0.5057
+    },
+    {
+      "position": 940,
+      "peptide": "TYFYVTDYL",
+      "predicted_class": "A2402",
+      "confidence": 0.6106
+    },
+    {
+      "position": 941,
+      "peptide": "YFYVTDYLD",
+      "predicted_class": "A2402",
+      "confidence": 0.9111
+    },
+    {
+      "position": 942,
+      "peptide": "FYVTDYLDV",
+      "predicted_class": "A2402",
+      "confidence": 0.8117
+    },
+    {
+      "position": 943,
+      "peptide": "YVTDYLDVP",
+      "predicted_class": "A0201",
+      "confidence": 0.8684
+    },
+    {
+      "position": 944,
+      "peptide": "VTDYLDVPS",
+      "predicted_class": "A0101",
+      "confidence": 0.9996
+    },
+    {
+      "position": 945,
+      "peptide": "TDYLDVPSN",
+      "predicted_class": "A0301",
+      "confidence": 0.8175
+    },
+    {
+      "position": 946,
+      "peptide": "DYLDVPSNI",
+      "predicted_class": "A2402",
+      "confidence": 0.7791
+    },
+    {
+      "position": 947,
+      "peptide": "YLDVPSNIA",
+      "predicted_class": "A0207",
+      "confidence": 0.9763
+    },
+    {
+      "position": 948,
+      "peptide": "LDVPSNIAK",
+      "predicted_class": "neg",
+      "confidence": 0.0225
+    },
+    {
+      "position": 949,
+      "peptide": "DVPSNIAKI",
+      "predicted_class": "neg",
+      "confidence": 0.066
+    },
+    {
+      "position": 950,
+      "peptide": "VPSNIAKII",
+      "predicted_class": "neg",
+      "confidence": 0.5417
+    },
+    {
+      "position": 951,
+      "peptide": "PSNIAKIII",
+      "predicted_class": "A0101",
+      "confidence": 0.8716
+    },
+    {
+      "position": 952,
+      "peptide": "SNIAKIIIG",
+      "predicted_class": "A0301",
+      "confidence": 0.7251
+    },
+    {
+      "position": 953,
+      "peptide": "NIAKIIIGP",
+      "predicted_class": "A0301",
+      "confidence": 0.8184
+    },
+    {
+      "position": 954,
+      "peptide": "IAKIIIGPL",
+      "predicted_class": "neg",
+      "confidence": 0.0506
+    },
+    {
+      "position": 955,
+      "peptide": "AKIIIGPLI",
+      "predicted_class": "neg",
+      "confidence": 0.5967
+    },
+    {
+      "position": 956,
+      "peptide": "KIIIGPLIF",
+      "predicted_class": "A0301",
+      "confidence": 0.75
+    },
+    {
+      "position": 957,
+      "peptide": "IIIGPLIFV",
+      "predicted_class": "A0207",
+      "confidence": 0.8908
+    },
+    {
+      "position": 958,
+      "peptide": "IIGPLIFVF",
+      "predicted_class": "neg",
+      "confidence": 0.3696
+    },
+    {
+      "position": 959,
+      "peptide": "IGPLIFVFL",
+      "predicted_class": "A2402",
+      "confidence": 0.9076
+    },
+    {
+      "position": 960,
+      "peptide": "GPLIFVFLF",
+      "predicted_class": "neg",
+      "confidence": 0.2154
+    },
+    {
+      "position": 961,
+      "peptide": "PLIFVFLFS",
+      "predicted_class": "A0301",
+      "confidence": 0.9114
+    },
+    {
+      "position": 962,
+      "peptide": "LIFVFLFSV",
+      "predicted_class": "A0207",
+      "confidence": 0.7821
+    },
+    {
+      "position": 963,
+      "peptide": "IFVFLFSVV",
+      "predicted_class": "A2402",
+      "confidence": 0.607
+    },
+    {
+      "position": 964,
+      "peptide": "FVFLFSVVI",
+      "predicted_class": "A0201",
+      "confidence": 0.723
+    },
+    {
+      "position": 965,
+      "peptide": "VFLFSVVIG",
+      "predicted_class": "A2402",
+      "confidence": 0.8138
+    },
+    {
+      "position": 966,
+      "peptide": "FLFSVVIGS",
+      "predicted_class": "A0203",
+      "confidence": 0.9921
+    },
+    {
+      "position": 967,
+      "peptide": "LFSVVIGSI",
+      "predicted_class": "A2402",
+      "confidence": 0.7974
+    },
+    {
+      "position": 968,
+      "peptide": "FSVVIGSIY",
+      "predicted_class": "A0101",
+      "confidence": 0.6061
+    },
+    {
+      "position": 969,
+      "peptide": "SVVIGSIYL",
+      "predicted_class": "neg",
+      "confidence": 0.5051
+    },
+    {
+      "position": 970,
+      "peptide": "VVIGSIYLF",
+      "predicted_class": "neg",
+      "confidence": 0.4217
+    },
+    {
+      "position": 971,
+      "peptide": "VIGSIYLFL",
+      "predicted_class": "A0207",
+      "confidence": 0.667
+    },
+    {
+      "position": 972,
+      "peptide": "IGSIYLFLR",
+      "predicted_class": "neg",
+      "confidence": 0.0735
+    },
+    {
+      "position": 973,
+      "peptide": "GSIYLFLRK",
+      "predicted_class": "neg",
+      "confidence": 0.0994
+    },
+    {
+      "position": 974,
+      "peptide": "SIYLFLRKR",
+      "predicted_class": "neg",
+      "confidence": 0.1754
+    },
+    {
+      "position": 975,
+      "peptide": "IYLFLRKRQ",
+      "predicted_class": "A2402",
+      "confidence": 0.844
+    },
+    {
+      "position": 976,
+      "peptide": "YLFLRKRQP",
+      "predicted_class": "A0203",
+      "confidence": 0.8709
+    },
+    {
+      "position": 977,
+      "peptide": "LFLRKRQPD",
+      "predicted_class": "A2402",
+      "confidence": 0.8844
+    },
+    {
+      "position": 978,
+      "peptide": "FLRKRQPDG",
+      "predicted_class": "A0203",
+      "confidence": 0.9534
+    },
+    {
+      "position": 979,
+      "peptide": "LRKRQPDGP",
+      "predicted_class": "neg",
+      "confidence": 0.6637
+    },
+    {
+      "position": 980,
+      "peptide": "RKRQPDGPL",
+      "predicted_class": "A0301",
+      "confidence": 0.9164
+    },
+    {
+      "position": 981,
+      "peptide": "KRQPDGPLG",
+      "predicted_class": "A0301",
+      "confidence": 0.9913
+    },
+    {
+      "position": 982,
+      "peptide": "RQPDGPLGP",
+      "predicted_class": "A0207",
+      "confidence": 0.9865
+    },
+    {
+      "position": 983,
+      "peptide": "QPDGPLGPL",
+      "predicted_class": "A0101",
+      "confidence": 0.7881
+    },
+    {
+      "position": 984,
+      "peptide": "PDGPLGPLY",
+      "predicted_class": "A0101",
+      "confidence": 0.8481
+    },
+    {
+      "position": 985,
+      "peptide": "DGPLGPLYA",
+      "predicted_class": "A0301",
+      "confidence": 0.6272
+    },
+    {
+      "position": 986,
+      "peptide": "GPLGPLYAS",
+      "predicted_class": "A0301",
+      "confidence": 0.8987
+    },
+    {
+      "position": 987,
+      "peptide": "PLGPLYASS",
+      "predicted_class": "neg",
+      "confidence": 0.7648
+    },
+    {
+      "position": 988,
+      "peptide": "LGPLYASSN",
+      "predicted_class": "neg",
+      "confidence": 0.6125
+    },
+    {
+      "position": 989,
+      "peptide": "GPLYASSNP",
+      "predicted_class": "A0301",
+      "confidence": 0.969
+    },
+    {
+      "position": 990,
+      "peptide": "PLYASSNPE",
+      "predicted_class": "A0201",
+      "confidence": 0.9588
+    },
+    {
+      "position": 991,
+      "peptide": "LYASSNPEY",
+      "predicted_class": "neg",
+      "confidence": 0.4483
+    },
+    {
+      "position": 992,
+      "peptide": "YASSNPEYL",
+      "predicted_class": "neg",
+      "confidence": 0.1036
+    },
+    {
+      "position": 993,
+      "peptide": "ASSNPEYLS",
+      "predicted_class": "A0101",
+      "confidence": 0.9416
+    },
+    {
+      "position": 994,
+      "peptide": "SSNPEYLSA",
+      "predicted_class": "A0101",
+      "confidence": 0.6197
+    },
+    {
+      "position": 995,
+      "peptide": "SNPEYLSAS",
+      "predicted_class": "neg",
+      "confidence": 0.5664
+    },
+    {
+      "position": 996,
+      "peptide": "NPEYLSASD",
+      "predicted_class": "A0101",
+      "confidence": 0.9852
+    },
+    {
+      "position": 997,
+      "peptide": "PEYLSASDV",
+      "predicted_class": "A0101",
+      "confidence": 0.8919
+    },
+    {
+      "position": 998,
+      "peptide": "EYLSASDVF",
+      "predicted_class": "A2402",
+      "confidence": 0.9528
+    },
+    {
+      "position": 999,
+      "peptide": "YLSASDVFP",
+      "predicted_class": "A0201",
+      "confidence": 0.9725
+    },
+    {
+      "position": 1000,
+      "peptide": "LSASDVFPC",
+      "predicted_class": "neg",
+      "confidence": 0.519
+    },
+    {
+      "position": 1001,
+      "peptide": "SASDVFPCS",
+      "predicted_class": "neg",
+      "confidence": 0.0843
+    },
+    {
+      "position": 1002,
+      "peptide": "ASDVFPCSV",
+      "predicted_class": "neg",
+      "confidence": 0.5105
+    },
+    {
+      "position": 1003,
+      "peptide": "SDVFPCSVY",
+      "predicted_class": "neg",
+      "confidence": 0.0163
+    },
+    {
+      "position": 1004,
+      "peptide": "DVFPCSVYV",
+      "predicted_class": "neg",
+      "confidence": 0.0254
+    },
+    {
+      "position": 1005,
+      "peptide": "VFPCSVYVP",
+      "predicted_class": "A2402",
+      "confidence": 0.898
+    },
+    {
+      "position": 1006,
+      "peptide": "FPCSVYVPD",
+      "predicted_class": "neg",
+      "confidence": 0.5648
+    },
+    {
+      "position": 1007,
+      "peptide": "PCSVYVPDE",
+      "predicted_class": "A0101",
+      "confidence": 0.8875
+    },
+    {
+      "position": 1008,
+      "peptide": "CSVYVPDEW",
+      "predicted_class": "neg",
+      "confidence": 0.0184
+    },
+    {
+      "position": 1009,
+      "peptide": "SVYVPDEWE",
+      "predicted_class": "A0301",
+      "confidence": 0.9987
+    },
+    {
+      "position": 1010,
+      "peptide": "VYVPDEWEV",
+      "predicted_class": "A2402",
+      "confidence": 0.9083
+    },
+    {
+      "position": 1011,
+      "peptide": "YVPDEWEVS",
+      "predicted_class": "A0207",
+      "confidence": 0.998
+    },
+    {
+      "position": 1012,
+      "peptide": "VPDEWEVSR",
+      "predicted_class": "neg",
+      "confidence": 0.5418
+    },
+    {
+      "position": 1013,
+      "peptide": "PDEWEVSRE",
+      "predicted_class": "A0101",
+      "confidence": 0.8218
+    },
+    {
+      "position": 1014,
+      "peptide": "DEWEVSREK",
+      "predicted_class": "neg",
+      "confidence": 0.0022
+    },
+    {
+      "position": 1015,
+      "peptide": "EWEVSREKI",
+      "predicted_class": "A2402",
+      "confidence": 0.5653
+    },
+    {
+      "position": 1016,
+      "peptide": "WEVSREKIT",
+      "predicted_class": "A0301",
+      "confidence": 0.9689
+    },
+    {
+      "position": 1017,
+      "peptide": "EVSREKITL",
+      "predicted_class": "neg",
+      "confidence": 0.0048
+    },
+    {
+      "position": 1018,
+      "peptide": "VSREKITLL",
+      "predicted_class": "neg",
+      "confidence": 0.3532
+    },
+    {
+      "position": 1019,
+      "peptide": "SREKITLLR",
+      "predicted_class": "neg",
+      "confidence": 0.0355
+    },
+    {
+      "position": 1020,
+      "peptide": "REKITLLRE",
+      "predicted_class": "A0301",
+      "confidence": 0.6306
+    },
+    {
+      "position": 1021,
+      "peptide": "EKITLLREL",
+      "predicted_class": "neg",
+      "confidence": 0.0242
+    },
+    {
+      "position": 1022,
+      "peptide": "KITLLRELG",
+      "predicted_class": "neg",
+      "confidence": 0.4676
+    },
+    {
+      "position": 1023,
+      "peptide": "ITLLRELGQ",
+      "predicted_class": "A0101",
+      "confidence": 0.921
+    },
+    {
+      "position": 1024,
+      "peptide": "TLLRELGQG",
+      "predicted_class": "A0201",
+      "confidence": 0.9063
+    },
+    {
+      "position": 1025,
+      "peptide": "LLRELGQGS",
+      "predicted_class": "A0203",
+      "confidence": 0.9794
+    },
+    {
+      "position": 1026,
+      "peptide": "LRELGQGSF",
+      "predicted_class": "A0101",
+      "confidence": 0.9807
+    },
+    {
+      "position": 1027,
+      "peptide": "RELGQGSFG",
+      "predicted_class": "A0301",
+      "confidence": 0.9951
+    },
+    {
+      "position": 1028,
+      "peptide": "ELGQGSFGM",
+      "predicted_class": "neg",
+      "confidence": 0.0199
+    },
+    {
+      "position": 1029,
+      "peptide": "LGQGSFGMV",
+      "predicted_class": "neg",
+      "confidence": 0.4668
+    },
+    {
+      "position": 1030,
+      "peptide": "GQGSFGMVY",
+      "predicted_class": "A0301",
+      "confidence": 0.7748
+    },
+    {
+      "position": 1031,
+      "peptide": "QGSFGMVYE",
+      "predicted_class": "neg",
+      "confidence": 0.4552
+    },
+    {
+      "position": 1032,
+      "peptide": "GSFGMVYEG",
+      "predicted_class": "neg",
+      "confidence": 0.6099
+    },
+    {
+      "position": 1033,
+      "peptide": "SFGMVYEGN",
+      "predicted_class": "A2402",
+      "confidence": 0.6646
+    },
+    {
+      "position": 1034,
+      "peptide": "FGMVYEGNA",
+      "predicted_class": "A0101",
+      "confidence": 0.9644
+    },
+    {
+      "position": 1035,
+      "peptide": "GMVYEGNAR",
+      "predicted_class": "neg",
+      "confidence": 0.2534
+    },
+    {
+      "position": 1036,
+      "peptide": "MVYEGNARD",
+      "predicted_class": "A0301",
+      "confidence": 0.846
+    },
+    {
+      "position": 1037,
+      "peptide": "VYEGNARDI",
+      "predicted_class": "A2402",
+      "confidence": 0.948
+    },
+    {
+      "position": 1038,
+      "peptide": "YEGNARDII",
+      "predicted_class": "A0101",
+      "confidence": 0.8569
+    },
+    {
+      "position": 1039,
+      "peptide": "EGNARDIIK",
+      "predicted_class": "neg",
+      "confidence": 0.0346
+    },
+    {
+      "position": 1040,
+      "peptide": "GNARDIIKG",
+      "predicted_class": "neg",
+      "confidence": 0.32
+    },
+    {
+      "position": 1041,
+      "peptide": "NARDIIKGE",
+      "predicted_class": "neg",
+      "confidence": 0.2309
+    },
+    {
+      "position": 1042,
+      "peptide": "ARDIIKGEA",
+      "predicted_class": "A0101",
+      "confidence": 0.9633
+    },
+    {
+      "position": 1043,
+      "peptide": "RDIIKGEAE",
+      "predicted_class": "neg",
+      "confidence": 0.4279
+    },
+    {
+      "position": 1044,
+      "peptide": "DIIKGEAET",
+      "predicted_class": "neg",
+      "confidence": 0.2878
+    },
+    {
+      "position": 1045,
+      "peptide": "IIKGEAETR",
+      "predicted_class": "neg",
+      "confidence": 0.012
+    },
+    {
+      "position": 1046,
+      "peptide": "IKGEAETRV",
+      "predicted_class": "neg",
+      "confidence": 0.5558
+    },
+    {
+      "position": 1047,
+      "peptide": "KGEAETRVA",
+      "predicted_class": "A0101",
+      "confidence": 0.8347
+    },
+    {
+      "position": 1048,
+      "peptide": "GEAETRVAV",
+      "predicted_class": "neg",
+      "confidence": 0.0539
+    },
+    {
+      "position": 1049,
+      "peptide": "EAETRVAVK",
+      "predicted_class": "neg",
+      "confidence": 0.0043
+    },
+    {
+      "position": 1050,
+      "peptide": "AETRVAVKT",
+      "predicted_class": "neg",
+      "confidence": 0.0778
+    },
+    {
+      "position": 1051,
+      "peptide": "ETRVAVKTV",
+      "predicted_class": "neg",
+      "confidence": 0.002
+    },
+    {
+      "position": 1052,
+      "peptide": "TRVAVKTVN",
+      "predicted_class": "neg",
+      "confidence": 0.2928
+    },
+    {
+      "position": 1053,
+      "peptide": "RVAVKTVNE",
+      "predicted_class": "A0301",
+      "confidence": 0.5113
+    },
+    {
+      "position": 1054,
+      "peptide": "VAVKTVNES",
+      "predicted_class": "neg",
+      "confidence": 0.1575
+    },
+    {
+      "position": 1055,
+      "peptide": "AVKTVNESA",
+      "predicted_class": "neg",
+      "confidence": 0.0752
+    },
+    {
+      "position": 1056,
+      "peptide": "VKTVNESAS",
+      "predicted_class": "A0301",
+      "confidence": 0.9329
+    },
+    {
+      "position": 1057,
+      "peptide": "KTVNESASL",
+      "predicted_class": "neg",
+      "confidence": 0.0884
+    },
+    {
+      "position": 1058,
+      "peptide": "TVNESASLR",
+      "predicted_class": "neg",
+      "confidence": 0.0235
+    },
+    {
+      "position": 1059,
+      "peptide": "VNESASLRE",
+      "predicted_class": "A0101",
+      "confidence": 0.9156
+    },
+    {
+      "position": 1060,
+      "peptide": "NESASLRER",
+      "predicted_class": "neg",
+      "confidence": 0.0004
+    },
+    {
+      "position": 1061,
+      "peptide": "ESASLRERI",
+      "predicted_class": "neg",
+      "confidence": 0.0054
+    },
+    {
+      "position": 1062,
+      "peptide": "SASLRERIE",
+      "predicted_class": "A0301",
+      "confidence": 0.7514
+    },
+    {
+      "position": 1063,
+      "peptide": "ASLRERIEF",
+      "predicted_class": "neg",
+      "confidence": 0.1453
+    },
+    {
+      "position": 1064,
+      "peptide": "SLRERIEFL",
+      "predicted_class": "A0203",
+      "confidence": 0.7606
+    },
+    {
+      "position": 1065,
+      "peptide": "LRERIEFLN",
+      "predicted_class": "A0101",
+      "confidence": 0.8627
+    },
+    {
+      "position": 1066,
+      "peptide": "RERIEFLNE",
+      "predicted_class": "neg",
+      "confidence": 0.4934
+    },
+    {
+      "position": 1067,
+      "peptide": "ERIEFLNEA",
+      "predicted_class": "neg",
+      "confidence": 0.1109
+    },
+    {
+      "position": 1068,
+      "peptide": "RIEFLNEAS",
+      "predicted_class": "A0101",
+      "confidence": 0.9506
+    },
+    {
+      "position": 1069,
+      "peptide": "IEFLNEASV",
+      "predicted_class": "neg",
+      "confidence": 0.5893
+    },
+    {
+      "position": 1070,
+      "peptide": "EFLNEASVM",
+      "predicted_class": "A2402",
+      "confidence": 0.9285
+    },
+    {
+      "position": 1071,
+      "peptide": "FLNEASVMK",
+      "predicted_class": "neg",
+      "confidence": 0.6839
+    },
+    {
+      "position": 1072,
+      "peptide": "LNEASVMKG",
+      "predicted_class": "A0101",
+      "confidence": 0.9688
+    },
+    {
+      "position": 1073,
+      "peptide": "NEASVMKGF",
+      "predicted_class": "neg",
+      "confidence": 0.1045
+    },
+    {
+      "position": 1074,
+      "peptide": "EASVMKGFT",
+      "predicted_class": "neg",
+      "confidence": 0.6246
+    },
+    {
+      "position": 1075,
+      "peptide": "ASVMKGFTC",
+      "predicted_class": "neg",
+      "confidence": 0.1597
+    },
+    {
+      "position": 1076,
+      "peptide": "SVMKGFTCH",
+      "predicted_class": "neg",
+      "confidence": 0.002
+    },
+    {
+      "position": 1077,
+      "peptide": "VMKGFTCHH",
+      "predicted_class": "neg",
+      "confidence": 0.0084
+    },
+    {
+      "position": 1078,
+      "peptide": "MKGFTCHHV",
+      "predicted_class": "neg",
+      "confidence": 0.0142
+    },
+    {
+      "position": 1079,
+      "peptide": "KGFTCHHVV",
+      "predicted_class": "neg",
+      "confidence": 0.0433
+    },
+    {
+      "position": 1080,
+      "peptide": "GFTCHHVVR",
+      "predicted_class": "neg",
+      "confidence": 0.0032
+    },
+    {
+      "position": 1081,
+      "peptide": "FTCHHVVRL",
+      "predicted_class": "neg",
+      "confidence": 0.0008
+    },
+    {
+      "position": 1082,
+      "peptide": "TCHHVVRLL",
+      "predicted_class": "neg",
+      "confidence": 0.1872
+    },
+    {
+      "position": 1083,
+      "peptide": "CHHVVRLLG",
+      "predicted_class": "neg",
+      "confidence": 0.2281
+    },
+    {
+      "position": 1084,
+      "peptide": "HHVVRLLGV",
+      "predicted_class": "A2402",
+      "confidence": 0.6035
+    },
+    {
+      "position": 1085,
+      "peptide": "HVVRLLGVV",
+      "predicted_class": "neg",
+      "confidence": 0.4296
+    },
+    {
+      "position": 1086,
+      "peptide": "VVRLLGVVS",
+      "predicted_class": "A0301",
+      "confidence": 0.9502
+    },
+    {
+      "position": 1087,
+      "peptide": "VRLLGVVSK",
+      "predicted_class": "neg",
+      "confidence": 0.4575
+    },
+    {
+      "position": 1088,
+      "peptide": "RLLGVVSKG",
+      "predicted_class": "A0301",
+      "confidence": 0.9647
+    },
+    {
+      "position": 1089,
+      "peptide": "LLGVVSKGQ",
+      "predicted_class": "A0207",
+      "confidence": 0.7139
+    },
+    {
+      "position": 1090,
+      "peptide": "LGVVSKGQP",
+      "predicted_class": "A0207",
+      "confidence": 0.8376
+    },
+    {
+      "position": 1091,
+      "peptide": "GVVSKGQPT",
+      "predicted_class": "A0301",
+      "confidence": 0.8579
+    },
+    {
+      "position": 1092,
+      "peptide": "VVSKGQPTL",
+      "predicted_class": "neg",
+      "confidence": 0.079
+    },
+    {
+      "position": 1093,
+      "peptide": "VSKGQPTLV",
+      "predicted_class": "neg",
+      "confidence": 0.3055
+    },
+    {
+      "position": 1094,
+      "peptide": "SKGQPTLVV",
+      "predicted_class": "neg",
+      "confidence": 0.3338
+    },
+    {
+      "position": 1095,
+      "peptide": "KGQPTLVVM",
+      "predicted_class": "neg",
+      "confidence": 0.1828
+    },
+    {
+      "position": 1096,
+      "peptide": "GQPTLVVME",
+      "predicted_class": "A0207",
+      "confidence": 0.8523
+    },
+    {
+      "position": 1097,
+      "peptide": "QPTLVVMEL",
+      "predicted_class": "neg",
+      "confidence": 0.3513
+    },
+    {
+      "position": 1098,
+      "peptide": "PTLVVMELM",
+      "predicted_class": "neg",
+      "confidence": 0.1918
+    },
+    {
+      "position": 1099,
+      "peptide": "TLVVMELMA",
+      "predicted_class": "A0203",
+      "confidence": 0.7926
+    },
+    {
+      "position": 1100,
+      "peptide": "LVVMELMAH",
+      "predicted_class": "neg",
+      "confidence": 0.1327
+    },
+    {
+      "position": 1101,
+      "peptide": "VVMELMAHG",
+      "predicted_class": "A0207",
+      "confidence": 0.7107
+    },
+    {
+      "position": 1102,
+      "peptide": "VMELMAHGD",
+      "predicted_class": "A0101",
+      "confidence": 0.9614
+    },
+    {
+      "position": 1103,
+      "peptide": "MELMAHGDL",
+      "predicted_class": "neg",
+      "confidence": 0.7368
+    },
+    {
+      "position": 1104,
+      "peptide": "ELMAHGDLK",
+      "predicted_class": "neg",
+      "confidence": 0.0126
+    },
+    {
+      "position": 1105,
+      "peptide": "LMAHGDLKS",
+      "predicted_class": "A0203",
+      "confidence": 0.9851
+    },
+    {
+      "position": 1106,
+      "peptide": "MAHGDLKSY",
+      "predicted_class": "neg",
+      "confidence": 0.0362
+    },
+    {
+      "position": 1107,
+      "peptide": "AHGDLKSYL",
+      "predicted_class": "A2402",
+      "confidence": 0.7937
+    },
+    {
+      "position": 1108,
+      "peptide": "HGDLKSYLR",
+      "predicted_class": "neg",
+      "confidence": 0.0336
+    },
+    {
+      "position": 1109,
+      "peptide": "GDLKSYLRS",
+      "predicted_class": "neg",
+      "confidence": 0.2456
+    },
+    {
+      "position": 1110,
+      "peptide": "DLKSYLRSL",
+      "predicted_class": "A0203",
+      "confidence": 0.5938
+    },
+    {
+      "position": 1111,
+      "peptide": "LKSYLRSLR",
+      "predicted_class": "neg",
+      "confidence": 0.0302
+    },
+    {
+      "position": 1112,
+      "peptide": "KSYLRSLRP",
+      "predicted_class": "A0301",
+      "confidence": 0.9285
+    },
+    {
+      "position": 1113,
+      "peptide": "SYLRSLRPE",
+      "predicted_class": "A2402",
+      "confidence": 0.8697
+    },
+    {
+      "position": 1114,
+      "peptide": "YLRSLRPEA",
+      "predicted_class": "A0203",
+      "confidence": 0.5739
+    },
+    {
+      "position": 1115,
+      "peptide": "LRSLRPEAE",
+      "predicted_class": "neg",
+      "confidence": 0.4724
+    },
+    {
+      "position": 1116,
+      "peptide": "RSLRPEAEN",
+      "predicted_class": "A0301",
+      "confidence": 0.8737
+    },
+    {
+      "position": 1117,
+      "peptide": "SLRPEAENN",
+      "predicted_class": "A0203",
+      "confidence": 0.8665
+    },
+    {
+      "position": 1118,
+      "peptide": "LRPEAENNP",
+      "predicted_class": "A0207",
+      "confidence": 0.9426
+    },
+    {
+      "position": 1119,
+      "peptide": "RPEAENNPG",
+      "predicted_class": "A0101",
+      "confidence": 0.9585
+    },
+    {
+      "position": 1120,
+      "peptide": "PEAENNPGR",
+      "predicted_class": "neg",
+      "confidence": 0.0158
+    },
+    {
+      "position": 1121,
+      "peptide": "EAENNPGRP",
+      "predicted_class": "A0101",
+      "confidence": 0.8138
+    },
+    {
+      "position": 1122,
+      "peptide": "AENNPGRPP",
+      "predicted_class": "A0301",
+      "confidence": 0.8756
+    },
+    {
+      "position": 1123,
+      "peptide": "ENNPGRPPP",
+      "predicted_class": "neg",
+      "confidence": 0.333
+    },
+    {
+      "position": 1124,
+      "peptide": "NNPGRPPPT",
+      "predicted_class": "A0207",
+      "confidence": 0.5579
+    },
+    {
+      "position": 1125,
+      "peptide": "NPGRPPPTL",
+      "predicted_class": "neg",
+      "confidence": 0.3601
+    },
+    {
+      "position": 1126,
+      "peptide": "PGRPPPTLQ",
+      "predicted_class": "neg",
+      "confidence": 0.4624
+    },
+    {
+      "position": 1127,
+      "peptide": "GRPPPTLQE",
+      "predicted_class": "A0207",
+      "confidence": 0.8807
+    },
+    {
+      "position": 1128,
+      "peptide": "RPPPTLQEM",
+      "predicted_class": "neg",
+      "confidence": 0.3263
+    },
+    {
+      "position": 1129,
+      "peptide": "PPPTLQEMI",
+      "predicted_class": "A0207",
+      "confidence": 0.8374
+    },
+    {
+      "position": 1130,
+      "peptide": "PPTLQEMIQ",
+      "predicted_class": "A2402",
+      "confidence": 0.9292
+    },
+    {
+      "position": 1131,
+      "peptide": "PTLQEMIQM",
+      "predicted_class": "neg",
+      "confidence": 0.1842
+    },
+    {
+      "position": 1132,
+      "peptide": "TLQEMIQMA",
+      "predicted_class": "neg",
+      "confidence": 0.4429
+    },
+    {
+      "position": 1133,
+      "peptide": "LQEMIQMAA",
+      "predicted_class": "neg",
+      "confidence": 0.3646
+    },
+    {
+      "position": 1134,
+      "peptide": "QEMIQMAAE",
+      "predicted_class": "neg",
+      "confidence": 0.4995
+    },
+    {
+      "position": 1135,
+      "peptide": "EMIQMAAEI",
+      "predicted_class": "neg",
+      "confidence": 0.0518
+    },
+    {
+      "position": 1136,
+      "peptide": "MIQMAAEIA",
+      "predicted_class": "A0301",
+      "confidence": 0.6773
+    },
+    {
+      "position": 1137,
+      "peptide": "IQMAAEIAD",
+      "predicted_class": "A0201",
+      "confidence": 0.9767
+    },
+    {
+      "position": 1138,
+      "peptide": "QMAAEIADG",
+      "predicted_class": "neg",
+      "confidence": 0.6025
+    },
+    {
+      "position": 1139,
+      "peptide": "MAAEIADGM",
+      "predicted_class": "neg",
+      "confidence": 0.1258
+    },
+    {
+      "position": 1140,
+      "peptide": "AAEIADGMA",
+      "predicted_class": "A0101",
+      "confidence": 0.9996
+    },
+    {
+      "position": 1141,
+      "peptide": "AEIADGMAY",
+      "predicted_class": "neg",
+      "confidence": 0.1674
+    },
+    {
+      "position": 1142,
+      "peptide": "EIADGMAYL",
+      "predicted_class": "neg",
+      "confidence": 0.0039
+    },
+    {
+      "position": 1143,
+      "peptide": "IADGMAYLN",
+      "predicted_class": "A0101",
+      "confidence": 0.9036
+    },
+    {
+      "position": 1144,
+      "peptide": "ADGMAYLNA",
+      "predicted_class": "A0207",
+      "confidence": 0.9185
+    },
+    {
+      "position": 1145,
+      "peptide": "DGMAYLNAK",
+      "predicted_class": "neg",
+      "confidence": 0.0001
+    },
+    {
+      "position": 1146,
+      "peptide": "GMAYLNAKK",
+      "predicted_class": "neg",
+      "confidence": 0.0706
+    },
+    {
+      "position": 1147,
+      "peptide": "MAYLNAKKF",
+      "predicted_class": "neg",
+      "confidence": 0.0691
+    },
+    {
+      "position": 1148,
+      "peptide": "AYLNAKKFV",
+      "predicted_class": "A2402",
+      "confidence": 0.9658
+    },
+    {
+      "position": 1149,
+      "peptide": "YLNAKKFVH",
+      "predicted_class": "neg",
+      "confidence": 0.5397
+    },
+    {
+      "position": 1150,
+      "peptide": "LNAKKFVHR",
+      "predicted_class": "neg",
+      "confidence": 0.0027
+    },
+    {
+      "position": 1151,
+      "peptide": "NAKKFVHRD",
+      "predicted_class": "neg",
+      "confidence": 0.0706
+    },
+    {
+      "position": 1152,
+      "peptide": "AKKFVHRDL",
+      "predicted_class": "neg",
+      "confidence": 0.3189
+    },
+    {
+      "position": 1153,
+      "peptide": "KKFVHRDLA",
+      "predicted_class": "neg",
+      "confidence": 0.3792
+    },
+    {
+      "position": 1154,
+      "peptide": "KFVHRDLAA",
+      "predicted_class": "A2402",
+      "confidence": 0.9753
+    },
+    {
+      "position": 1155,
+      "peptide": "FVHRDLAAR",
+      "predicted_class": "neg",
+      "confidence": 0.0255
+    },
+    {
+      "position": 1156,
+      "peptide": "VHRDLAARN",
+      "predicted_class": "neg",
+      "confidence": 0.4991
+    },
+    {
+      "position": 1157,
+      "peptide": "HRDLAARNC",
+      "predicted_class": "A0101",
+      "confidence": 0.9688
+    },
+    {
+      "position": 1158,
+      "peptide": "RDLAARNCM",
+      "predicted_class": "neg",
+      "confidence": 0.0172
+    },
+    {
+      "position": 1159,
+      "peptide": "DLAARNCMV",
+      "predicted_class": "neg",
+      "confidence": 0.0149
+    },
+    {
+      "position": 1160,
+      "peptide": "LAARNCMVA",
+      "predicted_class": "neg",
+      "confidence": 0.0745
+    },
+    {
+      "position": 1161,
+      "peptide": "AARNCMVAH",
+      "predicted_class": "neg",
+      "confidence": 0.001
+    },
+    {
+      "position": 1162,
+      "peptide": "ARNCMVAHD",
+      "predicted_class": "neg",
+      "confidence": 0.6026
+    },
+    {
+      "position": 1163,
+      "peptide": "RNCMVAHDF",
+      "predicted_class": "neg",
+      "confidence": 0.0036
+    },
+    {
+      "position": 1164,
+      "peptide": "NCMVAHDFT",
+      "predicted_class": "A0201",
+      "confidence": 0.8099
+    },
+    {
+      "position": 1165,
+      "peptide": "CMVAHDFTV",
+      "predicted_class": "A0201",
+      "confidence": 0.618
+    },
+    {
+      "position": 1166,
+      "peptide": "MVAHDFTVK",
+      "predicted_class": "neg",
+      "confidence": 0.0967
+    },
+    {
+      "position": 1167,
+      "peptide": "VAHDFTVKI",
+      "predicted_class": "neg",
+      "confidence": 0.0375
+    },
+    {
+      "position": 1168,
+      "peptide": "AHDFTVKIG",
+      "predicted_class": "A0101",
+      "confidence": 0.973
+    },
+    {
+      "position": 1169,
+      "peptide": "HDFTVKIGD",
+      "predicted_class": "A0301",
+      "confidence": 0.6761
+    },
+    {
+      "position": 1170,
+      "peptide": "DFTVKIGDF",
+      "predicted_class": "neg",
+      "confidence": 0.2336
+    },
+    {
+      "position": 1171,
+      "peptide": "FTVKIGDFG",
+      "predicted_class": "A0101",
+      "confidence": 0.6732
+    },
+    {
+      "position": 1172,
+      "peptide": "TVKIGDFGM",
+      "predicted_class": "neg",
+      "confidence": 0.4624
+    },
+    {
+      "position": 1173,
+      "peptide": "VKIGDFGMT",
+      "predicted_class": "A2402",
+      "confidence": 0.9552
+    },
+    {
+      "position": 1174,
+      "peptide": "KIGDFGMTR",
+      "predicted_class": "neg",
+      "confidence": 0.3489
+    },
+    {
+      "position": 1175,
+      "peptide": "IGDFGMTRD",
+      "predicted_class": "A0101",
+      "confidence": 0.982
+    },
+    {
+      "position": 1176,
+      "peptide": "GDFGMTRDI",
+      "predicted_class": "A0301",
+      "confidence": 0.6533
+    },
+    {
+      "position": 1177,
+      "peptide": "DFGMTRDIY",
+      "predicted_class": "neg",
+      "confidence": 0.0686
+    },
+    {
+      "position": 1178,
+      "peptide": "FGMTRDIYE",
+      "predicted_class": "A0201",
+      "confidence": 0.7702
+    },
+    {
+      "position": 1179,
+      "peptide": "GMTRDIYET",
+      "predicted_class": "A0201",
+      "confidence": 0.6108
+    },
+    {
+      "position": 1180,
+      "peptide": "MTRDIYETD",
+      "predicted_class": "A0101",
+      "confidence": 0.8647
+    },
+    {
+      "position": 1181,
+      "peptide": "TRDIYETDY",
+      "predicted_class": "A0101",
+      "confidence": 0.6725
+    },
+    {
+      "position": 1182,
+      "peptide": "RDIYETDYY",
+      "predicted_class": "neg",
+      "confidence": 0.1612
+    },
+    {
+      "position": 1183,
+      "peptide": "DIYETDYYR",
+      "predicted_class": "neg",
+      "confidence": 0.0154
+    },
+    {
+      "position": 1184,
+      "peptide": "IYETDYYRK",
+      "predicted_class": "A2402",
+      "confidence": 0.6312
+    },
+    {
+      "position": 1185,
+      "peptide": "YETDYYRKG",
+      "predicted_class": "neg",
+      "confidence": 0.4637
+    },
+    {
+      "position": 1186,
+      "peptide": "ETDYYRKGG",
+      "predicted_class": "A0101",
+      "confidence": 0.9995
+    },
+    {
+      "position": 1187,
+      "peptide": "TDYYRKGGK",
+      "predicted_class": "neg",
+      "confidence": 0.0327
+    },
+    {
+      "position": 1188,
+      "peptide": "DYYRKGGKG",
+      "predicted_class": "A2402",
+      "confidence": 0.6211
+    },
+    {
+      "position": 1189,
+      "peptide": "YYRKGGKGL",
+      "predicted_class": "neg",
+      "confidence": 0.4879
+    },
+    {
+      "position": 1190,
+      "peptide": "YRKGGKGLL",
+      "predicted_class": "A0203",
+      "confidence": 0.8733
+    },
+    {
+      "position": 1191,
+      "peptide": "RKGGKGLLP",
+      "predicted_class": "A0301",
+      "confidence": 0.8635
+    },
+    {
+      "position": 1192,
+      "peptide": "KGGKGLLPV",
+      "predicted_class": "neg",
+      "confidence": 0.6414
+    },
+    {
+      "position": 1193,
+      "peptide": "GGKGLLPVR",
+      "predicted_class": "neg",
+      "confidence": 0.0172
+    },
+    {
+      "position": 1194,
+      "peptide": "GKGLLPVRW",
+      "predicted_class": "neg",
+      "confidence": 0.058
+    },
+    {
+      "position": 1195,
+      "peptide": "KGLLPVRWM",
+      "predicted_class": "neg",
+      "confidence": 0.1492
+    },
+    {
+      "position": 1196,
+      "peptide": "GLLPVRWMA",
+      "predicted_class": "A0201",
+      "confidence": 0.9222
+    },
+    {
+      "position": 1197,
+      "peptide": "LLPVRWMAP",
+      "predicted_class": "A0301",
+      "confidence": 0.9623
+    },
+    {
+      "position": 1198,
+      "peptide": "LPVRWMAPE",
+      "predicted_class": "neg",
+      "confidence": 0.3958
+    },
+    {
+      "position": 1199,
+      "peptide": "PVRWMAPES",
+      "predicted_class": "neg",
+      "confidence": 0.6153
+    },
+    {
+      "position": 1200,
+      "peptide": "VRWMAPESL",
+      "predicted_class": "neg",
+      "confidence": 0.1547
+    },
+    {
+      "position": 1201,
+      "peptide": "RWMAPESLK",
+      "predicted_class": "A2402",
+      "confidence": 0.9729
+    },
+    {
+      "position": 1202,
+      "peptide": "WMAPESLKD",
+      "predicted_class": "A0203",
+      "confidence": 0.977
+    },
+    {
+      "position": 1203,
+      "peptide": "MAPESLKDG",
+      "predicted_class": "A0207",
+      "confidence": 0.9394
+    },
+    {
+      "position": 1204,
+      "peptide": "APESLKDGV",
+      "predicted_class": "A0101",
+      "confidence": 0.7571
+    },
+    {
+      "position": 1205,
+      "peptide": "PESLKDGVF",
+      "predicted_class": "A2402",
+      "confidence": 0.9326
+    },
+    {
+      "position": 1206,
+      "peptide": "ESLKDGVFT",
+      "predicted_class": "neg",
+      "confidence": 0.1093
+    },
+    {
+      "position": 1207,
+      "peptide": "SLKDGVFTT",
+      "predicted_class": "A0203",
+      "confidence": 0.9826
+    },
+    {
+      "position": 1208,
+      "peptide": "LKDGVFTTS",
+      "predicted_class": "A0207",
+      "confidence": 0.6761
+    },
+    {
+      "position": 1209,
+      "peptide": "KDGVFTTSS",
+      "predicted_class": "neg",
+      "confidence": 0.3828
+    },
+    {
+      "position": 1210,
+      "peptide": "DGVFTTSSD",
+      "predicted_class": "neg",
+      "confidence": 0.1527
+    },
+    {
+      "position": 1211,
+      "peptide": "GVFTTSSDM",
+      "predicted_class": "A0301",
+      "confidence": 0.9164
+    },
+    {
+      "position": 1212,
+      "peptide": "VFTTSSDMW",
+      "predicted_class": "A2402",
+      "confidence": 0.9541
+    },
+    {
+      "position": 1213,
+      "peptide": "FTTSSDMWS",
+      "predicted_class": "A0101",
+      "confidence": 0.9429
+    },
+    {
+      "position": 1214,
+      "peptide": "TTSSDMWSF",
+      "predicted_class": "neg",
+      "confidence": 0.3453
+    },
+    {
+      "position": 1215,
+      "peptide": "TSSDMWSFG",
+      "predicted_class": "A0101",
+      "confidence": 0.9474
+    },
+    {
+      "position": 1216,
+      "peptide": "SSDMWSFGV",
+      "predicted_class": "A0101",
+      "confidence": 0.9703
+    },
+    {
+      "position": 1217,
+      "peptide": "SDMWSFGVV",
+      "predicted_class": "A2402",
+      "confidence": 0.885
+    },
+    {
+      "position": 1218,
+      "peptide": "DMWSFGVVL",
+      "predicted_class": "A0201",
+      "confidence": 0.8101
+    },
+    {
+      "position": 1219,
+      "peptide": "MWSFGVVLW",
+      "predicted_class": "neg",
+      "confidence": 0.4901
+    },
+    {
+      "position": 1220,
+      "peptide": "WSFGVVLWE",
+      "predicted_class": "A0203",
+      "confidence": 0.895
+    },
+    {
+      "position": 1221,
+      "peptide": "SFGVVLWEI",
+      "predicted_class": "neg",
+      "confidence": 0.2883
+    },
+    {
+      "position": 1222,
+      "peptide": "FGVVLWEIT",
+      "predicted_class": "neg",
+      "confidence": 0.6539
+    },
+    {
+      "position": 1223,
+      "peptide": "GVVLWEITS",
+      "predicted_class": "A0301",
+      "confidence": 0.8345
+    },
+    {
+      "position": 1224,
+      "peptide": "VVLWEITSL",
+      "predicted_class": "neg",
+      "confidence": 0.1192
+    },
+    {
+      "position": 1225,
+      "peptide": "VLWEITSLA",
+      "predicted_class": "A0301",
+      "confidence": 0.8323
+    },
+    {
+      "position": 1226,
+      "peptide": "LWEITSLAE",
+      "predicted_class": "A0101",
+      "confidence": 0.7767
+    },
+    {
+      "position": 1227,
+      "peptide": "WEITSLAEQ",
+      "predicted_class": "neg",
+      "confidence": 0.181
+    },
+    {
+      "position": 1228,
+      "peptide": "EITSLAEQP",
+      "predicted_class": "neg",
+      "confidence": 0.603
+    },
+    {
+      "position": 1229,
+      "peptide": "ITSLAEQPY",
+      "predicted_class": "A0101",
+      "confidence": 0.7944
+    },
+    {
+      "position": 1230,
+      "peptide": "TSLAEQPYQ",
+      "predicted_class": "A0201",
+      "confidence": 0.8545
+    },
+    {
+      "position": 1231,
+      "peptide": "SLAEQPYQG",
+      "predicted_class": "A0201",
+      "confidence": 0.8604
+    },
+    {
+      "position": 1232,
+      "peptide": "LAEQPYQGL",
+      "predicted_class": "A0101",
+      "confidence": 0.9451
+    },
+    {
+      "position": 1233,
+      "peptide": "AEQPYQGLS",
+      "predicted_class": "A0301",
+      "confidence": 0.9881
+    },
+    {
+      "position": 1234,
+      "peptide": "EQPYQGLSN",
+      "predicted_class": "neg",
+      "confidence": 0.7105
+    },
+    {
+      "position": 1235,
+      "peptide": "QPYQGLSNE",
+      "predicted_class": "A0101",
+      "confidence": 0.7416
+    },
+    {
+      "position": 1236,
+      "peptide": "PYQGLSNEQ",
+      "predicted_class": "A2402",
+      "confidence": 0.9748
+    },
+    {
+      "position": 1237,
+      "peptide": "YQGLSNEQV",
+      "predicted_class": "neg",
+      "confidence": 0.122
+    },
+    {
+      "position": 1238,
+      "peptide": "QGLSNEQVL",
+      "predicted_class": "neg",
+      "confidence": 0.6154
+    },
+    {
+      "position": 1239,
+      "peptide": "GLSNEQVLK",
+      "predicted_class": "A0301",
+      "confidence": 0.7961
+    },
+    {
+      "position": 1240,
+      "peptide": "LSNEQVLKF",
+      "predicted_class": "A0101",
+      "confidence": 0.7093
+    },
+    {
+      "position": 1241,
+      "peptide": "SNEQVLKFV",
+      "predicted_class": "A0101",
+      "confidence": 0.7331
+    },
+    {
+      "position": 1242,
+      "peptide": "NEQVLKFVM",
+      "predicted_class": "neg",
+      "confidence": 0.5457
+    },
+    {
+      "position": 1243,
+      "peptide": "EQVLKFVMD",
+      "predicted_class": "A2402",
+      "confidence": 0.7412
+    },
+    {
+      "position": 1244,
+      "peptide": "QVLKFVMDG",
+      "predicted_class": "A0301",
+      "confidence": 0.5625
+    },
+    {
+      "position": 1245,
+      "peptide": "VLKFVMDGG",
+      "predicted_class": "A0203",
+      "confidence": 0.9154
+    },
+    {
+      "position": 1246,
+      "peptide": "LKFVMDGGY",
+      "predicted_class": "neg",
+      "confidence": 0.5982
+    },
+    {
+      "position": 1247,
+      "peptide": "KFVMDGGYL",
+      "predicted_class": "A2402",
+      "confidence": 0.7348
+    },
+    {
+      "position": 1248,
+      "peptide": "FVMDGGYLD",
+      "predicted_class": "A0201",
+      "confidence": 0.9655
+    },
+    {
+      "position": 1249,
+      "peptide": "VMDGGYLDQ",
+      "predicted_class": "A0207",
+      "confidence": 0.9948
+    },
+    {
+      "position": 1250,
+      "peptide": "MDGGYLDQP",
+      "predicted_class": "neg",
+      "confidence": 0.4839
+    },
+    {
+      "position": 1251,
+      "peptide": "DGGYLDQPD",
+      "predicted_class": "A0101",
+      "confidence": 0.8956
+    },
+    {
+      "position": 1252,
+      "peptide": "GGYLDQPDN",
+      "predicted_class": "A0207",
+      "confidence": 0.8912
+    },
+    {
+      "position": 1253,
+      "peptide": "GYLDQPDNC",
+      "predicted_class": "A2402",
+      "confidence": 0.9163
+    },
+    {
+      "position": 1254,
+      "peptide": "YLDQPDNCP",
+      "predicted_class": "A0207",
+      "confidence": 0.9305
+    },
+    {
+      "position": 1255,
+      "peptide": "LDQPDNCPE",
+      "predicted_class": "neg",
+      "confidence": 0.3166
+    },
+    {
+      "position": 1256,
+      "peptide": "DQPDNCPER",
+      "predicted_class": "neg",
+      "confidence": 0.0002
+    },
+    {
+      "position": 1257,
+      "peptide": "QPDNCPERV",
+      "predicted_class": "neg",
+      "confidence": 0.3568
+    },
+    {
+      "position": 1258,
+      "peptide": "PDNCPERVT",
+      "predicted_class": "A2402",
+      "confidence": 0.9537
+    },
+    {
+      "position": 1259,
+      "peptide": "DNCPERVTD",
+      "predicted_class": "neg",
+      "confidence": 0.0134
+    },
+    {
+      "position": 1260,
+      "peptide": "NCPERVTDL",
+      "predicted_class": "neg",
+      "confidence": 0.4845
+    },
+    {
+      "position": 1261,
+      "peptide": "CPERVTDLM",
+      "predicted_class": "neg",
+      "confidence": 0.4184
+    },
+    {
+      "position": 1262,
+      "peptide": "PERVTDLMR",
+      "predicted_class": "neg",
+      "confidence": 0.0516
+    },
+    {
+      "position": 1263,
+      "peptide": "ERVTDLMRM",
+      "predicted_class": "neg",
+      "confidence": 0.0149
+    },
+    {
+      "position": 1264,
+      "peptide": "RVTDLMRMC",
+      "predicted_class": "neg",
+      "confidence": 0.2609
+    },
+    {
+      "position": 1265,
+      "peptide": "VTDLMRMCW",
+      "predicted_class": "A0101",
+      "confidence": 0.5228
+    },
+    {
+      "position": 1266,
+      "peptide": "TDLMRMCWQ",
+      "predicted_class": "neg",
+      "confidence": 0.0295
+    },
+    {
+      "position": 1267,
+      "peptide": "DLMRMCWQF",
+      "predicted_class": "neg",
+      "confidence": 0.0084
+    },
+    {
+      "position": 1268,
+      "peptide": "LMRMCWQFN",
+      "predicted_class": "neg",
+      "confidence": 0.2733
+    },
+    {
+      "position": 1269,
+      "peptide": "MRMCWQFNP",
+      "predicted_class": "neg",
+      "confidence": 0.6822
+    },
+    {
+      "position": 1270,
+      "peptide": "RMCWQFNPK",
+      "predicted_class": "neg",
+      "confidence": 0.0728
+    },
+    {
+      "position": 1271,
+      "peptide": "MCWQFNPKM",
+      "predicted_class": "neg",
+      "confidence": 0.4564
+    },
+    {
+      "position": 1272,
+      "peptide": "CWQFNPKMR",
+      "predicted_class": "neg",
+      "confidence": 0.0087
+    },
+    {
+      "position": 1273,
+      "peptide": "WQFNPKMRP",
+      "predicted_class": "A0203",
+      "confidence": 0.9392
+    },
+    {
+      "position": 1274,
+      "peptide": "QFNPKMRPT",
+      "predicted_class": "A2402",
+      "confidence": 0.6929
+    },
+    {
+      "position": 1275,
+      "peptide": "FNPKMRPTF",
+      "predicted_class": "neg",
+      "confidence": 0.4807
+    },
+    {
+      "position": 1276,
+      "peptide": "NPKMRPTFL",
+      "predicted_class": "neg",
+      "confidence": 0.2142
+    },
+    {
+      "position": 1277,
+      "peptide": "PKMRPTFLE",
+      "predicted_class": "neg",
+      "confidence": 0.6056
+    },
+    {
+      "position": 1278,
+      "peptide": "KMRPTFLEI",
+      "predicted_class": "A0203",
+      "confidence": 0.7194
+    },
+    {
+      "position": 1279,
+      "peptide": "MRPTFLEIV",
+      "predicted_class": "A2402",
+      "confidence": 0.7866
+    },
+    {
+      "position": 1280,
+      "peptide": "RPTFLEIVN",
+      "predicted_class": "A0301",
+      "confidence": 0.8783
+    },
+    {
+      "position": 1281,
+      "peptide": "PTFLEIVNL",
+      "predicted_class": "neg",
+      "confidence": 0.1578
+    },
+    {
+      "position": 1282,
+      "peptide": "TFLEIVNLL",
+      "predicted_class": "A2402",
+      "confidence": 0.7513
+    },
+    {
+      "position": 1283,
+      "peptide": "FLEIVNLLK",
+      "predicted_class": "A0101",
+      "confidence": 0.7816
+    },
+    {
+      "position": 1284,
+      "peptide": "LEIVNLLKD",
+      "predicted_class": "A0301",
+      "confidence": 0.8046
+    },
+    {
+      "position": 1285,
+      "peptide": "EIVNLLKDD",
+      "predicted_class": "neg",
+      "confidence": 0.5211
+    },
+    {
+      "position": 1286,
+      "peptide": "IVNLLKDDL",
+      "predicted_class": "neg",
+      "confidence": 0.2888
+    },
+    {
+      "position": 1287,
+      "peptide": "VNLLKDDLH",
+      "predicted_class": "A0201",
+      "confidence": 0.9265
+    },
+    {
+      "position": 1288,
+      "peptide": "NLLKDDLHP",
+      "predicted_class": "A0201",
+      "confidence": 0.9869
+    },
+    {
+      "position": 1289,
+      "peptide": "LLKDDLHPS",
+      "predicted_class": "A0203",
+      "confidence": 0.7732
+    },
+    {
+      "position": 1290,
+      "peptide": "LKDDLHPSF",
+      "predicted_class": "A0207",
+      "confidence": 0.5649
+    },
+    {
+      "position": 1291,
+      "peptide": "KDDLHPSFP",
+      "predicted_class": "A0101",
+      "confidence": 0.8184
+    },
+    {
+      "position": 1292,
+      "peptide": "DDLHPSFPE",
+      "predicted_class": "neg",
+      "confidence": 0.0148
+    },
+    {
+      "position": 1293,
+      "peptide": "DLHPSFPEV",
+      "predicted_class": "neg",
+      "confidence": 0.2232
+    },
+    {
+      "position": 1294,
+      "peptide": "LHPSFPEVS",
+      "predicted_class": "A2402",
+      "confidence": 0.9809
+    },
+    {
+      "position": 1295,
+      "peptide": "HPSFPEVSF",
+      "predicted_class": "A0101",
+      "confidence": 0.7633
+    },
+    {
+      "position": 1296,
+      "peptide": "PSFPEVSFF",
+      "predicted_class": "neg",
+      "confidence": 0.4453
+    },
+    {
+      "position": 1297,
+      "peptide": "SFPEVSFFH",
+      "predicted_class": "neg",
+      "confidence": 0.4215
+    },
+    {
+      "position": 1298,
+      "peptide": "FPEVSFFHS",
+      "predicted_class": "A0101",
+      "confidence": 0.8743
+    },
+    {
+      "position": 1299,
+      "peptide": "PEVSFFHSE",
+      "predicted_class": "neg",
+      "confidence": 0.3004
+    },
+    {
+      "position": 1300,
+      "peptide": "EVSFFHSEE",
+      "predicted_class": "neg",
+      "confidence": 0.0262
+    },
+    {
+      "position": 1301,
+      "peptide": "VSFFHSEEN",
+      "predicted_class": "A0101",
+      "confidence": 0.8136
+    },
+    {
+      "position": 1302,
+      "peptide": "SFFHSEENK",
+      "predicted_class": "neg",
+      "confidence": 0.3407
+    },
+    {
+      "position": 1303,
+      "peptide": "FFHSEENKA",
+      "predicted_class": "neg",
+      "confidence": 0.3619
+    },
+    {
+      "position": 1304,
+      "peptide": "FHSEENKAP",
+      "predicted_class": "A2402",
+      "confidence": 0.9374
+    },
+    {
+      "position": 1305,
+      "peptide": "HSEENKAPE",
+      "predicted_class": "A0101",
+      "confidence": 0.9469
+    },
+    {
+      "position": 1306,
+      "peptide": "SEENKAPES",
+      "predicted_class": "A0101",
+      "confidence": 0.9199
+    },
+    {
+      "position": 1307,
+      "peptide": "EENKAPESE",
+      "predicted_class": "neg",
+      "confidence": 0.0551
+    },
+    {
+      "position": 1308,
+      "peptide": "ENKAPESEE",
+      "predicted_class": "neg",
+      "confidence": 0.2189
+    },
+    {
+      "position": 1309,
+      "peptide": "NKAPESEEL",
+      "predicted_class": "neg",
+      "confidence": 0.4258
+    },
+    {
+      "position": 1310,
+      "peptide": "KAPESEELE",
+      "predicted_class": "A0207",
+      "confidence": 0.9706
+    },
+    {
+      "position": 1311,
+      "peptide": "APESEELEM",
+      "predicted_class": "A0101",
+      "confidence": 0.8336
+    },
+    {
+      "position": 1312,
+      "peptide": "PESEELEME",
+      "predicted_class": "neg",
+      "confidence": 0.6493
+    },
+    {
+      "position": 1313,
+      "peptide": "ESEELEMEF",
+      "predicted_class": "A0101",
+      "confidence": 0.9827
+    },
+    {
+      "position": 1314,
+      "peptide": "SEELEMEFE",
+      "predicted_class": "A0101",
+      "confidence": 0.9845
+    },
+    {
+      "position": 1315,
+      "peptide": "EELEMEFED",
+      "predicted_class": "neg",
+      "confidence": 0.4058
+    },
+    {
+      "position": 1316,
+      "peptide": "ELEMEFEDM",
+      "predicted_class": "neg",
+      "confidence": 0.6412
+    },
+    {
+      "position": 1317,
+      "peptide": "LEMEFEDME",
+      "predicted_class": "A0201",
+      "confidence": 0.9718
+    },
+    {
+      "position": 1318,
+      "peptide": "EMEFEDMEN",
+      "predicted_class": "A0101",
+      "confidence": 0.8993
+    },
+    {
+      "position": 1319,
+      "peptide": "MEFEDMENV",
+      "predicted_class": "neg",
+      "confidence": 0.1809
+    },
+    {
+      "position": 1320,
+      "peptide": "EFEDMENVP",
+      "predicted_class": "A2402",
+      "confidence": 0.9681
+    },
+    {
+      "position": 1321,
+      "peptide": "FEDMENVPL",
+      "predicted_class": "A0101",
+      "confidence": 0.7136
+    },
+    {
+      "position": 1322,
+      "peptide": "EDMENVPLD",
+      "predicted_class": "neg",
+      "confidence": 0.4292
+    },
+    {
+      "position": 1323,
+      "peptide": "DMENVPLDR",
+      "predicted_class": "neg",
+      "confidence": 0.4054
+    },
+    {
+      "position": 1324,
+      "peptide": "MENVPLDRS",
+      "predicted_class": "neg",
+      "confidence": 0.1487
+    },
+    {
+      "position": 1325,
+      "peptide": "ENVPLDRSS",
+      "predicted_class": "neg",
+      "confidence": 0.3249
+    },
+    {
+      "position": 1326,
+      "peptide": "NVPLDRSSH",
+      "predicted_class": "A0207",
+      "confidence": 0.8428
+    },
+    {
+      "position": 1327,
+      "peptide": "VPLDRSSHC",
+      "predicted_class": "neg",
+      "confidence": 0.3183
+    },
+    {
+      "position": 1328,
+      "peptide": "PLDRSSHCQ",
+      "predicted_class": "neg",
+      "confidence": 0.3757
+    },
+    {
+      "position": 1329,
+      "peptide": "LDRSSHCQR",
+      "predicted_class": "neg",
+      "confidence": 0.0
+    },
+    {
+      "position": 1330,
+      "peptide": "DRSSHCQRE",
+      "predicted_class": "neg",
+      "confidence": 0.0025
+    },
+    {
+      "position": 1331,
+      "peptide": "RSSHCQREE",
+      "predicted_class": "neg",
+      "confidence": 0.1171
+    },
+    {
+      "position": 1332,
+      "peptide": "SSHCQREEA",
+      "predicted_class": "neg",
+      "confidence": 0.1294
+    },
+    {
+      "position": 1333,
+      "peptide": "SHCQREEAG",
+      "predicted_class": "A2402",
+      "confidence": 0.9785
+    },
+    {
+      "position": 1334,
+      "peptide": "HCQREEAGG",
+      "predicted_class": "A0101",
+      "confidence": 0.983
+    },
+    {
+      "position": 1335,
+      "peptide": "CQREEAGGR",
+      "predicted_class": "neg",
+      "confidence": 0.001
+    },
+    {
+      "position": 1336,
+      "peptide": "QREEAGGRD",
+      "predicted_class": "A0101",
+      "confidence": 0.9726
+    },
+    {
+      "position": 1337,
+      "peptide": "REEAGGRDG",
+      "predicted_class": "A0101",
+      "confidence": 0.997
+    },
+    {
+      "position": 1338,
+      "peptide": "EEAGGRDGG",
+      "predicted_class": "neg",
+      "confidence": 0.2322
+    },
+    {
+      "position": 1339,
+      "peptide": "EAGGRDGGS",
+      "predicted_class": "neg",
+      "confidence": 0.4468
+    },
+    {
+      "position": 1340,
+      "peptide": "AGGRDGGSS",
+      "predicted_class": "A0301",
+      "confidence": 0.9854
+    },
+    {
+      "position": 1341,
+      "peptide": "GGRDGGSSL",
+      "predicted_class": "neg",
+      "confidence": 0.4933
+    },
+    {
+      "position": 1342,
+      "peptide": "GRDGGSSLG",
+      "predicted_class": "A0101",
+      "confidence": 0.9974
+    },
+    {
+      "position": 1343,
+      "peptide": "RDGGSSLGF",
+      "predicted_class": "neg",
+      "confidence": 0.2744
+    },
+    {
+      "position": 1344,
+      "peptide": "DGGSSLGFK",
+      "predicted_class": "neg",
+      "confidence": 0.002
+    },
+    {
+      "position": 1345,
+      "peptide": "GGSSLGFKR",
+      "predicted_class": "neg",
+      "confidence": 0.0029
+    },
+    {
+      "position": 1346,
+      "peptide": "GSSLGFKRS",
+      "predicted_class": "A0101",
+      "confidence": 0.6211
+    },
+    {
+      "position": 1347,
+      "peptide": "SSLGFKRSY",
+      "predicted_class": "neg",
+      "confidence": 0.0068
+    },
+    {
+      "position": 1348,
+      "peptide": "SLGFKRSYE",
+      "predicted_class": "neg",
+      "confidence": 0.5505
+    },
+    {
+      "position": 1349,
+      "peptide": "LGFKRSYEE",
+      "predicted_class": "neg",
+      "confidence": 0.184
+    },
+    {
+      "position": 1350,
+      "peptide": "GFKRSYEEH",
+      "predicted_class": "neg",
+      "confidence": 0.2069
+    },
+    {
+      "position": 1351,
+      "peptide": "FKRSYEEHI",
+      "predicted_class": "neg",
+      "confidence": 0.2616
+    },
+    {
+      "position": 1352,
+      "peptide": "KRSYEEHIP",
+      "predicted_class": "A2402",
+      "confidence": 0.9433
+    },
+    {
+      "position": 1353,
+      "peptide": "RSYEEHIPY",
+      "predicted_class": "neg",
+      "confidence": 0.3289
+    },
+    {
+      "position": 1354,
+      "peptide": "SYEEHIPYT",
+      "predicted_class": "A2402",
+      "confidence": 0.8806
+    },
+    {
+      "position": 1355,
+      "peptide": "YEEHIPYTH",
+      "predicted_class": "neg",
+      "confidence": 0.5263
+    },
+    {
+      "position": 1356,
+      "peptide": "EEHIPYTHM",
+      "predicted_class": "neg",
+      "confidence": 0.0018
+    },
+    {
+      "position": 1357,
+      "peptide": "EHIPYTHMN",
+      "predicted_class": "A2402",
+      "confidence": 0.7919
+    },
+    {
+      "position": 1358,
+      "peptide": "HIPYTHMNG",
+      "predicted_class": "A0207",
+      "confidence": 0.9489
+    },
+    {
+      "position": 1359,
+      "peptide": "IPYTHMNGG",
+      "predicted_class": "A0301",
+      "confidence": 0.8041
+    },
+    {
+      "position": 1360,
+      "peptide": "PYTHMNGGK",
+      "predicted_class": "A2402",
+      "confidence": 0.6977
+    },
+    {
+      "position": 1361,
+      "peptide": "YTHMNGGKK",
+      "predicted_class": "neg",
+      "confidence": 0.0232
+    },
+    {
+      "position": 1362,
+      "peptide": "THMNGGKKN",
+      "predicted_class": "A2402",
+      "confidence": 0.9181
+    },
+    {
+      "position": 1363,
+      "peptide": "HMNGGKKNG",
+      "predicted_class": "A0203",
+      "confidence": 0.7724
+    },
+    {
+      "position": 1364,
+      "peptide": "MNGGKKNGR",
+      "predicted_class": "neg",
+      "confidence": 0.0016
+    },
+    {
+      "position": 1365,
+      "peptide": "NGGKKNGRI",
+      "predicted_class": "neg",
+      "confidence": 0.1323
+    },
+    {
+      "position": 1366,
+      "peptide": "GGKKNGRIL",
+      "predicted_class": "neg",
+      "confidence": 0.3867
+    },
+    {
+      "position": 1367,
+      "peptide": "GKKNGRILT",
+      "predicted_class": "A0301",
+      "confidence": 0.9632
+    },
+    {
+      "position": 1368,
+      "peptide": "KKNGRILTL",
+      "predicted_class": "neg",
+      "confidence": 0.5194
+    },
+    {
+      "position": 1369,
+      "peptide": "KNGRILTLP",
+      "predicted_class": "neg",
+      "confidence": 0.5989
+    },
+    {
+      "position": 1370,
+      "peptide": "NGRILTLPR",
+      "predicted_class": "neg",
+      "confidence": 0.0365
+    },
+    {
+      "position": 1371,
+      "peptide": "GRILTLPRS",
+      "predicted_class": "neg",
+      "confidence": 0.4122
+    },
+    {
+      "position": 1372,
+      "peptide": "RILTLPRSN",
+      "predicted_class": "A0301",
+      "confidence": 0.9745
+    },
+    {
+      "position": 1373,
+      "peptide": "ILTLPRSNP",
+      "predicted_class": "A0301",
+      "confidence": 0.9523
+    },
+    {
+      "position": 1374,
+      "peptide": "LTLPRSNPS",
+      "predicted_class": "A0301",
+      "confidence": 0.8836
+    }
+  ]
+}

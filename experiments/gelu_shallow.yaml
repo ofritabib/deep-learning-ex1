@@ -1,0 +1,36 @@
+# Combine the two individually-best changes: GELU activation + shallow architecture
+# Both improved over baseline independently — test if they compound
+
+dataset:
+  data_dir: "ex1_data"
+  clean: true
+  test_size: 0.1
+  p_augment: 0.5
+  aug_temperature: 1.0
+
+model:
+  num_inputs: 180
+  hidden_layer_dim: [64]
+  dropout: 0.3
+  act_fn: "GELU"
+
+loss:
+  neg_multiplier: 3.0
+
+training:
+  num_epochs: 50
+  batch_size: 256
+  lr: 1.0e-3
+  weight_decay: 1.0e-5
+  scheduler_factor: 0.5
+  scheduler_patience: 10
+  scheduler_min_lr: 1.0e-5
+
+evaluation:
+  batch_size: 512
+  protein_paths:
+    - "sars.txt"
+    - "insr.txt"
+
+output:
+  output_dir: "results/gelu_shallow"

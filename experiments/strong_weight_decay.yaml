@@ -1,0 +1,37 @@
+# no_augmentation overfits aggressively (test_min at epoch 18, gap=+0.18).
+# Instead of dropout, test stronger L2 regularization (weight_decay 1e-4) to curb overfitting
+# while keeping augmentation off to isolate the effect.
+
+dataset:
+  data_dir: "ex1_data"
+  clean: true
+  test_size: 0.1
+  p_augment: 0.0
+  aug_temperature: 1.0
+
+model:
+  num_inputs: 180
+  hidden_layer_dim: [128, 64, 32, 16]
+  dropout: 0.3
+  act_fn: "ReLU"
+
+loss:
+  neg_multiplier: 3.0
+
+training:
+  num_epochs: 50
+  batch_size: 256
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  scheduler_factor: 0.5
+  scheduler_patience: 10
+  scheduler_min_lr: 1.0e-5
+
+evaluation:
+  batch_size: 512
+  protein_paths:
+    - "sars.txt"
+    - "insr.txt"
+
+output:
+  output_dir: "results/strong_weight_decay"
