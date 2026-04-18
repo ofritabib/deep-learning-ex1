@@ -61,6 +61,26 @@ def transform_sequence(seq: str) -> torch.Tensor:
     return torch.stack(rows).view(-1)   # (180,)
 
 
+def transform_sequence_onehot(seq: str) -> torch.Tensor:
+    """Encode a 9-mer via one-hot vectors → flat vector of shape (180,)."""
+    if isinstance(seq, bytes):
+        seq = seq.decode()
+    seq = seq.strip().upper()
+    if len(seq) != WINDOW_SIZE:
+        raise ValueError(f"Expected length {WINDOW_SIZE}, got {len(seq)}: {seq}")
+    rows = [
+        F.one_hot(torch.tensor(AA_TO_INDEX[aa]), num_classes=len(AMINO_ACIDS)).float()
+        if aa in AA_TO_INDEX
+        else torch.zeros(len(AMINO_ACIDS))
+        for aa in seq
+    ]
+    return torch.stack(rows).view(-1)   # (180,)
+
+
+def make_transform(use_blosum: bool = True):
+    return transform_sequence if use_blosum else transform_sequence_onehot
+
+
 def encode_label_one_hot(label: int, num_classes: int) -> torch.Tensor:
     one_hot = torch.zeros(num_classes, dtype=torch.float32)
     one_hot[label] = 1.0
@@ -241,22 +261,16 @@ def build_dataset(
     test_size: float = 0.1,
     p_augment: float = 0.5,
     aug_temperature: float = 1.0,
+    use_blosum: bool = True,
     seed: int = 42,
 ) -> tuple[SequenceFileDataset, AugmentedTrainDataset, data.Subset]:
-    """
-    Returns (dataset, aug_train_dataset, test_dataset).
-
-    If clean=True, negative sequences overlapping any positive are removed
-    in-memory — no intermediate files are written.
-    aug_train_dataset applies BLOSUM62 augmentation at train time.
-    test_dataset is plain (no augmentation).
-    """
-    dataset = SequenceFileDataset.from_dir(data_dir, clean=clean, transform=transform_sequence)
+    dataset = SequenceFileDataset.from_dir(data_dir, clean=clean, transform=make_transform(use_blosum))
     dataset.target_transform = lambda label: encode_label_one_hot(label, dataset.num_classes)
 
     train_indices, test_indices = stratified_train_test_split(
         dataset, test_size=test_size, seed=seed
     )
+
     train_subset = data.Subset(dataset, train_indices)
     test_dataset = data.Subset(dataset, test_indices)
     aug_train_dataset = AugmentedTrainDataset(
@@ -268,6 +282,7 @@ def build_dataset(
 def build_protein_loader(
     fasta_path: str,
     batch_size: int = 512,
+    use_blosum: bool = True,
 ) -> tuple[data.DataLoader, list[str], list[int]]:
     """
     Parse a raw protein file, slide a 9-mer window, and return
@@ -289,7 +304,7 @@ def build_protein_loader(
     print(f"Valid 9-mer windows: {len(peptides)}")
 
     loader = data.DataLoader(
-        PeptideDataset(peptides, transform_sequence),
+        PeptideDataset(peptides, make_transform(use_blosum)),
         batch_size=batch_size,
         shuffle=False,
     )

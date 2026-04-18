@@ -41,12 +41,7 @@ class SimpleClassifier(nn.Module):
 def build_loss_module(
     dataset,
     neg_multiplier: float = 3.0,
-) -> nn.CrossEntropyLoss:
-    """
-    CrossEntropyLoss with inverse-frequency class weights.
-    The negative class weight is additionally boosted by neg_multiplier
-    to make the model more conservative (fewer false positives).
-    """
+) -> nn.Module:
     raw_labels  = [y for _, y in dataset.samples]
     counts      = Counter(raw_labels)
     num_classes = dataset.num_classes
@@ -77,10 +72,6 @@ def train(
     scheduler_patience: int = 10,
     scheduler_min_lr: float = 1e-5,
 ) -> tuple[list[float], list[float]]:
-    """
-    Train with CrossEntropyLoss + ReduceLROnPlateau scheduler.
-    Returns (train_losses, test_losses) per epoch.
-    """
     train_loader = data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     test_loader  = data.DataLoader(test_dataset,  batch_size=batch_size, shuffle=False)
 
@@ -93,6 +84,8 @@ def train(
     )
 
     train_losses, test_losses = [], []
+    best_loss = float("inf")
+    best_state = None
 
     for epoch in tqdm(range(num_epochs)):
         model.train()
@@ -115,6 +108,15 @@ def train(
         mean_test = float(np.mean(epoch_test_loss))
         test_losses.append(mean_test)
         scheduler.step(mean_test)
+
+        if mean_test < best_loss:
+            best_loss = mean_test
+            best_state = {k: v.clone() for k, v in model.state_dict().items()}
+
+    # Restore best checkpoint
+    if best_state is not None:
+        model.load_state_dict(best_state)
+        print(f"Restored best model (test loss={best_loss:.4f})")
 
     print(f"Training complete. Final LR: {scheduler.get_last_lr()[0]:.2e}")
     return train_losses, test_losses
@@ -221,10 +223,11 @@ def evaluate_protein(
     device: torch.device,
     batch_size: int = 512,
     save_dir: str = ".",
+    use_blosum: bool = True,
 ) -> None:
     """Run sliding-window inference on a protein FASTA and plot binding predictions."""
     protein_name = protein_path.split("/")[-1].replace(".txt", "")
-    loader, peptides, positions, protein_len = build_protein_loader(protein_path, batch_size=batch_size)
+    loader, peptides, positions, protein_len = build_protein_loader(protein_path, batch_size=batch_size, use_blosum=use_blosum)
     neg_class_idx = dataset.num_classes - 1
 
     os.makedirs(f"{save_dir}/{protein_name}", exist_ok=True)
@@ -370,12 +373,16 @@ def main():
         test_size=ds_cfg["test_size"],
         p_augment=ds_cfg["p_augment"],
         aug_temperature=ds_cfg["aug_temperature"],
+        use_blosum=ds_cfg.get("use_blosum", True),
     )
     print(f"Train: {len(aug_train_dataset)}  |  Test: {len(test_dataset)}")
 
-    loss_module = build_loss_module(dataset, neg_multiplier=loss_cfg["neg_multiplier"])
+    loss_module = build_loss_module(
+        dataset,
+        neg_multiplier=loss_cfg["neg_multiplier"],
+    )
 
-    act_fn = getattr(nn, model_cfg["act_fn"])
+    act_fn = getattr(nn, model_cfg["act_fn"], None)
     model  = SimpleClassifier(
         num_inputs=model_cfg["num_inputs"],
         num_outputs=dataset.num_classes,
@@ -420,6 +427,7 @@ def main():
             device=device,
             batch_size=eval_cfg["batch_size"],
             save_dir=out_cfg["output_dir"] + "/protein_evaluation",
+            use_blosum=ds_cfg.get("use_blosum", True),
         )
 
 

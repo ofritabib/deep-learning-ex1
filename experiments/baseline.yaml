@@ -4,6 +4,7 @@ dataset:
   test_size: 0.1
   p_augment: 0.5
   aug_temperature: 1.0
+  use_blosum: true
 
 model:
   num_inputs: 180
@@ -27,7 +28,6 @@ evaluation:
   batch_size: 512
   protein_paths:
     - "sars.txt"
-    - "insr.txt"
 
 output:
   output_dir: "results/baseline"
